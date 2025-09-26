@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <!DOCTYPE QLTour SYSTEM "qltour.dtd"> -->
+
+<!-- Viết thêm mỗi bảng ít nhất 20 dòng. Viết dữ liệu thật, hợp lí -->
+<QLTour>
+    <DSTour>
+        <Tour maTour="T001" maHdv="HDV001">
+            <!--maHdv IDREF maHdv cua HuongDanVien-->
+            <tenTour>Tour Hà Nội</tenTour>
+            <moTa>Tour thăm quan Hà Nội - Hạ Long 4 ngày 3 đêm</moTa>
+            <ngayBatDau>1-10-2025</ngayBatDau>
+            <ngayKetThuc>4-10-2025</ngayKetThuc>
+            <DSDiaDiem>
+                <DiaDiem-ref maDiaDiem="DD001"/>
+                <DiaDiem-ref maDiaDiem="DD002"/>
+            </DSDiaDiem>
+            <lichTrinh>
+                Ngày 1: Tham quan Hồ Gươm, Lăng Bác.
+                Ngày 2: Tham quan Cầu Rồng, Bà Nà Hills.
+                Ngày 3: Tham quan Vịnh Hạng Long.
+                Ngày 4: Tự do tham quan, mua sắm.
+            </lichTrinh>
+            <DSChiTietKhachSan>
+                <ChiTietKhachSan maCTKS="CTKS001" maKS="KS001">
+                    <soLuongPhong>10</soLuongPhong>
+                    <ngayCheckIn>1-10-2025</ngayCheckIn>
+                    <ngayCheckOut>2-10-2025</ngayCheckOut>
+                </ChiTietKhachSan>
+                <ChiTietKhachSan maCTKS="CTKS002" maKS="KS002">
+                    <soLuongPhong>10</soLuongPhong>
+                    <ngayCheckIn>3-10-2025</ngayCheckIn>
+                    <ngayCheckOut>4-10-2025</ngayCheckOut>
+                </ChiTietKhachSan>
+            </DSChiTietKhachSan>
+            <DSVanChuyen>
+                <VanChuyen>
+                    <loaiPhuongTien>Máy Bay</loaiPhuongTien>
+                    <thoiGianXuatPhat>06:00 01-10-2025</thoiGianXuatPhat>
+                    <thoiGianKetThuc>08:00 01-10-2025</thoiGianKetThuc>
+                    <diemXuatPhat>Sân bay Cần Thơ</diemXuatPhat>
+                    <diemKetThuc>Sân bay Nội Bài</diemKetThuc>
+                    <hangVanChuyen>Vietnam Airline</hangVanChuyen>
+                </VanChuyen>
+                <VanChuyen>
+                    <loaiPhuongTien>Xe khách</loaiPhuongTien>
+                    <thoiGianXuatPhat>06:00 03-10-2025</thoiGianXuatPhat>
+                    <thoiGianKetThuc>08:00 04-10-2025</thoiGianKetThuc>
+                    <diemXuatPhat>... Hà Nội</diemXuatPhat>
+                    <diemKetThuc>... Hạ Long</diemKetThuc>
+                    <hangVanChuyen>Vietnam Airline</hangVanChuyen>
+                </VanChuyen>
+                <VanChuyen>
+                    <loaiPhuongTien>Máy Bay</loaiPhuongTien>
+                    <thoiGianXuatPhat>18:00 04-10-2025</thoiGianXuatPhat>
+                    <thoiGianKetThuc>20:00 04-10-2025</thoiGianKetThuc>
+                    <diemXuatPhat>Sân bay Nội Bài</diemXuatPhat>
+                    <diemKetThuc>Sân bay Cần Thơ</diemKetThuc>
+                    <hangVanChuyen>Vietnam Airline</hangVanChuyen>
+                </VanChuyen>
+            </DSVanChuyen>
+        </Tour>
+        <Tour maTour="T002" maHdv="HDV002">
+            <tenTour>Tour Đà Nẵng</tenTour>
+            <moTa>Tour khám phá Đà Nẵng 4 ngày 3 đêm</moTa>
+            <ngayBatDau>5-11-2025</ngayBatDau>
+            <ngayKetThuc>8-11-2025</ngayKetThuc>
+            <DSDiaDiem>
+
+            </DSDiaDiem>
+        </Tour>
+    </DSTour>
+
+    <DSDiaDiem>
+        <DiaDiem maDiaDiem="DD001">
+            <tenDiaDiem>Hồ Gươm</tenDiaDiem>
+            <diaChi>Hà Nội</diaChi>
+            <moTa>Lăng Bác.</moTa>
+        </DiaDiem>
+        <DiaDiem maDiaDiem="DD002">
+            <tenDiaDiem>Cầu Rồng</tenDiaDiem>
+            <diaChi>Đà Nẵng</diaChi>
+            <moTa>Mô tả về Lăng Bác.</moTa>
+        </DiaDiem>
+    </DSDiaDiem>
+
+    <DSHuongDanVien>
+        <HuongDanVien maHdv="HDV001">
+            <tenHuongDanVien>Phạm Thị C</tenHuongDanVien>
+            <ngaySinh>15-05-1990</ngaySinh>
+            <soDienThoai>0912345678</soDienThoai>
+            <ngoaiNgu>Tiếng Anh</ngoaiNgu>
+        </HuongDanVien>
+    </DSHuongDanVien>
+
+    <DSKhachSan>
+        <KhachSan maKS="KS001">
+            <tenKhachSan>Khách sạn Hà Nội</tenKhachSan>
+            <diaChi>Hà Nội</diaChi>
+            <soDienThoai>0241234567</soDienThoai>
+        </KhachSan>
+        <KhachSan maKS="KS002">
+            <tenKhachSan>Khách sạn Hạ Long</tenKhachSan>
+            <diaChi>Hạ Long</diaChi>
+            <soDienThoai>02361234567</soDienThoai>
+        </KhachSan>
+    </DSKhachSan>
+
+    <DSKhachHang>
+        <KhachHang maKhachHang="KH001">
+            <tenKhachHang>Nguyễn Văn A</tenKhachHang>
+            <diaChi>123 Đường ABC, Hà Nội</diaChi>
+            <soDienThoai>0123456789</soDienThoai>
+            <email>nguyanvana@gmail.com</email>
+        </KhachHang>
+        <KhachHang maKhachHang="KH002">
+            <tenKhachHang>Trần Thị B</tenKhachHang>
+            <diaChi>456 Đường XYZ, Đà Nẵng</diaChi>
+            <soDienThoai>0987654321</soDienThoai>
+            <email>tranthib@gmail.com</email>
+        </KhachHang>
+    </DSKhachHang>
+
+    <DSBooking>
+        <Booking maBooking="B001" maTour="T001" maKhachHang="KH001"> 
+            <!-- maTour IDREF maTour của Tour -->
+            <thoiGianDat>15-09-2025</thoiGianDat>
+            <trangThai>Đã xác nhận</trangThai>
+            <soTien>6000000</soTien>
+            <DSChiTietBooking>
+                <ChiTietBooking maChiTietBooking="CTB001">
+                    <hoTenNguoiDi>Huỳnh Minh Nhựt</hoTenNguoiDi>
+                    <ngaySinh>25-01-2001</ngaySinh>
+                    <gioiTinh>1</gioiTinh>
+                    <loaiKhachHang>Người lớn</loaiKhachHang>
+                </ChiTietBooking>
+                <ChiTietBooking maChiTietBooking="CTB002">
+                    <hoTenNguoiDi>Bùi Hữu Nhật</hoTenNguoiDi>
+                    <ngaySinh>10-08-2004</ngaySinh>
+                    <gioiTinh>1</gioiTinh>
+                    <ghiChu>Ăn chay</ghiChu>
+                    <loaiKhachHang>Người lớn</loaiKhachHang>
+                </ChiTietBooking>
+                <ChiTietBooking maChiTietBooking="CTB003">
+                    <hoTenNguoiDi>Huỳnh Minh Nhựt</hoTenNguoiDi>
+                    <ngaySinh>06-11-2003</ngaySinh>
+                    <gioiTinh>0</gioiTinh>
+                    <loaiKhachHang>Người lớn</loaiKhachHang>
+                </ChiTietBooking>
+            </DSChiTietBooking>
+        </Booking>
+
+        <Booking maBooking="B002" maTour="T001" maKhachHang="KH002"> 
+            <thoiGianDat>15-09-2025</thoiGianDat>
+            <trangThai>Đã thanh toán</trangThai>
+            <soTien>4000000</soTien>
+            <phuongThucThanhToan>Chuyển khoản</phuongThucThanhToan>
+            <diemDanhGia>5</diemDanhGia>
+            <noiDungDanhGia>Dịch vụ tốt</noiDungDanhGia>
+            <DSChiTietBooking>
+                <ChiTietBooking maChiTietBooking="CTB004">
+                    <hoTenNguoiDi>Lê Văn Dinh</hoTenNguoiDi>
+                    <ngaySinh>25-01-2001</ngaySinh>
+                    <gioiTinh>1</gioiTinh>
+                    <loaiKhachHang>Người lớn</loaiKhachHang>
+                </ChiTietBooking>
+                <ChiTietBooking maChiTietBooking="CTB005">
+                    <hoTenNguoiDi>Phạm Kiều Oanh</hoTenNguoiDi>
+                    <ngaySinh>10-08-2004</ngaySinh>
+                    <gioiTinh>1</gioiTinh>
+                    <ghiChu>Ăn chay</ghiChu>
+                    <loaiKhachHang>Người lớn</loaiKhachHang>
+                </ChiTietBooking>
+            </DSChiTietBooking>
+        </Booking>
+
+    </DSBooking>
+
+</QLTour>
