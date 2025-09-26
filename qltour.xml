@@ -3,6 +3,7 @@
 
 <!-- Viết thêm mỗi bảng ít nhất 20 dòng. Viết dữ liệu thật, hợp lí -->
 <QLTour>
+    <!-- Danh sách tour -->
     <DSTour>
         <Tour maTour="T001" maHdv="HDV001">
             <!--maHdv IDREF maHdv cua HuongDanVien-->
@@ -70,6 +71,7 @@
         </Tour>
     </DSTour>
 
+    <!-- Danh sách địa điểm -->
     <DSDiaDiem>
         <DiaDiem maDiaDiem="DD001">
             <tenDiaDiem>Hồ Gươm</tenDiaDiem>
@@ -81,17 +83,223 @@
             <diaChi>Đà Nẵng</diaChi>
             <moTa>Mô tả về Lăng Bác.</moTa>
         </DiaDiem>
+        <DiaDiem maDiaDiem="DD003">
+            <tenDiaDiem>Bà Nà Hills</tenDiaDiem>
+            <diaChi>Đà Nẵng</diaChi>
+            <moTa>...</moTa>
+        </DiaDiem>
+        <DiaDiem maDiaDiem="DD004">
+            <tenDiaDiem>Phố cổ Hội An</tenDiaDiem>
+            <diaChi>Quảng Nam</diaChi>
+            <moTa>...</moTa>
+        </DiaDiem>
+        <DiaDiem maDiaDiem="DD005">
+            <tenDiaDiem>Đại Nội Huế</tenDiaDiem>
+            <diaChi>Huế</diaChi>
+            <moTa>...</moTa>
+        </DiaDiem>
+        <DiaDiem maDiaDiem="DD006">
+            <tenDiaDiem>Vinpearl Nha Trang</tenDiaDiem>
+            <diaChi>Nha Trang</diaChi>
+            <moTa>...</moTa>
+        </DiaDiem>
+        <DiaDiem maDiaDiem="DD007">
+            <tenDiaDiem>Thung lũng Tình Yêu</tenDiaDiem>
+            <diaChi>Đà Lạt</diaChi>
+            <moTa>...</moTa>
+        </DiaDiem>
+        <DiaDiem maDiaDiem="DD008">
+            <tenDiaDiem>Bãi Sao</tenDiaDiem>
+            <diaChi>Phú Quốc</diaChi>
+            <moTa>...</moTa>
+        </DiaDiem>
+        <DiaDiem maDiaDiem="DD009">
+            <tenDiaDiem>Fansipan</tenDiaDiem>
+            <diaChi>Sapa</diaChi>
+            <moTa>...</moTa>
+        </DiaDiem>
+        <DiaDiem maDiaDiem="DD010">
+            <tenDiaDiem>Chợ nổi Cái Răng</tenDiaDiem>
+            <diaChi>Cần Thơ</diaChi>
+            <moTa>...</moTa>
+        </DiaDiem>
+        <DiaDiem maDiaDiem="DD011">
+            <tenDiaDiem>Bến Ninh Kiều</tenDiaDiem>
+            <diaChi>Cần Thơ</diaChi>
+            <moTa>...</moTa>
+        </DiaDiem>
+        <DiaDiem maDiaDiem="DD012">
+            <tenDiaDiem>Núi Bà Đen</tenDiaDiem>
+            <diaChi>Tây Ninh</diaChi>
+            <moTa>...</moTa>
+        </DiaDiem>
+        <DiaDiem maDiaDiem="DD013">
+            <tenDiaDiem>Làng hoa Sa Đéc</tenDiaDiem>
+            <diaChi>Đồng Tháp</diaChi>
+            <moTa>...</moTa>
+        </DiaDiem>
+        <DiaDiem maDiaDiem="DD014">
+            <tenDiaDiem>Nhà công tử Bạc Liêu</tenDiaDiem>
+            <diaChi>Bạc Liêu</diaChi>
+            <moTa>...</moTa>
+        </DiaDiem>
+        <DiaDiem maDiaDiem="DD015">
+            <tenDiaDiem>Chùa Dơi</tenDiaDiem>
+            <diaChi>Sóc Trăng</diaChi>
+            <moTa>...</moTa>
+        </DiaDiem>
+        <DiaDiem maDiaDiem="DD016">
+            <tenDiaDiem>Vịnh Hạ Long</tenDiaDiem>
+            <diaChi>Quảng Ninh</diaChi>
+            <moTa>...</moTa>
+        </DiaDiem>
+        <DiaDiem maDiaDiem="DD017">
+            <tenDiaDiem>Tượng Chúa Kitô</tenDiaDiem>
+            <diaChi>Vũng Tàu</diaChi>
+            <moTa>...</moTa>
+        </DiaDiem>
+        <DiaDiem maDiaDiem="DD018">
+            <tenDiaDiem>Dinh Độc Lập</tenDiaDiem>
+            <diaChi>TP. HCM</diaChi>
+            <moTa>...</moTa>
+        </DiaDiem>
+        <DiaDiem maDiaDiem="DD019">
+            <tenDiaDiem>Động Phong Nha</tenDiaDiem>
+            <diaChi>Quảng Bình</diaChi>
+            <moTa>...</moTa>
+        </DiaDiem>
+        <DiaDiem maDiaDiem="DD020">
+            <tenDiaDiem>Mũi Cà Mau</tenDiaDiem>
+            <diaChi>Cà Mau</diaChi>
+            <moTa>...</moTa>
+        </DiaDiem>
     </DSDiaDiem>
 
+    <!-- Danh sách hướng dẫn viên -->
     <DSHuongDanVien>
         <HuongDanVien maHdv="HDV001">
-            <tenHuongDanVien>Phạm Thị C</tenHuongDanVien>
+            <tenHuongDanVien>Phạm Thị Cúc</tenHuongDanVien>
             <ngaySinh>15-05-1990</ngaySinh>
             <soDienThoai>0912345678</soDienThoai>
             <ngoaiNgu>Tiếng Anh</ngoaiNgu>
         </HuongDanVien>
+        <HuongDanVien maHdv="HDV002">
+            <tenHuongDanVien>Trần Thị Mai</tenHuongDanVien>
+            <ngaySinh>25-07-1990</ngaySinh>
+            <soDienThoai>0902234567</soDienThoai>
+            <ngoaiNgu>Tiếng Trung</ngoaiNgu>
+        </HuongDanVien>
+        <HuongDanVien maHdv="HDV003">
+            <tenHuongDanVien>Lê Văn An</tenHuongDanVien>
+            <ngaySinh>10-11-1988</ngaySinh>
+            <soDienThoai>0903345678</soDienThoai>
+            <ngoaiNgu>Tiếng Nhật</ngoaiNgu>
+        </HuongDanVien>
+        <HuongDanVien maHdv="HDV004">
+            <tenHuongDanVien>Phạm Thị Lan</tenHuongDanVien>
+            <ngaySinh>02-05-1992</ngaySinh>
+            <soDienThoai>0904456789</soDienThoai>
+            <ngoaiNgu>Tiếng Hàn</ngoaiNgu>
+        </HuongDanVien>
+        <HuongDanVien maHdv="HDV005">
+            <tenHuongDanVien>Đỗ Minh Tuấn</tenHuongDanVien>
+            <ngaySinh>18-01-1987</ngaySinh>
+            <soDienThoai>0905567890</soDienThoai>
+            <ngoaiNgu>Tiếng Anh</ngoaiNgu>
+        </HuongDanVien>
+        <HuongDanVien maHdv="HDV006">
+            <tenHuongDanVien>Nguyễn Thị Hoa</tenHuongDanVien>
+            <ngaySinh>20-09-1993</ngaySinh>
+            <soDienThoai>0906678901</soDienThoai>
+            <ngoaiNgu>Tiếng Pháp</ngoaiNgu>
+        </HuongDanVien>
+        <HuongDanVien maHdv="HDV007">
+            <tenHuongDanVien>Trần Văn Minh</tenHuongDanVien>
+            <ngaySinh>14-06-1989</ngaySinh>
+            <soDienThoai>0907789012</soDienThoai>
+            <ngoaiNgu>Tiếng Nga</ngoaiNgu>
+        </HuongDanVien>
+        <HuongDanVien maHdv="HDV008">
+            <tenHuongDanVien>Lý Thị Thảo</tenHuongDanVien>
+            <ngaySinh>08-12-1991</ngaySinh>
+            <soDienThoai>0908890123</soDienThoai>
+            <ngoaiNgu>Tiếng Anh</ngoaiNgu>
+        </HuongDanVien>
+        <HuongDanVien maHdv="HDV009">
+            <tenHuongDanVien>Phan Thanh Hùng</tenHuongDanVien>
+            <ngaySinh>05-04-1986</ngaySinh>
+            <soDienThoai>0909901234</soDienThoai>
+            <ngoaiNgu>Tiếng Trung</ngoaiNgu>
+        </HuongDanVien>
+        <HuongDanVien maHdv="HDV010">
+            <tenHuongDanVien>Võ Thị Yến</tenHuongDanVien>
+            <ngaySinh>21-07-1994</ngaySinh>
+            <soDienThoai>0911012345</soDienThoai>
+            <ngoaiNgu>Tiếng Hàn</ngoaiNgu>
+        </HuongDanVien>
+        <HuongDanVien maHdv="HDV011">
+            <tenHuongDanVien>Nguyễn Văn Quang</tenHuongDanVien>
+            <ngaySinh>12-02-1983</ngaySinh>
+            <soDienThoai>0912123456</soDienThoai>
+            <ngoaiNgu>Tiếng Nhật</ngoaiNgu>
+        </HuongDanVien>
+        <HuongDanVien maHdv="HDV012">
+            <tenHuongDanVien>Trần Thị Bích</tenHuongDanVien>
+            <ngaySinh>03-03-1990</ngaySinh>
+            <soDienThoai>0913234567</soDienThoai>
+            <ngoaiNgu>Tiếng Pháp</ngoaiNgu>
+        </HuongDanVien>
+        <HuongDanVien maHdv="HDV013">
+            <tenHuongDanVien>Lê Hồng Sơn</tenHuongDanVien>
+            <ngaySinh>15-05-1988</ngaySinh>
+            <soDienThoai>0914345678</soDienThoai>
+            <ngoaiNgu>Tiếng Nga</ngoaiNgu>
+        </HuongDanVien>
+        <HuongDanVien maHdv="HDV014">
+            <tenHuongDanVien>Đào Thị Kim</tenHuongDanVien>
+            <ngaySinh>22-10-1991</ngaySinh>
+            <soDienThoai>0915456789</soDienThoai>
+            <ngoaiNgu>Tiếng Anh</ngoaiNgu>
+        </HuongDanVien>
+        <HuongDanVien maHdv="HDV015">
+            <tenHuongDanVien>Phạm Văn Nam</tenHuongDanVien>
+            <ngaySinh>18-08-1987</ngaySinh>
+            <soDienThoai>0916567890</soDienThoai>
+            <ngoaiNgu>Tiếng Trung</ngoaiNgu>
+        </HuongDanVien>
+        <HuongDanVien maHdv="HDV016">
+            <tenHuongDanVien>Hoàng Thị Hương</tenHuongDanVien>
+            <ngaySinh>07-11-1992</ngaySinh>
+            <soDienThoai>0917678901</soDienThoai>
+            <ngoaiNgu>Tiếng Nhật</ngoaiNgu>
+        </HuongDanVien>
+        <HuongDanVien maHdv="HDV017">
+            <tenHuongDanVien>Đặng Văn Toàn</tenHuongDanVien>
+            <ngaySinh>30-12-1989</ngaySinh>
+            <soDienThoai>0918789012</soDienThoai>
+            <ngoaiNgu>Tiếng Hàn</ngoaiNgu>
+        </HuongDanVien>
+        <HuongDanVien maHdv="HDV018">
+            <tenHuongDanVien>Nguyễn Thị Thu</tenHuongDanVien>
+            <ngaySinh>16-06-1993</ngaySinh>
+            <soDienThoai>0919890123</soDienThoai>
+            <ngoaiNgu>Tiếng Pháp</ngoaiNgu>
+        </HuongDanVien>
+        <HuongDanVien maHdv="HDV019">
+            <tenHuongDanVien>Lâm Văn Hải</tenHuongDanVien>
+            <ngaySinh>11-09-1985</ngaySinh>
+            <soDienThoai>0921012345</soDienThoai>
+            <ngoaiNgu>Tiếng Nga</ngoaiNgu>
+        </HuongDanVien>
+        <HuongDanVien maHdv="HDV020">
+            <tenHuongDanVien>Ngô Thị Trang</tenHuongDanVien>
+            <ngaySinh>01-04-1994</ngaySinh>
+            <soDienThoai>0922123456</soDienThoai>
+            <ngoaiNgu>Tiếng Anh</ngoaiNgu>
+        </HuongDanVien>
     </DSHuongDanVien>
 
+    <!-- Danh sách khách sạn -->
     <DSKhachSan>
         <KhachSan maKS="KS001">
             <tenKhachSan>Khách sạn Hà Nội</tenKhachSan>
@@ -103,8 +311,99 @@
             <diaChi>Hạ Long</diaChi>
             <soDienThoai>02361234567</soDienThoai>
         </KhachSan>
+        <KhachSan maKS="KS003">
+            <tenKhachSan>Khách sạn Đà Nẵng Riverside</tenKhachSan>
+            <diaChi>Ngô Quyền, Đà Nẵng</diaChi>
+            <soDienThoai>0236123456</soDienThoai>
+        </KhachSan>
+        <KhachSan maKS="KS004">
+            <tenKhachSan>Vinpearl Nha Trang</tenKhachSan>
+            <diaChi>Trần Phú, Nha Trang</diaChi>
+            <soDienThoai>0258123456</soDienThoai>
+        </KhachSan>
+        <KhachSan maKS="KS005">
+            <tenKhachSan>Sài Gòn Hotel</tenKhachSan>
+            <diaChi>Quận 1, TP.HCM</diaChi>
+            <soDienThoai>0281234567</soDienThoai>
+        </KhachSan>
+        <KhachSan maKS="KS006">
+            <tenKhachSan>Melia Hà Nội</tenKhachSan>
+            <diaChi>Hoàn Kiếm, Hà Nội</diaChi>
+            <soDienThoai>0245678123</soDienThoai>
+        </KhachSan>
+        <KhachSan maKS="KS007">
+            <tenKhachSan>Furama Resort</tenKhachSan>
+            <diaChi>Ngũ Hành Sơn, Đà Nẵng</diaChi>
+            <soDienThoai>0236789123</soDienThoai>
+        </KhachSan>
+        <KhachSan maKS="KS008">
+            <tenKhachSan>Intercontinental Phú Quốc</tenKhachSan>
+            <diaChi>Dương Tơ, Phú Quốc</diaChi>
+            <soDienThoai>0297234567</soDienThoai>
+        </KhachSan>
+        <KhachSan maKS="KS009">
+            <tenKhachSan>Novotel Saigon</tenKhachSan>
+            <diaChi>Quận 3, TP.HCM</diaChi>
+            <soDienThoai>0287654321</soDienThoai>
+        </KhachSan>
+        <KhachSan maKS="KS010">
+            <tenKhachSan>Khách sạn Mường Thanh Cần Thơ</tenKhachSan>
+            <diaChi>Quận Ninh Kiều, Cần Thơ</diaChi>
+            <soDienThoai>0292388888</soDienThoai>
+        </KhachSan>
+        <KhachSan maKS="KS011">
+            <tenKhachSan>Khách sạn Sapa Horizon</tenKhachSan>
+            <diaChi>Thị trấn Sapa, Lào Cai</diaChi>
+            <soDienThoai>0214388888</soDienThoai>
+        </KhachSan>
+        <KhachSan maKS="KS012">
+            <tenKhachSan>Khách sạn Imperial Huế</tenKhachSan>
+            <diaChi>Trần Hưng Đạo, Huế</diaChi>
+            <soDienThoai>0234888999</soDienThoai>
+        </KhachSan>
+        <KhachSan maKS="KS013">
+            <tenKhachSan>Khách sạn Rex</tenKhachSan>
+            <diaChi>Nguyễn Huệ, TP.HCM</diaChi>
+            <soDienThoai>02839393939</soDienThoai>
+        </KhachSan>
+        <KhachSan maKS="KS014">
+            <tenKhachSan>Khách sạn Majestic Sài Gòn</tenKhachSan>
+            <diaChi>Đồng Khởi, TP.HCM</diaChi>
+            <soDienThoai>02839203939</soDienThoai>
+        </KhachSan>
+        <KhachSan maKS="KS015">
+            <tenKhachSan>Khách sạn Pullman Vũng Tàu</tenKhachSan>
+            <diaChi>Đường Thi Sách, Vũng Tàu</diaChi>
+            <soDienThoai>0254388888</soDienThoai>
+        </KhachSan>
+        <KhachSan maKS="KS016">
+            <tenKhachSan>Khách sạn Royal Hạ Long</tenKhachSan>
+            <diaChi>Tuần Châu, Hạ Long</diaChi>
+            <soDienThoai>0203366666</soDienThoai>
+        </KhachSan>
+        <KhachSan maKS="KS017">
+            <tenKhachSan>Khách sạn Premier Pearl Vũng Tàu</tenKhachSan>
+            <diaChi>Đường Thùy Vân, Vũng Tàu</diaChi>
+            <soDienThoai>0254767676</soDienThoai>
+        </KhachSan>
+        <KhachSan maKS="KS018">
+            <tenKhachSan>Khách sạn The Cliff Resort Mũi Né</tenKhachSan>
+            <diaChi>Phan Thiết, Bình Thuận</diaChi>
+            <soDienThoai>0252373737</soDienThoai>
+        </KhachSan>
+        <KhachSan maKS="KS019">
+            <tenKhachSan>Khách sạn Dalat Palace</tenKhachSan>
+            <diaChi>Trần Phú, Đà Lạt</diaChi>
+            <soDienThoai>0263388888</soDienThoai>
+        </KhachSan>
+        <KhachSan maKS="KS020">
+            <tenKhachSan>Khách sạn Silk Path Hà Nội</tenKhachSan>
+            <diaChi>Hoàn Kiếm, Hà Nội</diaChi>
+            <soDienThoai>02439393939</soDienThoai>
+        </KhachSan>
     </DSKhachSan>
 
+    <!-- Danh sách khách hàng -->
     <DSKhachHang>
         <KhachHang maKhachHang="KH001">
             <tenKhachHang>Nguyễn Văn A</tenKhachHang>
@@ -118,14 +417,124 @@
             <soDienThoai>0987654321</soDienThoai>
             <email>tranthib@gmail.com</email>
         </KhachHang>
+        <KhachHang maKhachHang="KH003">
+            <tenKhachHang>Lê Văn C</tenKhachHang>
+            <diaChi>789 Nguyễn Trãi, TP.HCM</diaChi>
+            <soDienThoai>0933333333</soDienThoai>
+            <email>levanc@gmail.com</email>
+        </KhachHang>
+        <KhachHang maKhachHang="KH004">
+            <tenKhachHang>Phạm Thị D</tenKhachHang>
+            <diaChi>12 Bạch Đằng, Hải Phòng</diaChi>
+            <soDienThoai>0944444444</soDienThoai>
+            <email>phamthid@gmail.com</email>
+        </KhachHang>
+        <KhachHang maKhachHang="KH005">
+            <tenKhachHang>Hoàng Văn E</tenKhachHang>
+            <diaChi>98 Lê Lợi, Huế</diaChi>
+            <soDienThoai>0955555555</soDienThoai>
+            <email>hoangvane@gmail.com</email>
+        </KhachHang>
+        <KhachHang maKhachHang="KH006">
+            <tenKhachHang>Ngô Thị F</tenKhachHang>
+            <diaChi>22 Lý Thường Kiệt, Quảng Ninh</diaChi>
+            <soDienThoai>0966666666</soDienThoai>
+            <email>ngothif@gmail.com</email>
+        </KhachHang>
+        <KhachHang maKhachHang="KH007">
+            <tenKhachHang>Đặng Văn G</tenKhachHang>
+            <diaChi>77 Trần Hưng Đạo, Nha Trang</diaChi>
+            <soDienThoai>0977777777</soDienThoai>
+            <email>dangvang@gmail.com</email>
+        </KhachHang>
+        <KhachHang maKhachHang="KH008">
+            <tenKhachHang>Bùi Thị H</tenKhachHang>
+            <diaChi>55 Hai Bà Trưng, Vũng Tàu</diaChi>
+            <soDienThoai>0988888888</soDienThoai>
+            <email>buih@gmail.com</email>
+        </KhachHang>
+        <KhachHang maKhachHang="KH009">
+            <tenKhachHang>Đỗ Văn I</tenKhachHang>
+            <diaChi>32 Nguyễn Huệ, TP.HCM</diaChi>
+            <soDienThoai>0999999999</soDienThoai>
+            <email>dovani@gmail.com</email>
+        </KhachHang>
+        <KhachHang maKhachHang="KH010">
+            <tenKhachHang>Phan Thị J</tenKhachHang>
+            <diaChi>11 Lê Lai, Hà Nội</diaChi>
+            <soDienThoai>0901010101</soDienThoai>
+            <email>phanj@gmail.com</email>
+        </KhachHang>
+        <KhachHang maKhachHang="KH011">
+            <tenKhachHang>Võ Văn K</tenKhachHang>
+            <diaChi>66 Điện Biên Phủ, Cần Thơ</diaChi>
+            <soDienThoai>0902020202</soDienThoai>
+            <email>vovank@gmail.com</email>
+        </KhachHang>
+        <KhachHang maKhachHang="KH012">
+            <tenKhachHang>Nguyễn Thị L</tenKhachHang>
+            <diaChi>88 Hùng Vương, Đà Nẵng</diaChi>
+            <soDienThoai>0903030303</soDienThoai>
+            <email>nguyenl@gmail.com</email>
+        </KhachHang>
+        <KhachHang maKhachHang="KH013">
+            <tenKhachHang>Trịnh Văn M</tenKhachHang>
+            <diaChi>45 Phạm Ngũ Lão, Huế</diaChi>
+            <soDienThoai>0904040404</soDienThoai>
+            <email>trinhm@gmail.com</email>
+        </KhachHang>
+        <KhachHang maKhachHang="KH014">
+            <tenKhachHang>Mai Thị N</tenKhachHang>
+            <diaChi>101 Lạch Tray, Hải Phòng</diaChi>
+            <soDienThoai>0905050505</soDienThoai>
+            <email>main@gmail.com</email>
+        </KhachHang>
+        <KhachHang maKhachHang="KH015">
+            <tenKhachHang>Nguyễn Văn O</tenKhachHang>
+            <diaChi>23 Trần Phú, Đà Lạt</diaChi>
+            <soDienThoai>0906060606</soDienThoai>
+            <email>nguyeno@gmail.com</email>
+        </KhachHang>
+        <KhachHang maKhachHang="KH016">
+            <tenKhachHang>Trần Thị P</tenKhachHang>
+            <diaChi>59 Nguyễn Chí Thanh, Hà Nội</diaChi>
+            <soDienThoai>0907070707</soDienThoai>
+            <email>tranp@gmail.com</email>
+        </KhachHang>
+        <KhachHang maKhachHang="KH017">
+            <tenKhachHang>Lâm Văn Q</tenKhachHang>
+            <diaChi>33 Hoàng Diệu, Đà Nẵng</diaChi>
+            <soDienThoai>0908080808</soDienThoai>
+            <email>lamq@gmail.com</email>
+        </KhachHang>
+        <KhachHang maKhachHang="KH018">
+            <tenKhachHang>Ngô Thị R</tenKhachHang>
+            <diaChi>14 Bùi Viện, TP.HCM</diaChi>
+            <soDienThoai>0909090909</soDienThoai>
+            <email>ngor@gmail.com</email>
+        </KhachHang>
+        <KhachHang maKhachHang="KH019">
+            <tenKhachHang>Đào Văn S</tenKhachHang>
+            <diaChi>77 Nguyễn Trãi, Hà Nội</diaChi>
+            <soDienThoai>0910101010</soDienThoai>
+            <email>daos@gmail.com</email>
+        </KhachHang>
+        <KhachHang maKhachHang="KH020">
+            <tenKhachHang>Nguyễn Thị T</tenKhachHang>
+            <diaChi>88 CMT8, Cần Thơ</diaChi>
+            <soDienThoai>0911111120</soDienThoai>
+            <email>nguyent@gmail.com</email>
+        </KhachHang>
     </DSKhachHang>
 
+    <!-- Danh sách booking -->
     <DSBooking>
         <Booking maBooking="B001" maTour="T001" maKhachHang="KH001"> 
             <!-- maTour IDREF maTour của Tour -->
             <thoiGianDat>15-09-2025</thoiGianDat>
             <trangThai>Đã xác nhận</trangThai>
             <soTien>6000000</soTien>
+            <phuongThucThanhToan>Chuyển khoản</phuongThucThanhToan>
             <DSChiTietBooking>
                 <ChiTietBooking maChiTietBooking="CTB001">
                     <hoTenNguoiDi>Huỳnh Minh Nhựt</hoTenNguoiDi>
@@ -148,7 +557,7 @@
                 </ChiTietBooking>
             </DSChiTietBooking>
         </Booking>
-
+        
         <Booking maBooking="B002" maTour="T001" maKhachHang="KH002"> 
             <thoiGianDat>15-09-2025</thoiGianDat>
             <trangThai>Đã thanh toán</trangThai>
@@ -173,6 +582,299 @@
             </DSChiTietBooking>
         </Booking>
 
+        <Booking maBooking="B003" maTour="T002" maKhachHang="KH003"> 
+            <thoiGianDat>20-09-2025</thoiGianDat>
+            <trangThai>Đã đặt</trangThai>
+            <soTien>5500000</soTien>
+            <phuongThucThanhToan>Tiền mặt</phuongThucThanhToan>
+            <DSChiTietBooking>
+                <ChiTietBooking maChiTietBooking="CTB006">
+                    <hoTenNguoiDi>Nguyễn Văn A</hoTenNguoiDi>
+                    <ngaySinh>15-02-1995</ngaySinh>
+                    <gioiTinh>1</gioiTinh>
+                    <loaiKhachHang>Người lớn</loaiKhachHang>
+                </ChiTietBooking>
+            </DSChiTietBooking>
+        </Booking>
+
+        <Booking maBooking="B004" maTour="T003" maKhachHang="KH004"> 
+            <thoiGianDat>21-09-2025</thoiGianDat>
+            <trangThai>Đã hủy</trangThai>
+            <soTien>3000000</soTien>
+            <phuongThucThanhToan>Chuyển khoản</phuongThucThanhToan>
+            <DSChiTietBooking>
+                <ChiTietBooking maChiTietBooking="CTB007">
+                    <hoTenNguoiDi>Trần Thị B</hoTenNguoiDi>
+                    <ngaySinh>12-06-1998</ngaySinh>
+                    <gioiTinh>0</gioiTinh>
+                    <loaiKhachHang>Người lớn</loaiKhachHang>
+                </ChiTietBooking>
+                <ChiTietBooking maChiTietBooking="CTB008">
+                    <hoTenNguoiDi>Nguyễn Văn C</hoTenNguoiDi>
+                    <ngaySinh>05-05-2015</ngaySinh>
+                    <gioiTinh>1</gioiTinh>
+                    <loaiKhachHang>Trẻ em</loaiKhachHang>
+                </ChiTietBooking>
+            </DSChiTietBooking>
+        </Booking>
+
+        <Booking maBooking="B005" maTour="T004" maKhachHang="KH005"> 
+            <thoiGianDat>23-09-2025</thoiGianDat>
+            <trangThai>Đã hoàn tiền</trangThai>
+            <soTien>4500000</soTien>
+            <phuongThucThanhToan>Ví điện tử</phuongThucThanhToan>
+            <diemDanhGia>4</diemDanhGia>
+            <noiDungDanhGia>Tour ổn nhưng thời tiết xấu</noiDungDanhGia>
+            <DSChiTietBooking>
+                <ChiTietBooking maChiTietBooking="CTB009">
+                    <hoTenNguoiDi>Lê Thị D</hoTenNguoiDi>
+                    <ngaySinh>22-03-2000</ngaySinh>
+                    <gioiTinh>0</gioiTinh>
+                    <loaiKhachHang>Người lớn</loaiKhachHang>
+                </ChiTietBooking>
+                <ChiTietBooking maChiTietBooking="CTB010">
+                    <hoTenNguoiDi>Phạm Văn E</hoTenNguoiDi>
+                    <ngaySinh>10-09-2010</ngaySinh>
+                    <gioiTinh>1</gioiTinh>
+                    <loaiKhachHang>Trẻ em</loaiKhachHang>
+                </ChiTietBooking>
+            </DSChiTietBooking>
+        </Booking>
+
+        <Booking maBooking="B006" maTour="T005" maKhachHang="KH006"> 
+            <thoiGianDat>24-09-2025</thoiGianDat>
+            <trangThai>Đã xác nhận</trangThai>
+            <soTien>7000000</soTien>
+            <phuongThucThanhToan>Chuyển khoản</phuongThucThanhToan>
+            <DSChiTietBooking>
+                <ChiTietBooking maChiTietBooking="CTB011">
+                    <hoTenNguoiDi>Nguyễn Văn F</hoTenNguoiDi>
+                    <ngaySinh>11-11-1992</ngaySinh>
+                    <gioiTinh>1</gioiTinh>
+                    <loaiKhachHang>Người lớn</loaiKhachHang>
+                </ChiTietBooking>
+            </DSChiTietBooking>
+        </Booking>
+
+        <Booking maBooking="B007" maTour="T006" maKhachHang="KH007"> 
+            <thoiGianDat>25-09-2025</thoiGianDat>
+            <trangThai>Đã thanh toán</trangThai>
+            <soTien>5200000</soTien>
+            <phuongThucThanhToan>Tiền mặt</phuongThucThanhToan>
+            <diemDanhGia>5</diemDanhGia>
+            <noiDungDanhGia>Rất hài lòng với dịch vụ</noiDungDanhGia>
+            <DSChiTietBooking>
+                <ChiTietBooking maChiTietBooking="CTB012">
+                    <hoTenNguoiDi>Phạm Thị G</hoTenNguoiDi>
+                    <ngaySinh>07-04-1990</ngaySinh>
+                    <gioiTinh>0</gioiTinh>
+                    <loaiKhachHang>Người lớn</loaiKhachHang>
+                </ChiTietBooking>
+            </DSChiTietBooking>
+        </Booking>
+
+        <Booking maBooking="B008" maTour="T007" maKhachHang="KH008"> 
+            <thoiGianDat>26-09-2025</thoiGianDat>
+            <trangThai>Đã hủy</trangThai>
+            <soTien>4800000</soTien>
+            <phuongThucThanhToan>Ví điện tử</phuongThucThanhToan>
+            <DSChiTietBooking>
+                <ChiTietBooking maChiTietBooking="CTB013">
+                    <hoTenNguoiDi>Trần Văn H</hoTenNguoiDi>
+                    <ngaySinh>19-07-1985</ngaySinh>
+                    <gioiTinh>1</gioiTinh>
+                    <loaiKhachHang>Người lớn</loaiKhachHang>
+                </ChiTietBooking>
+            </DSChiTietBooking>
+        </Booking>
+
+        <Booking maBooking="B009" maTour="T008" maKhachHang="KH009"> 
+            <thoiGianDat>27-09-2025</thoiGianDat>
+            <trangThai>Đã đặt</trangThai>
+            <soTien>3600000</soTien>
+            <phuongThucThanhToan>Chuyển khoản</phuongThucThanhToan>
+            <DSChiTietBooking>
+                <ChiTietBooking maChiTietBooking="CTB014">
+                    <hoTenNguoiDi>Đỗ Thị I</hoTenNguoiDi>
+                    <ngaySinh>02-03-1996</ngaySinh>
+                    <gioiTinh>0</gioiTinh>
+                    <loaiKhachHang>Người lớn</loaiKhachHang>
+                </ChiTietBooking>
+            </DSChiTietBooking>
+        </Booking>
+
+        <Booking maBooking="B010" maTour="T009" maKhachHang="KH010"> 
+            <thoiGianDat>28-09-2025</thoiGianDat>
+            <trangThai>Đã hoàn tiền</trangThai>
+            <soTien>8000000</soTien>
+            <phuongThucThanhToan>Chuyển khoản</phuongThucThanhToan>
+            <diemDanhGia>3</diemDanhGia>
+            <noiDungDanhGia>Tour không như mong đợi</noiDungDanhGia>
+            <DSChiTietBooking>
+                <ChiTietBooking maChiTietBooking="CTB015">
+                    <hoTenNguoiDi>Lê Văn J</hoTenNguoiDi>
+                    <ngaySinh>15-09-1988</ngaySinh>
+                    <gioiTinh>1</gioiTinh>
+                    <loaiKhachHang>Người lớn</loaiKhachHang>
+                </ChiTietBooking>
+            </DSChiTietBooking>
+        </Booking>
+
+        <Booking maBooking="B011" maTour="T010" maKhachHang="KH011"> 
+            <thoiGianDat>29-09-2025</thoiGianDat>
+            <trangThai>Đã xác nhận</trangThai>
+            <soTien>2500000</soTien>
+            <phuongThucThanhToan>Ví điện tử</phuongThucThanhToan>
+            <DSChiTietBooking>
+                <ChiTietBooking maChiTietBooking="CTB016">
+                    <hoTenNguoiDi>Nguyễn Văn K</hoTenNguoiDi>
+                    <ngaySinh>20-12-1999</ngaySinh>
+                    <gioiTinh>1</gioiTinh>
+                    <loaiKhachHang>Sinh viên</loaiKhachHang>
+                </ChiTietBooking>
+            </DSChiTietBooking>
+        </Booking>
+
+        <Booking maBooking="B012" maTour="T011" maKhachHang="KH012"> 
+            <thoiGianDat>30-09-2025</thoiGianDat>
+            <trangThai>Đã đặt</trangThai>
+            <soTien>4200000</soTien>
+            <phuongThucThanhToan>Tiền mặt</phuongThucThanhToan>
+            <DSChiTietBooking>
+                <ChiTietBooking maChiTietBooking="CTB017">
+                    <hoTenNguoiDi>Trần Thị L</hoTenNguoiDi>
+                    <ngaySinh>01-01-2002</ngaySinh>
+                    <gioiTinh>0</gioiTinh>
+                    <loaiKhachHang>Người lớn</loaiKhachHang>
+                </ChiTietBooking>
+            </DSChiTietBooking>
+        </Booking>
+
+        <Booking maBooking="B013" maTour="T012" maKhachHang="KH013"> 
+            <thoiGianDat>01-10-2025</thoiGianDat>
+            <trangThai>Đã thanh toán</trangThai>
+            <soTien>9000000</soTien>
+            <phuongThucThanhToan>Chuyển khoản</phuongThucThanhToan>
+            <diemDanhGia>5</diemDanhGia>
+            <noiDungDanhGia>Tour tuyệt vời, HDV nhiệt tình</noiDungDanhGia>
+            <DSChiTietBooking>
+                <ChiTietBooking maChiTietBooking="CTB018">
+                    <hoTenNguoiDi>Phạm Văn M</hoTenNguoiDi>
+                    <ngaySinh>18-04-1993</ngaySinh>
+                    <gioiTinh>1</gioiTinh>
+                    <loaiKhachHang>Người lớn</loaiKhachHang>
+                </ChiTietBooking>
+            </DSChiTietBooking>
+        </Booking>
+
+        <Booking maBooking="B014" maTour="T013" maKhachHang="KH014"> 
+            <thoiGianDat>02-10-2025</thoiGianDat>
+            <trangThai>Đã hủy</trangThai>
+            <soTien>3100000</soTien>
+            <phuongThucThanhToan>Ví điện tử</phuongThucThanhToan>
+            <DSChiTietBooking>
+                <ChiTietBooking maChiTietBooking="CTB019">
+                    <hoTenNguoiDi>Nguyễn Thị N</hoTenNguoiDi>
+                    <ngaySinh>30-08-1997</ngaySinh>
+                    <gioiTinh>0</gioiTinh>
+                    <loaiKhachHang>Người lớn</loaiKhachHang>
+                </ChiTietBooking>
+            </DSChiTietBooking>
+        </Booking>
+
+        <Booking maBooking="B015" maTour="T014" maKhachHang="KH015"> 
+            <thoiGianDat>03-10-2025</thoiGianDat>
+            <trangThai>Đã xác nhận</trangThai>
+            <soTien>6000000</soTien>
+            <phuongThucThanhToan>Chuyển khoản</phuongThucThanhToan>
+            <DSChiTietBooking>
+                <ChiTietBooking maChiTietBooking="CTB020">
+                    <hoTenNguoiDi>Trần Văn O</hoTenNguoiDi>
+                    <ngaySinh>21-05-1991</ngaySinh>
+                    <gioiTinh>1</gioiTinh>
+                    <loaiKhachHang>Người lớn</loaiKhachHang>
+                </ChiTietBooking>
+            </DSChiTietBooking>
+        </Booking>
+
+        <Booking maBooking="B016" maTour="T015" maKhachHang="KH016"> 
+            <thoiGianDat>04-10-2025</thoiGianDat>
+            <trangThai>Đã đặt</trangThai>
+            <soTien>3500000</soTien>
+            <phuongThucThanhToan>Tiền mặt</phuongThucThanhToan>
+            <DSChiTietBooking>
+                <ChiTietBooking maChiTietBooking="CTB021">
+                    <hoTenNguoiDi>Phạm Văn P</hoTenNguoiDi>
+                    <ngaySinh>17-07-1995</ngaySinh>
+                    <gioiTinh>1</gioiTinh>
+                    <loaiKhachHang>Người lớn</loaiKhachHang>
+                </ChiTietBooking>
+            </DSChiTietBooking>
+        </Booking>
+
+        <Booking maBooking="B017" maTour="T016" maKhachHang="KH017"> 
+            <thoiGianDat>05-10-2025</thoiGianDat>
+            <trangThai>Đã hoàn tiền</trangThai>
+            <soTien>7600000</soTien>
+            <phuongThucThanhToan>Ví điện tử</phuongThucThanhToan>
+            <diemDanhGia>2</diemDanhGia>
+            <noiDungDanhGia>Tour chậm trễ, dịch vụ kém</noiDungDanhGia>
+            <DSChiTietBooking>
+                <ChiTietBooking maChiTietBooking="CTB022">
+                    <hoTenNguoiDi>Lê Thị Q</hoTenNguoiDi>
+                    <ngaySinh>12-12-1990</ngaySinh>
+                    <gioiTinh>0</gioiTinh>
+                    <loaiKhachHang>Người lớn</loaiKhachHang>
+                </ChiTietBooking>
+            </DSChiTietBooking>
+        </Booking>
+
+        <Booking maBooking="B018" maTour="T017" maKhachHang="KH018"> 
+            <thoiGianDat>06-10-2025</thoiGianDat>
+            <trangThai>Đã thanh toán</trangThai>
+            <soTien>5800000</soTien>
+            <phuongThucThanhToan>Chuyển khoản</phuongThucThanhToan>
+            <diemDanhGia>4</diemDanhGia>
+            <noiDungDanhGia>Dịch vụ tốt, hài lòng</noiDungDanhGia>
+            <DSChiTietBooking>
+                <ChiTietBooking maChiTietBooking="CTB023">
+                    <hoTenNguoiDi>Nguyễn Văn R</hoTenNguoiDi>
+                    <ngaySinh>05-06-1994</ngaySinh>
+                    <gioiTinh>1</gioiTinh>
+                    <loaiKhachHang>Người lớn</loaiKhachHang>
+                </ChiTietBooking>
+            </DSChiTietBooking>
+        </Booking>
+
+        <Booking maBooking="B019" maTour="T018" maKhachHang="KH019"> 
+            <thoiGianDat>07-10-2025</thoiGianDat>
+            <trangThai>Đã xác nhận</trangThai>
+            <soTien>6400000</soTien>
+            <phuongThucThanhToan>Tiền mặt</phuongThucThanhToan>
+            <DSChiTietBooking>
+                <ChiTietBooking maChiTietBooking="CTB024">
+                    <hoTenNguoiDi>Phạm Thị S</hoTenNguoiDi>
+                    <ngaySinh>27-11-1998</ngaySinh>
+                    <gioiTinh>0</gioiTinh>
+                    <loaiKhachHang>Người lớn</loaiKhachHang>
+                </ChiTietBooking>
+            </DSChiTietBooking>
+        </Booking>
+
+        <Booking maBooking="B020" maTour="T019" maKhachHang="KH020"> 
+            <thoiGianDat>08-10-2025</thoiGianDat>
+            <trangThai>Đã hủy</trangThai>
+            <soTien>2900000</soTien>
+            <phuongThucThanhToan>Ví điện tử</phuongThucThanhToan>
+            <DSChiTietBooking>
+                <ChiTietBooking maChiTietBooking="CTB025">
+                    <hoTenNguoiDi>Đỗ Văn T</hoTenNguoiDi>
+                    <ngaySinh>14-01-1990</ngaySinh>
+                    <gioiTinh>1</gioiTinh>
+                    <loaiKhachHang>Người lớn</loaiKhachHang>
+                </ChiTietBooking>
+            </DSChiTietBooking>
+        </Booking>
     </DSBooking>
 
 </QLTour>
