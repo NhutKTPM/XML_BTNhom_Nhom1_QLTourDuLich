@@ -1,0 +1,42 @@
+<!ELEMENT QLTour (DSTour, DSDiaDiem, DSHuongDanVien, DSKhachSan, DSKhachHang, DSBooking)>
+
+
+
+
+<!-- ======= Khach hang ======= -->
+<!ELEMENT DSKhachHang (KhachHang+)>
+<!ELEMENT KhachHang (tenKhachHang, diaChi, soDienThoai, email)>
+<!ATTLIST KhachHang 
+    maKhachHang ID #REQUIRED>
+
+<!ELEMENT tenKhachHang (#PCDATA)>
+<!ELEMENT diaChi (#PCDATA)>
+<!ELEMENT soDienThoai (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+
+<!-- ======= Booking ======= -->
+<!ELEMENT DSBooking (Booking+)>
+<!ELEMENT Booking (thoiGianDat, trangThai, soTien, phuongThucThanhToan, diemDanhGia?, noiDungDanhGia?, DSChiTietBooking)>
+<!ATTLIST Booking 
+    maBooking ID #REQUIRED
+    maTour IDREF #REQUIRED
+    maKhachHang IDREF #REQUIRED>
+
+<!ELEMENT thoiGianDat (#PCDATA)>
+<!ELEMENT trangThai (#PCDATA)>
+<!ELEMENT soTien (#PCDATA)>
+<!ELEMENT phuongThucThanhToan (#PCDATA)>
+<!ELEMENT diemDanhGia (#PCDATA)>
+<!ELEMENT noiDungDanhGia (#PCDATA)>
+
+<!-- ======= Chi tiet booking ======= -->
+<!ELEMENT DSChiTietBooking (ChiTietBooking+)>
+<!ELEMENT ChiTietBooking (hoTenNguoiDi, ngaySinh, gioiTinh, ghiChu?, loaiKhachHang)>
+<!ATTLIST ChiTietBooking 
+    maChiTietBooking ID #REQUIRED>
+
+<!ELEMENT hoTenNguoiDi (#PCDATA)>
+<!ELEMENT ngaySinh (#PCDATA)>
+<!ELEMENT gioiTinh (#PCDATA)>
+<!ELEMENT ghiChu (#PCDATA)>
+<!ELEMENT loaiKhachHang (#PCDATA)>

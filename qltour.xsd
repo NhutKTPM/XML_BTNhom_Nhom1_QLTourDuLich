@@ -17,6 +17,90 @@
                     </xs:complexType>
                 </xs:element>
 
+                <!-- Danh sach khach hang -->
+                <xs:element name="DSKhachHang">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="KhachHang" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="tenKhachHang" type="xs:string"/>
+                                        <xs:element name="diaChi" type="xs:string"/>
+                                        <!-- Số điện thoại: 10 chữ số -->
+                                        <xs:element name="soDienThoai">
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:string">
+                                                <xs:pattern value="0\d{9}"/>
+                                                </xs:restriction>
+                                            </xs:simpleType>
+                                        </xs:element>
+                                        <xs:element name="email">
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:string">
+                                                    <xs:pattern value="[^@]+@[^@]+\.[^@]+"/>
+                                                </xs:restriction>
+                                            </xs:simpleType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                    <!-- maKhachHang duy nhất toàn cục -->
+                                    <xs:attribute name="maKhachHang" type="xs:ID" use="required"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+                <!-- Danh sach booking -->
+                <xs:element name="DSBooking">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="Booking" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="thoiGianDat" type="xs:date"/>
+                                        <xs:element name="trangThai" type="xs:string"/>
+                                        <xs:element name="soTien" type="xs:float"/>
+                                        <xs:element name="phuongThucThanhToan" type="xs:string"/>
+                                        <xs:element name="diemDanhGia" type="xs:int" minOccurs="0"/>
+                                        <xs:element name="noiDungDanhGia" type="xs:string" minOccurs="0"/>
+                                        <xs:element name="DSChiTietBooking">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="ChiTietBooking" maxOccurs="unbounded">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element name="hoTenNguoiDi" type="xs:string"/>
+                                                                <xs:element name="ngaySinh" type="xs:date"/>
+                                                                <xs:element name="gioiTinh">
+                                                                    <xs:simpleType>
+                                                                        <xs:restriction base="xs:int">
+                                                                            <xs:enumeration value="0"/>
+                                                                            <xs:enumeration value="1"/>
+                                                                        </xs:restriction>
+                                                                    </xs:simpleType>
+                                                                </xs:element>
+                                                                <xs:element name="ghiChu" type="xs:string" minOccurs="0"/>
+                                                                <xs:element name="loaiKhachHang" type="xs:string"/>
+                                                            </xs:sequence>
+                                                            <xs:attribute name="maChiTietBooking" type="xs:ID" use="required"/>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                    <xs:attribute name="maBooking" type="xs:ID" use="required"/>
+                                    <xs:attribute name="maTour" type="xs:IDREF" use="required"/>
+                                    <xs:attribute name="maKhachHang" type="xs:IDREF" use="required"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+
+
+
             </xs:sequence>
         </xs:complexType>
     </xs:element>
