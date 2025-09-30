@@ -2,7 +2,8 @@
 <!-- <!DOCTYPE QLTour SYSTEM "qltour.dtd"> -->
 
 <!-- Viết thêm mỗi bảng ít nhất 20 dòng. Viết dữ liệu thật, hợp lí -->
-<QLTour>
+<QLTour xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="qltour.xsd">
     <!-- Danh sách tour -->
     <DSTour>
         <Tour maTour="T001" maHdv="HDV001">
@@ -786,7 +787,7 @@
             </DSVanChuyen>
         </Tour>
 
-        </DSTour>
+    </DSTour>
 
     <!-- Danh sách địa điểm -->
     <DSDiaDiem>
