@@ -900,120 +900,140 @@
             <ngaySinh>15-05-1990</ngaySinh>
             <soDienThoai>0912345678</soDienThoai>
             <ngoaiNgu>Tiếng Anh</ngoaiNgu>
+            <kinhNghiem>7 năm</kinhNghiem>
         </HuongDanVien>
         <HuongDanVien maHdv="HDV002">
             <tenHuongDanVien>Trần Thị Mai</tenHuongDanVien>
             <ngaySinh>25-07-1990</ngaySinh>
             <soDienThoai>0902234567</soDienThoai>
             <ngoaiNgu>Tiếng Trung</ngoaiNgu>
+            <kinhNghiem>5 năm</kinhNghiem>
         </HuongDanVien>
         <HuongDanVien maHdv="HDV003">
             <tenHuongDanVien>Lê Văn An</tenHuongDanVien>
             <ngaySinh>10-11-1988</ngaySinh>
             <soDienThoai>0903345678</soDienThoai>
             <ngoaiNgu>Tiếng Nhật</ngoaiNgu>
+            <kinhNghiem>6 năm</kinhNghiem>
         </HuongDanVien>
         <HuongDanVien maHdv="HDV004">
             <tenHuongDanVien>Phạm Thị Lan</tenHuongDanVien>
             <ngaySinh>02-05-1992</ngaySinh>
             <soDienThoai>0904456789</soDienThoai>
             <ngoaiNgu>Tiếng Hàn</ngoaiNgu>
+            <kinhNghiem>4 năm</kinhNghiem>
         </HuongDanVien>
         <HuongDanVien maHdv="HDV005">
             <tenHuongDanVien>Đỗ Minh Tuấn</tenHuongDanVien>
             <ngaySinh>18-01-1987</ngaySinh>
             <soDienThoai>0905567890</soDienThoai>
             <ngoaiNgu>Tiếng Anh</ngoaiNgu>
+            <kinhNghiem>8 năm</kinhNghiem>
         </HuongDanVien>
         <HuongDanVien maHdv="HDV006">
             <tenHuongDanVien>Nguyễn Thị Hoa</tenHuongDanVien>
             <ngaySinh>20-09-1993</ngaySinh>
             <soDienThoai>0906678901</soDienThoai>
             <ngoaiNgu>Tiếng Pháp</ngoaiNgu>
+            <kinhNghiem>3 năm</kinhNghiem>
         </HuongDanVien>
         <HuongDanVien maHdv="HDV007">
             <tenHuongDanVien>Trần Văn Minh</tenHuongDanVien>
             <ngaySinh>14-06-1989</ngaySinh>
             <soDienThoai>0907789012</soDienThoai>
             <ngoaiNgu>Tiếng Nga</ngoaiNgu>
+            <kinhNghiem>6 năm</kinhNghiem>
         </HuongDanVien>
         <HuongDanVien maHdv="HDV008">
             <tenHuongDanVien>Lý Thị Thảo</tenHuongDanVien>
             <ngaySinh>08-12-1991</ngaySinh>
             <soDienThoai>0908890123</soDienThoai>
             <ngoaiNgu>Tiếng Anh</ngoaiNgu>
+            <kinhNghiem>5 năm</kinhNghiem>
         </HuongDanVien>
         <HuongDanVien maHdv="HDV009">
             <tenHuongDanVien>Phan Thanh Hùng</tenHuongDanVien>
             <ngaySinh>05-04-1986</ngaySinh>
             <soDienThoai>0909901234</soDienThoai>
             <ngoaiNgu>Tiếng Trung</ngoaiNgu>
+            <kinhNghiem>9 năm</kinhNghiem>
         </HuongDanVien>
         <HuongDanVien maHdv="HDV010">
             <tenHuongDanVien>Võ Thị Yến</tenHuongDanVien>
             <ngaySinh>21-07-1994</ngaySinh>
             <soDienThoai>0911012345</soDienThoai>
             <ngoaiNgu>Tiếng Hàn</ngoaiNgu>
+            <kinhNghiem>4 năm</kinhNghiem>
         </HuongDanVien>
         <HuongDanVien maHdv="HDV011">
             <tenHuongDanVien>Nguyễn Văn Quang</tenHuongDanVien>
             <ngaySinh>12-02-1983</ngaySinh>
             <soDienThoai>0912123456</soDienThoai>
             <ngoaiNgu>Tiếng Nhật</ngoaiNgu>
+            <kinhNghiem>5 năm</kinhNghiem>
         </HuongDanVien>
         <HuongDanVien maHdv="HDV012">
             <tenHuongDanVien>Trần Thị Bích</tenHuongDanVien>
             <ngaySinh>03-03-1990</ngaySinh>
             <soDienThoai>0913234567</soDienThoai>
             <ngoaiNgu>Tiếng Pháp</ngoaiNgu>
+            <kinhNghiem>5 năm</kinhNghiem>
         </HuongDanVien>
         <HuongDanVien maHdv="HDV013">
             <tenHuongDanVien>Lê Hồng Sơn</tenHuongDanVien>
             <ngaySinh>15-05-1988</ngaySinh>
             <soDienThoai>0914345678</soDienThoai>
             <ngoaiNgu>Tiếng Nga</ngoaiNgu>
+            <kinhNghiem>7 năm</kinhNghiem>
         </HuongDanVien>
         <HuongDanVien maHdv="HDV014">
             <tenHuongDanVien>Đào Thị Kim</tenHuongDanVien>
             <ngaySinh>22-10-1991</ngaySinh>
             <soDienThoai>0915456789</soDienThoai>
             <ngoaiNgu>Tiếng Anh</ngoaiNgu>
+            <kinhNghiem>4 năm</kinhNghiem>
         </HuongDanVien>
         <HuongDanVien maHdv="HDV015">
             <tenHuongDanVien>Phạm Văn Nam</tenHuongDanVien>
             <ngaySinh>18-08-1987</ngaySinh>
             <soDienThoai>0916567890</soDienThoai>
             <ngoaiNgu>Tiếng Trung</ngoaiNgu>
+            <kinhNghiem>8 năm</kinhNghiem>
         </HuongDanVien>
         <HuongDanVien maHdv="HDV016">
             <tenHuongDanVien>Hoàng Thị Hương</tenHuongDanVien>
             <ngaySinh>07-11-1992</ngaySinh>
             <soDienThoai>0917678901</soDienThoai>
             <ngoaiNgu>Tiếng Nhật</ngoaiNgu>
+            <kinhNghiem>5 năm</kinhNghiem>
         </HuongDanVien>
         <HuongDanVien maHdv="HDV017">
             <tenHuongDanVien>Đặng Văn Toàn</tenHuongDanVien>
             <ngaySinh>30-12-1989</ngaySinh>
             <soDienThoai>0918789012</soDienThoai>
             <ngoaiNgu>Tiếng Hàn</ngoaiNgu>
+            <kinhNghiem>6 năm</kinhNghiem>
         </HuongDanVien>
         <HuongDanVien maHdv="HDV018">
             <tenHuongDanVien>Nguyễn Thị Thu</tenHuongDanVien>
             <ngaySinh>16-06-1993</ngaySinh>
             <soDienThoai>0919890123</soDienThoai>
             <ngoaiNgu>Tiếng Pháp</ngoaiNgu>
+            <kinhNghiem>4 năm</kinhNghiem>
         </HuongDanVien>
         <HuongDanVien maHdv="HDV019">
             <tenHuongDanVien>Lâm Văn Hải</tenHuongDanVien>
             <ngaySinh>11-09-1985</ngaySinh>
             <soDienThoai>0921012345</soDienThoai>
             <ngoaiNgu>Tiếng Nga</ngoaiNgu>
+            <kinhNghiem>10 năm</kinhNghiem>
         </HuongDanVien>
         <HuongDanVien maHdv="HDV020">
             <tenHuongDanVien>Ngô Thị Trang</tenHuongDanVien>
             <ngaySinh>01-04-1994</ngaySinh>
             <soDienThoai>0922123456</soDienThoai>
             <ngoaiNgu>Tiếng Anh</ngoaiNgu>
+            <kinhNghiem>3 năm</kinhNghiem>
         </HuongDanVien>
     </DSHuongDanVien>
 

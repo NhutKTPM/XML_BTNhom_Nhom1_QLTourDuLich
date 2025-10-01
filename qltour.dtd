@@ -3,6 +3,37 @@
 
 
 
+
+
+<!-- ======= Dia diem ======= -->
+<!ELEMENT DSDiaDiem (DiaDiem+)>
+<!ELEMENT DiaDiem (tenDiaDiem, moTa, diaChi)>
+<!ATTLIST DiaDiem 
+    maDiaDiem ID #REQUIRED>    
+
+<!ELEMENT tenDiaDiem (#PCDATA)>
+<!ELEMENT moTa (#PCDATA)>       
+<!ELEMENT diaChi (#PCDATA)>
+
+<!-- ======= Huong dan vien ======= -->
+<!ELEMENT DSHuongDanVien (HuongDanVien+)>
+<!ELEMENT HuongDanVien (tenHuongDanVien, ngaySinh, soDienThoai, ngoaiNgu, kinhNghiem)>
+<!ATTLIST HuongDanVien 
+    maHuongDanVien ID #REQUIRED>        
+<!ELEMENT tenHuongDanVien (#PCDATA)>
+<!ELEMENT ngaySinh (#PCDATA)>           
+<!ELEMENT soDienThoai (#PCDATA)>    
+<!ELEMENT ngoaiNgu (#PCDATA)>
+<!ELEMENT kinhNghiem (#PCDATA)>
+<!-- ======= Khach san ======= -->
+<!ELEMENT DSKhachSan (KhachSan+)>
+<!ELEMENT KhachSan (tenKhachSan, diaChi, soDienThoai, hangSao)>
+<!ATTLIST KhachSan 
+    maKhachSan ID #REQUIRED>
+<!ELEMENT tenKhachSan (#PCDATA)>
+<!ELEMENT diaChi (#PCDATA)>
+<!ELEMENT soDienThoai (#PCDATA)>
+<!ELEMENT hangSao (#PCDATA)>
 <!-- ======= Khach hang ======= -->
 <!ELEMENT DSKhachHang (KhachHang+)>
 <!ELEMENT KhachHang (tenKhachHang, diaChi, soDienThoai, email)>

@@ -11,9 +11,88 @@
                     </xs:complexType>
                 </xs:element>
 
-                <xs:element name="DSDiadiem">
+                <!-- Danh sách địa điểm -->
+                <xs:element name="DSDiaDiem">
                     <xs:complexType>
-
+                        <xs:sequence>
+                            <xs:element name="DiaDiem" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="tenDiaDiem" type="xs:string"/>
+                                        <xs:element name="moTa" type="xs:string"/>
+                                        <xs:element name="diaChi" type="xs:string"/>
+                                        <xs:element name="soDienThoai">
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:string">
+                                                    <xs:pattern value="0\d{9}"/>
+                                                </xs:restriction>
+                                            </xs:simpleType>
+                                        </xs:element>
+                                        <xs:element name="email">
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:string">
+                                                    <xs:pattern value="[^@]+@[^@]+\.[^@]+"/>
+                                                </xs:restriction>
+                                            </xs:simpleType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                    <xs:attribute name="maDiaDiem" type="xs:ID" use="required"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <!-- Danh sach huong dan vien -->
+                <xs:element name="DSHuongDanVien">          
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="HuongDanVien" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="tenHuongDanVien" type="xs:string"/>
+                                        <xs:element name="ngaySinh" type="xs:date"/>
+                                        <!-- Số điện thoại: 10 chữ số -->
+                                        <xs:element name="soDienThoai">
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:string">
+                                                <xs:pattern value="0\d{9}"/>
+                                                </xs:restriction>
+                                            </xs:simpleType>
+                                        </xs:element>
+                                        <xs:element name="ngoaiNgu" type="xs:string"/>
+                                        <xs:element name="kinhNghiem" type="xs:string"/>
+                                    </xs:sequence>
+                                    <!-- maHuongDanVien duy nhất toàn cục -->
+                                    <xs:attribute name="maHuongDanVien" type="xs:ID" use="required"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <!-- Danh sach khach san -->
+                <xs:element name="DSKhachSan">                              
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="KhachSan" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="tenKhachSan" type="xs:string"/>
+                                        <xs:element name="diaChi" type="xs:string"/>
+                                        <!-- Số điện thoại: 10 chữ số -->
+                                        <xs:element name="soDienThoai">
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:string">
+                                                <xs:pattern value="0\d{9}"/>
+                                                </xs:restriction>
+                                            </xs:simpleType>
+                                        </xs:element>
+                                        <xs:element name="hangSao" type="xs:int"/>
+                                    </xs:sequence>
+                                    <!-- maKhachSan duy nhất toàn cục -->
+                                    <xs:attribute name="maKhachSan" type="xs:ID" use="required"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
                     </xs:complexType>
                 </xs:element>
 
