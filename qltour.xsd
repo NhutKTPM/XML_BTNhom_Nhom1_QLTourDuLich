@@ -47,7 +47,13 @@
                                         <xs:element name="moTa-tour" type="varchar255Type"/>
                                         <xs:element name="ngayBatDau" type="xs:date"/>
                                         <xs:element name="ngayKetThuc" type="xs:date"/>
-                                        <xs:element name="giaTour" type="xs:float"/>
+                                        <xs:element name="giaTour">
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:decimal">
+                                                    <xs:minExclusive value="0"/>
+                                                </xs:restriction>
+                                            </xs:simpleType>
+                                        </xs:element> 
                                         <xs:element name="lichTrinh" type="varchar255Type"/>
                                         <xs:element name="DSDiaDiem-ref">
                                             <xs:complexType>
@@ -72,7 +78,13 @@
                                                     <xs:element name="ChiTietKhachSan" minOccurs="0" maxOccurs="unbounded">
                                                         <xs:complexType>
                                                             <xs:sequence>
-                                                                <xs:element name="soLuongPhong" type="xs:integer"/>
+                                                                <xs:element name="soLuongPhong">
+                                                                    <xs:simpleType>
+                                                                        <xs:restriction base="xs:integer">
+                                                                            <xs:minInclusive value="1"/>
+                                                                        </xs:restriction>
+                                                                    </xs:simpleType>
+                                                                </xs:element>
                                                                 <xs:element name="ngayCheckIn" type="xs:date"/>
                                                                 <xs:element name="ngayCheckOut" type="xs:date"/>
                                                             </xs:sequence>
