@@ -1,38 +1,68 @@
 <!ELEMENT QLTour (DSTour, DSDiaDiem, DSHuongDanVien, DSKhachSan, DSKhachHang, DSBooking)>
 
-
+<!-- ======= Tour ======= -->
+<!ELEMENT DSTour (Tour+)>
+<!ELEMENT Tour (tenTour, moTa-tour, ngayBatDau, ngayKetThuc, DSDiaDiem-ref, lichTrinh, DSChiTietKhachSan, DSVanChuyen)>
+<!ATTLIST Tour 
+    maTour ID #REQUIRED
+    maHdv IDREF #REQUIRED>
+<!ELEMENT tenTour (#PCDATA)>
+<!ELEMENT moTa-tour (#PCDATA)>
+<!ELEMENT ngayBatDau (#PCDATA)>
+<!ELEMENT ngayKetThuc (#PCDATA)>
+<!ELEMENT DSDiaDiem-ref (DiaDiem-ref+)>
+<!ELEMENT DiaDiem-ref EMPTY>
+<!ATTLIST DiaDiem-ref 
+    maDiaDiem IDREF #REQUIRED>
+<!ELEMENT lichTrinh (#PCDATA)>
+<!ELEMENT DSChiTietKhachSan (ChiTietKhachSan*)>
+<!ELEMENT ChiTietKhachSan (soLuongPhong, ngayCheckIn, ngayCheckOut)>
+<!ATTLIST ChiTietKhachSan 
+    maCTKS ID #REQUIRED
+    maKS IDREF #REQUIRED>
+<!ELEMENT soLuongPhong (#PCDATA)>
+<!ELEMENT ngayCheckIn (#PCDATA)>
+<!ELEMENT ngayCheckOut (#PCDATA)>
+<!ELEMENT DSVanChuyen (VanChuyen*)>
+<!ELEMENT VanChuyen (loaiPhuongTien, thoiGianXuatPhat, thoiGianKetThuc, diemXuatPhat, diemKetThuc, hangVanChuyen)>
+<!ELEMENT loaiPhuongTien (#PCDATA)>
+<!ELEMENT thoiGianXuatPhat (#PCDATA)>
+<!ELEMENT diemXuatPhat (#PCDATA)>
+<!ELEMENT thoiGianKetThuc (#PCDATA)>
+<!ELEMENT diemKetThuc (#PCDATA)>
+<!ELEMENT hangVanChuyen (#PCDATA)>
 
 
 
 
 <!-- ======= Dia diem ======= -->
 <!ELEMENT DSDiaDiem (DiaDiem+)>
-<!ELEMENT DiaDiem (tenDiaDiem, moTa, diaChi)>
+<!ELEMENT DiaDiem (tenDiaDiem, diaChi-diaDiem, moTa-diaDiem)>
 <!ATTLIST DiaDiem 
     maDiaDiem ID #REQUIRED>    
 
 <!ELEMENT tenDiaDiem (#PCDATA)>
-<!ELEMENT moTa (#PCDATA)>       
-<!ELEMENT diaChi (#PCDATA)>
+<!ELEMENT moTa-diaDiem (#PCDATA)>       
+<!ELEMENT diaChi-diaDiem (#PCDATA)>
 
 <!-- ======= Huong dan vien ======= -->
 <!ELEMENT DSHuongDanVien (HuongDanVien+)>
 <!ELEMENT HuongDanVien (tenHuongDanVien, ngaySinh, soDienThoai, ngoaiNgu, kinhNghiem)>
 <!ATTLIST HuongDanVien 
-    maHuongDanVien ID #REQUIRED>        
+    maHdv ID #REQUIRED>        
 <!ELEMENT tenHuongDanVien (#PCDATA)>
 <!ELEMENT ngaySinh (#PCDATA)>           
 <!ELEMENT soDienThoai (#PCDATA)>    
 <!ELEMENT ngoaiNgu (#PCDATA)>
 <!ELEMENT kinhNghiem (#PCDATA)>
+
 <!-- ======= Khach san ======= -->
 <!ELEMENT DSKhachSan (KhachSan+)>
-<!ELEMENT KhachSan (tenKhachSan, diaChi, soDienThoai, hangSao)>
+<!ELEMENT KhachSan (tenKhachSan, diaChi-khachSan, soDienThoai)>
 <!ATTLIST KhachSan 
-    maKhachSan ID #REQUIRED>
+    maKS ID #REQUIRED>
 <!ELEMENT tenKhachSan (#PCDATA)>
-<!ELEMENT diaChi (#PCDATA)>
-<!ELEMENT soDienThoai (#PCDATA)>
+<!ELEMENT diaChi-khachSan (#PCDATA)>
 <!ELEMENT hangSao (#PCDATA)>
 <!-- ======= Khach hang ======= -->
 <!ELEMENT DSKhachHang (KhachHang+)>
@@ -42,7 +72,6 @@
 
 <!ELEMENT tenKhachHang (#PCDATA)>
 <!ELEMENT diaChi (#PCDATA)>
-<!ELEMENT soDienThoai (#PCDATA)>
 <!ELEMENT email (#PCDATA)>
 
 <!-- ======= Booking ======= -->
@@ -67,7 +96,6 @@
     maChiTietBooking ID #REQUIRED>
 
 <!ELEMENT hoTenNguoiDi (#PCDATA)>
-<!ELEMENT ngaySinh (#PCDATA)>
 <!ELEMENT gioiTinh (#PCDATA)>
 <!ELEMENT ghiChu (#PCDATA)>
 <!ELEMENT loaiKhachHang (#PCDATA)>
