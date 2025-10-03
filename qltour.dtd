@@ -1,4 +1,8 @@
 <!ELEMENT QLTour (DSTour, DSDiaDiem, DSHuongDanVien, DSKhachSan, DSKhachHang, DSBooking)>
+<!ATTLIST QLTour
+    xmlns:xsi CDATA #IMPLIED
+    xsi:noNamespaceSchemaLocation CDATA #IMPLIED
+>
 
 <!-- ======= Tour ======= -->
 <!ELEMENT DSTour (Tour+)>
