@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QLTour SYSTEM "qltour.dtd">
 
-<QLTour>
-<!-- <QLTour xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:noNamespaceSchemaLocation="qltour.xsd"> -->
+<!-- <QLTour> -->
+<QLTour xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="qltour.xsd">
     
     <DSTour>
         <Tour maTour="T001" maHdv="HDV001">
             <tenTour>Tour Hà Nội</tenTour>
             <moTa-tour>Tour thăm quan Hà Nội - Hạ Long 4 ngày 3 đêm</moTa-tour>
-            <ngayBatDau>01-10-2025</ngayBatDau>
+            <ngayBatDau>2025-10-01</ngayBatDau>
             <ngayKetThuc>04-10-2025</ngayKetThuc>
             <DSDiaDiem-ref>
                 <DiaDiem-ref maDiaDiem="DD001"/>
@@ -35,8 +35,8 @@
             </DSChiTietKhachSan>
             <DSVanChuyen>
                 <VanChuyen>
-                    <loaiPhuongTien>Máy Bay</loaiPhuongTien>
-                    <thoiGianXuatPhat>06:00 01-10-2025</thoiGianXuatPhat>
+                    <loaiPhuongTien>Máy bay</loaiPhuongTien>
+                    <thoiGianXuatPhat>2025-10-01T06:00:00</thoiGianXuatPhat>
                     <thoiGianKetThuc>08:00 01-10-2025</thoiGianKetThuc>
                     <diemXuatPhat>Sân bay Cần Thơ</diemXuatPhat>
                     <diemKetThuc>Sân bay Nội Bài</diemKetThuc>
@@ -896,7 +896,7 @@
     <DSHuongDanVien>
         <HuongDanVien maHdv="HDV001">
             <tenHuongDanVien>Phạm Thị Cúc</tenHuongDanVien>
-            <ngaySinh>15-05-1990</ngaySinh>
+            <ngaySinh>1990-05-15</ngaySinh>
             <soDienThoai>0912345678</soDienThoai>
             <ngoaiNgu>Tiếng Anh</ngoaiNgu>
             <kinhNghiem>7 năm</kinhNghiem>
@@ -1046,7 +1046,7 @@
         <KhachSan maKS="KS002">
             <tenKhachSan>Khách sạn Hạ Long</tenKhachSan>
             <diaChi-khachSan>Hạ Long</diaChi-khachSan>
-            <soDienThoai>02361234567</soDienThoai>
+            <soDienThoai>0236123456</soDienThoai>
         </KhachSan>
         <KhachSan maKS="KS003">
             <tenKhachSan>Khách sạn Đà Nẵng Riverside</tenKhachSan>
@@ -1101,12 +1101,12 @@
         <KhachSan maKS="KS013">
             <tenKhachSan>Khách sạn Rex</tenKhachSan>
             <diaChi-khachSan>Nguyễn Huệ, TP.HCM</diaChi-khachSan>
-            <soDienThoai>02839393939</soDienThoai>
+            <soDienThoai>0283939393</soDienThoai>
         </KhachSan>
         <KhachSan maKS="KS014">
             <tenKhachSan>Khách sạn Majestic Sài Gòn</tenKhachSan>
             <diaChi-khachSan>Đồng Khởi, TP.HCM</diaChi-khachSan>
-            <soDienThoai>02839203939</soDienThoai>
+            <soDienThoai>0283920393</soDienThoai>
         </KhachSan>
         <KhachSan maKS="KS015">
             <tenKhachSan>Khách sạn Pullman Vũng Tàu</tenKhachSan>
@@ -1136,7 +1136,7 @@
         <KhachSan maKS="KS020">
             <tenKhachSan>Khách sạn Silk Path Hà Nội</tenKhachSan>
             <diaChi-khachSan>Hoàn Kiếm, Hà Nội</diaChi-khachSan>
-            <soDienThoai>02439393939</soDienThoai>
+            <soDienThoai>0243939393</soDienThoai>
         </KhachSan>
     </DSKhachSan>
 
