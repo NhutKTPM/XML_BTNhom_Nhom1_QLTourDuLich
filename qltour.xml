@@ -10,7 +10,7 @@
             <tenTour>Tour Hà Nội</tenTour>
             <moTa-tour>Tour thăm quan Hà Nội - Hạ Long 4 ngày 3 đêm</moTa-tour>
             <ngayBatDau>2025-10-01</ngayBatDau>
-            <ngayKetThuc>04-10-2025</ngayKetThuc>
+            <ngayKetThuc>2025-10-04</ngayKetThuc>
             <DSDiaDiem-ref>
                 <DiaDiem-ref maDiaDiem="DD001"/>
                 <DiaDiem-ref maDiaDiem="DD002"/>
@@ -24,36 +24,36 @@
             <DSChiTietKhachSan>
                 <ChiTietKhachSan maCTKS="CTKS001" maKS="KS001">
                     <soLuongPhong>10</soLuongPhong>
-                    <ngayCheckIn>1-10-2025</ngayCheckIn>
-                    <ngayCheckOut>2-10-2025</ngayCheckOut>
+                    <ngayCheckIn>2025-10-01</ngayCheckIn>
+                    <ngayCheckOut>2025-10-02</ngayCheckOut>
                 </ChiTietKhachSan>
                 <ChiTietKhachSan maCTKS="CTKS002" maKS="KS002">
                     <soLuongPhong>10</soLuongPhong>
-                    <ngayCheckIn>3-10-2025</ngayCheckIn>
-                    <ngayCheckOut>4-10-2025</ngayCheckOut>
+                    <ngayCheckIn>2025-10-02</ngayCheckIn>
+                    <ngayCheckOut>2025-10-04</ngayCheckOut>
                 </ChiTietKhachSan>
             </DSChiTietKhachSan>
             <DSVanChuyen>
                 <VanChuyen>
                     <loaiPhuongTien>Máy bay</loaiPhuongTien>
                     <thoiGianXuatPhat>2025-10-01T06:00:00</thoiGianXuatPhat>
-                    <thoiGianKetThuc>08:00 01-10-2025</thoiGianKetThuc>
+                    <thoiGianKetThuc>2025-10-01T08:00:00</thoiGianKetThuc>
                     <diemXuatPhat>Sân bay Cần Thơ</diemXuatPhat>
                     <diemKetThuc>Sân bay Nội Bài</diemKetThuc>
                     <hangVanChuyen>Vietnam Airline</hangVanChuyen>
                 </VanChuyen>
                 <VanChuyen>
                     <loaiPhuongTien>Xe khách</loaiPhuongTien>
-                    <thoiGianXuatPhat>06:00 03-10-2025</thoiGianXuatPhat>
-                    <thoiGianKetThuc>08:00 04-10-2025</thoiGianKetThuc>
+                    <thoiGianXuatPhat>2025-10-04T06:00:00</thoiGianXuatPhat>
+                    <thoiGianKetThuc>2025-10-04T10:00:00</thoiGianKetThuc>
                     <diemXuatPhat>... Hà Nội</diemXuatPhat>
                     <diemKetThuc>... Hạ Long</diemKetThuc>
                     <hangVanChuyen>Vietnam Airline</hangVanChuyen>
                 </VanChuyen>
                 <VanChuyen>
                     <loaiPhuongTien>Máy Bay</loaiPhuongTien>
-                    <thoiGianXuatPhat>18:00 04-10-2025</thoiGianXuatPhat>
-                    <thoiGianKetThuc>20:00 04-10-2025</thoiGianKetThuc>
+                    <thoiGianXuatPhat>2025-10-04T18:00:00</thoiGianXuatPhat>
+                    <thoiGianKetThuc>2025-10-04T20:00:00</thoiGianKetThuc>
                     <diemXuatPhat>Sân bay Nội Bài</diemXuatPhat>
                     <diemKetThuc>Sân bay Cần Thơ</diemKetThuc>
                     <hangVanChuyen>Vietnam Airline</hangVanChuyen>
@@ -64,8 +64,8 @@
         <Tour maTour="T002" maHdv="HDV002">
             <tenTour>Tour Đà Nẵng</tenTour>
             <moTa-tour>Tour khám phá Đà Nẵng 4 ngày 3 đêm</moTa-tour>
-            <ngayBatDau>5-11-2025</ngayBatDau>
-            <ngayKetThuc>8-11-2025</ngayKetThuc>
+            <ngayBatDau>2025-11-05</ngayBatDau>
+            <ngayKetThuc>2025-11-08</ngayKetThuc>
             <DSDiaDiem-ref>
                 <DiaDiem-ref maDiaDiem="DD002"/>
                 <DiaDiem-ref maDiaDiem="DD003"/>
@@ -85,23 +85,23 @@
                 </ChiTietKhachSan>
                 <ChiTietKhachSan maCTKS="CTKS004" maKS="KS007">
                     <soLuongPhong>8</soLuongPhong>
-                    <ngayCheckIn>7-11-2025</ngayCheckIn>
-                    <ngayCheckOut>8-11-2025</ngayCheckOut>
+                    <ngayCheckIn>2025-11-05</ngayCheckIn>
+                    <ngayCheckOut>2025-11-08</ngayCheckOut>
                 </ChiTietKhachSan>
             </DSChiTietKhachSan>
             <DSVanChuyen>
                 <VanChuyen>
                     <loaiPhuongTien>Máy bay</loaiPhuongTien>
-                    <thoiGianXuatPhat>07:00 05-11-2025</thoiGianXuatPhat>
-                    <thoiGianKetThuc>09:00 05-11-2025</thoiGianKetThuc>
+                    <thoiGianXuatPhat>2025-11-05T07:00:00</thoiGianXuatPhat>
+                    <thoiGianKetThuc>2025-11-05T09:00:00</thoiGianKetThuc>
                     <diemXuatPhat>Hà Nội</diemXuatPhat>
                     <diemKetThuc>Đà Nẵng</diemKetThuc>
                     <hangVanChuyen>Bamboo Airways</hangVanChuyen>
                 </VanChuyen>
                 <VanChuyen>
                     <loaiPhuongTien>Xe khách</loaiPhuongTien>
-                    <thoiGianXuatPhat>08:00 07-11-2025</thoiGianXuatPhat>
-                    <thoiGianKetThuc>09:00 07-11-2025</thoiGianKetThuc>
+                    <thoiGianXuatPhat>2025-11-07T08:00:00</thoiGianXuatPhat>
+                    <thoiGianKetThuc>2025-11-07T09:00:00</thoiGianKetThuc>
                     <diemXuatPhat>Đà Nẵng</diemXuatPhat>
                     <diemKetThuc>Hội An</diemKetThuc>
                     <hangVanChuyen>Phương Trang</hangVanChuyen>
@@ -112,8 +112,8 @@
         <Tour maTour="T003" maHdv="HDV003">
             <tenTour>Tour Huế - Quảng Bình</tenTour>
             <moTa-tour>Khám phá Đại Nội Huế và Động Phong Nha 4 ngày 3 đêm</moTa-tour>
-            <ngayBatDau>10-10-2025</ngayBatDau>
-            <ngayKetThuc>13-10-2025</ngayKetThuc>
+            <ngayBatDau>2025-10-10</ngayBatDau>
+            <ngayKetThuc>2025-10-13</ngayKetThuc>
             <DSDiaDiem-ref>
                 <DiaDiem-ref maDiaDiem="DD005"/>
                 <DiaDiem-ref maDiaDiem="DD019"/>
@@ -127,28 +127,28 @@
             <DSChiTietKhachSan>
                 <ChiTietKhachSan maCTKS="CTKS005" maKS="KS012">
                     <soLuongPhong>8</soLuongPhong>
-                    <ngayCheckIn>10-10-2025</ngayCheckIn>
-                    <ngayCheckOut>12-10-2025</ngayCheckOut>
+                    <ngayCheckIn>2025-10-10</ngayCheckIn>
+                    <ngayCheckOut>2025-10-12</ngayCheckOut>
                 </ChiTietKhachSan>
                 <ChiTietKhachSan maCTKS="CTKS006" maKS="KS004">
                     <soLuongPhong>8</soLuongPhong>
-                    <ngayCheckIn>12-10-2025</ngayCheckIn>
-                    <ngayCheckOut>13-10-2025</ngayCheckOut>
+                    <ngayCheckIn>2025-10-12</ngayCheckIn>
+                    <ngayCheckOut>2025-10-13</ngayCheckOut>
                 </ChiTietKhachSan>
             </DSChiTietKhachSan>
             <DSVanChuyen>
                 <VanChuyen>
                     <loaiPhuongTien>Máy bay</loaiPhuongTien>
-                    <thoiGianXuatPhat>07:00 10-10-2025</thoiGianXuatPhat>
-                    <thoiGianKetThuc>09:00 10-10-2025</thoiGianKetThuc>
+                    <thoiGianXuatPhat>2025-10-10T07:00:00</thoiGianXuatPhat>
+                    <thoiGianKetThuc>2025-10-10T09:00:00</thoiGianKetThuc>
                     <diemXuatPhat>Hà Nội</diemXuatPhat>
                     <diemKetThuc>Huế</diemKetThuc>
                     <hangVanChuyen>Vietnam Airlines</hangVanChuyen>
                 </VanChuyen>
                 <VanChuyen>
                     <loaiPhuongTien>Xe khách</loaiPhuongTien>
-                    <thoiGianXuatPhat>08:00 12-10-2025</thoiGianXuatPhat>
-                    <thoiGianKetThuc>11:00 12-10-2025</thoiGianKetThuc>
+                    <thoiGianXuatPhat>2025-10-12T08:00:00</thoiGianXuatPhat>
+                    <thoiGianKetThuc>2025-10-12T11:00:00</thoiGianKetThuc>
                     <diemXuatPhat>Huế</diemXuatPhat>
                     <diemKetThuc>Quảng Bình</diemKetThuc>
                     <hangVanChuyen>Phương Trang</hangVanChuyen>
@@ -158,8 +158,8 @@
         <Tour maTour="T004" maHdv="HDV004">
             <tenTour>Tour Nha Trang - Đà Lạt</tenTour>
             <moTa-tour>Tham quan Vinpearl Nha Trang và Thung lũng Tình Yêu Đà Lạt</moTa-tour>
-            <ngayBatDau>15-10-2025</ngayBatDau>
-            <ngayKetThuc>18-10-2025</ngayKetThuc>
+            <ngayBatDau>2025-10-15</ngayBatDau>
+            <ngayKetThuc>2025-10-18</ngayKetThuc>
             <DSDiaDiem-ref>
                 <DiaDiem-ref maDiaDiem="DD006"/>
                 <DiaDiem-ref maDiaDiem="DD007"/>
@@ -173,28 +173,28 @@
             <DSChiTietKhachSan>
                 <ChiTietKhachSan maCTKS="CTKS007" maKS="KS004">
                     <soLuongPhong>7</soLuongPhong>
-                    <ngayCheckIn>15-10-2025</ngayCheckIn>
-                    <ngayCheckOut>16-10-2025</ngayCheckOut>
+                    <ngayCheckIn>2025-10-15</ngayCheckIn>
+                    <ngayCheckOut>2025-10-16</ngayCheckOut>
                 </ChiTietKhachSan>
                 <ChiTietKhachSan maCTKS="CTKS008" maKS="KS019">
                     <soLuongPhong>7</soLuongPhong>
-                    <ngayCheckIn>16-10-2025</ngayCheckIn>
-                    <ngayCheckOut>18-10-2025</ngayCheckOut>
+                    <ngayCheckIn>2025-10-17</ngayCheckIn>
+                    <ngayCheckOut>2025-10-18</ngayCheckOut>
                 </ChiTietKhachSan>
             </DSChiTietKhachSan>
             <DSVanChuyen>
                 <VanChuyen>
                     <loaiPhuongTien>Máy bay</loaiPhuongTien>
-                    <thoiGianXuatPhat>06:00 15-10-2025</thoiGianXuatPhat>
-                    <thoiGianKetThuc>08:00 15-10-2025</thoiGianKetThuc>
+                    <thoiGianXuatPhat>2025-10-15T06:00:00</thoiGianXuatPhat>
+                    <thoiGianKetThuc>2025-10-15T08:00:00</thoiGianKetThuc>
                     <diemXuatPhat>Hà Nội</diemXuatPhat>
                     <diemKetThuc>Nha Trang</diemKetThuc>
                     <hangVanChuyen>Vietnam Airlines</hangVanChuyen>
                 </VanChuyen>
                 <VanChuyen>
                     <loaiPhuongTien>Xe khách</loaiPhuongTien>
-                    <thoiGianXuatPhat>09:00 16-10-2025</thoiGianXuatPhat>
-                    <thoiGianKetThuc>13:00 16-10-2025</thoiGianKetThuc>
+                    <thoiGianXuatPhat>2025-10-16T09:00:00</thoiGianXuatPhat>
+                    <thoiGianKetThuc>2025-10-16T13:00:00</thoiGianKetThuc>
                     <diemXuatPhat>Nha Trang</diemXuatPhat>
                     <diemKetThuc>Đà Lạt</diemKetThuc>
                     <hangVanChuyen>Phương Trang</hangVanChuyen>
@@ -204,8 +204,8 @@
         <Tour maTour="T005" maHdv="HDV005">
             <tenTour>Tour Phú Quốc</tenTour>
             <moTa-tour>Khám phá Bãi Sao và Intercontinental Phú Quốc 4 ngày 3 đêm</moTa-tour>
-            <ngayBatDau>20-10-2025</ngayBatDau>
-            <ngayKetThuc>23-10-2025</ngayKetThuc>
+            <ngayBatDau>2025-10-20</ngayBatDau>
+            <ngayKetThuc>2025-10-23</ngayKetThuc>
             <DSDiaDiem-ref>
                 <DiaDiem-ref maDiaDiem="DD008"/>
             </DSDiaDiem-ref>
@@ -218,15 +218,15 @@
             <DSChiTietKhachSan>
                 <ChiTietKhachSan maCTKS="CTKS009" maKS="KS008">
                     <soLuongPhong>6</soLuongPhong>
-                    <ngayCheckIn>20-10-2025</ngayCheckIn>
-                    <ngayCheckOut>23-10-2025</ngayCheckOut>
+                    <ngayCheckIn>2025-10-20</ngayCheckIn>
+                    <ngayCheckOut>2025-10-23</ngayCheckOut>
                 </ChiTietKhachSan>
             </DSChiTietKhachSan>
             <DSVanChuyen>
                 <VanChuyen>
                     <loaiPhuongTien>Máy bay</loaiPhuongTien>
-                    <thoiGianXuatPhat>07:00 20-10-2025</thoiGianXuatPhat>
-                    <thoiGianKetThuc>09:00 20-10-2025</thoiGianKetThuc>
+                    <thoiGianXuatPhat>2025-10-20T07:00:00</thoiGianXuatPhat>
+                    <thoiGianKetThuc>2025-10-20T09:00:00</thoiGianKetThuc>
                     <diemXuatPhat>Hà Nội</diemXuatPhat>
                     <diemKetThuc>Phú Quốc</diemKetThuc>
                     <hangVanChuyen>Vietnam Airlines</hangVanChuyen>
@@ -236,8 +236,8 @@
         <Tour maTour="T006" maHdv="HDV006">
             <tenTour>Tour Sapa - Fansipan</tenTour>
             <moTa-tour>Chinh phục Fansipan và tham quan Sapa 4 ngày 3 đêm</moTa-tour>
-            <ngayBatDau>25-10-2025</ngayBatDau>
-            <ngayKetThuc>28-10-2025</ngayKetThuc>
+            <ngayBatDau>2025-10-25</ngayBatDau>
+            <ngayKetThuc>2025-10-28</ngayKetThuc>
             <DSDiaDiem-ref>
                 <DiaDiem-ref maDiaDiem="DD009"/>
                 <DiaDiem-ref maDiaDiem="DD011"/>
@@ -251,15 +251,15 @@
             <DSChiTietKhachSan>
                 <ChiTietKhachSan maCTKS="CTKS010" maKS="KS011">
                     <soLuongPhong>5</soLuongPhong>
-                    <ngayCheckIn>25-10-2025</ngayCheckIn>
-                    <ngayCheckOut>28-10-2025</ngayCheckOut>
+                    <ngayCheckIn>2025-10-25</ngayCheckIn>
+                    <ngayCheckOut>2025-10-28</ngayCheckOut>
                 </ChiTietKhachSan>
             </DSChiTietKhachSan>
             <DSVanChuyen>
                 <VanChuyen>
                     <loaiPhuongTien>Xe lửa</loaiPhuongTien>
-                    <thoiGianXuatPhat>20:00 24-10-2025</thoiGianXuatPhat>
-                    <thoiGianKetThuc>06:00 25-10-2025</thoiGianKetThuc>
+                    <thoiGianXuatPhat>2025-10-24T20:00:00</thoiGianXuatPhat>
+                    <thoiGianKetThuc>2025-10-25T06:00:00</thoiGianKetThuc>
                     <diemXuatPhat>Hà Nội</diemXuatPhat>
                     <diemKetThuc>Sapa</diemKetThuc>
                     <hangVanChuyen>Đường sắt Việt Nam</hangVanChuyen>
@@ -269,8 +269,8 @@
         <Tour maTour="T007" maHdv="HDV007">
             <tenTour>Tour Cần Thơ - Sóc Trăng</tenTour>
             <moTa-tour>Khám phá Chợ nổi Cái Răng và Chùa Dơi Sóc Trăng</moTa-tour>
-            <ngayBatDau>30-10-2025</ngayBatDau>
-            <ngayKetThuc>2-11-2025</ngayKetThuc>
+            <ngayBatDau>2025-10-30</ngayBatDau>
+            <ngayKetThuc>2025-11-02</ngayKetThuc>
             <DSDiaDiem-ref>
                 <DiaDiem-ref maDiaDiem="DD010"/>
                 <DiaDiem-ref maDiaDiem="DD015"/>
@@ -283,15 +283,15 @@
             <DSChiTietKhachSan>
                 <ChiTietKhachSan maCTKS="CTKS011" maKS="KS010">
                     <soLuongPhong>4</soLuongPhong>
-                    <ngayCheckIn>30-10-2025</ngayCheckIn>
-                    <ngayCheckOut>2-11-2025</ngayCheckOut>
+                    <ngayCheckIn>2025-10-30</ngayCheckIn>
+                    <ngayCheckOut>2025-11-02</ngayCheckOut>
                 </ChiTietKhachSan>
             </DSChiTietKhachSan>
             <DSVanChuyen>
                 <VanChuyen>
                     <loaiPhuongTien>Xe khách</loaiPhuongTien>
-                    <thoiGianXuatPhat>07:00 30-10-2025</thoiGianXuatPhat>
-                    <thoiGianKetThuc>09:00 30-10-2025</thoiGianKetThuc>
+                    <thoiGianXuatPhat>2025-10-30T07:00:00</thoiGianXuatPhat>
+                    <thoiGianKetThuc>2025-10-30T09:00:00</thoiGianKetThuc>
                     <diemXuatPhat>Cần Thơ</diemXuatPhat>
                     <diemKetThuc>Sóc Trăng</diemKetThuc>
                     <hangVanChuyen>Phương Trang</hangVanChuyen>
@@ -301,8 +301,8 @@
         <Tour maTour="T008" maHdv="HDV008">
             <tenTour>Tour Tây Ninh - Đồng Tháp</tenTour>
             <moTa-tour>Tham quan Núi Bà Đen và Làng hoa Sa Đéc</moTa-tour>
-            <ngayBatDau>5-11-2025</ngayBatDau>
-            <ngayKetThuc>8-11-2025</ngayKetThuc>
+            <ngayBatDau>2025-11-05</ngayBatDau>
+            <ngayKetThuc>2025-11-08</ngayKetThuc>
             <DSDiaDiem-ref>
                 <DiaDiem-ref maDiaDiem="DD012"/>
                 <DiaDiem-ref maDiaDiem="DD013"/>
@@ -316,15 +316,15 @@
             <DSChiTietKhachSan>
                 <ChiTietKhachSan maCTKS="CTKS012" maKS="KS005">
                     <soLuongPhong>6</soLuongPhong>
-                    <ngayCheckIn>5-11-2025</ngayCheckIn>
-                    <ngayCheckOut>8-11-2025</ngayCheckOut>
+                    <ngayCheckIn>2025-11-05</ngayCheckIn>
+                    <ngayCheckOut>2025-11-08</ngayCheckOut>
                 </ChiTietKhachSan>
             </DSChiTietKhachSan>
             <DSVanChuyen>
                 <VanChuyen>
                     <loaiPhuongTien>Xe khách</loaiPhuongTien>
-                    <thoiGianXuatPhat>08:00 05-11-2025</thoiGianXuatPhat>
-                    <thoiGianKetThuc>12:00 05-11-2025</thoiGianKetThuc>
+                    <thoiGianXuatPhat>2025-11-05T08:00:00</thoiGianXuatPhat>
+                    <thoiGianKetThuc>2025-11-05T12:00:00</thoiGianKetThuc>
                     <diemXuatPhat>Tây Ninh</diemXuatPhat>
                     <diemKetThuc>Đồng Tháp</diemKetThuc>
                     <hangVanChuyen>Mai Linh</hangVanChuyen>
@@ -334,8 +334,8 @@
         <Tour maTour="T009" maHdv="HDV009">
             <tenTour>Tour Bạc Liêu - Sóc Trăng</tenTour>
             <moTa-tour>Tham quan Nhà công tử Bạc Liêu và Chùa Dơi</moTa-tour>
-            <ngayBatDau>10-11-2025</ngayBatDau>
-            <ngayKetThuc>13-11-2025</ngayKetThuc>
+            <ngayBatDau>2025-11-10</ngayBatDau>
+            <ngayKetThuc>2025-11-13</ngayKetThuc>
             <DSDiaDiem-ref>
                 <DiaDiem-ref maDiaDiem="DD014"/>
                 <DiaDiem-ref maDiaDiem="DD015"/>
@@ -349,15 +349,15 @@
             <DSChiTietKhachSan>
                 <ChiTietKhachSan maCTKS="CTKS013" maKS="KS005">
                     <soLuongPhong>5</soLuongPhong>
-                    <ngayCheckIn>10-11-2025</ngayCheckIn>
-                    <ngayCheckOut>13-11-2025</ngayCheckOut>
+                    <ngayCheckIn>2025-11-10</ngayCheckIn>
+                    <ngayCheckOut>2025-11-13</ngayCheckOut>
                 </ChiTietKhachSan>
             </DSChiTietKhachSan>
             <DSVanChuyen>
                 <VanChuyen>
                     <loaiPhuongTien>Xe khách</loaiPhuongTien>
-                    <thoiGianXuatPhat>09:00 10-11-2025</thoiGianXuatPhat>
-                    <thoiGianKetThuc>12:00 10-11-2025</thoiGianKetThuc>
+                    <thoiGianXuatPhat>2025-11-10T09:00:00</thoiGianXuatPhat>
+                    <thoiGianKetThuc>2025-11-10T12:00:00</thoiGianKetThuc>
                     <diemXuatPhat>Bạc Liêu</diemXuatPhat>
                     <diemKetThuc>Sóc Trăng</diemKetThuc>
                     <hangVanChuyen>Phương Trang</hangVanChuyen>
@@ -367,8 +367,8 @@
         <Tour maTour="T010" maHdv="HDV010">
             <tenTour>Tour Quảng Ninh - Vũng Tàu</tenTour>
             <moTa-tour>Tham quan Vịnh Hạ Long và Tượng Chúa Kitô Vũng Tàu</moTa-tour>
-            <ngayBatDau>15-11-2025</ngayBatDau>
-            <ngayKetThuc>18-11-2025</ngayKetThuc>
+            <ngayBatDau>2025-11-15</ngayBatDau>
+            <ngayKetThuc>2025-11-18</ngayKetThuc>
             <DSDiaDiem-ref>
                 <DiaDiem-ref maDiaDiem="DD016"/>
                 <DiaDiem-ref maDiaDiem="DD017"/>
@@ -382,28 +382,28 @@
             <DSChiTietKhachSan>
                 <ChiTietKhachSan maCTKS="CTKS014" maKS="KS016">
                     <soLuongPhong>8</soLuongPhong>
-                    <ngayCheckIn>15-11-2025</ngayCheckIn>
-                    <ngayCheckOut>16-11-2025</ngayCheckOut>
+                    <ngayCheckIn>2025-11-15</ngayCheckIn>
+                    <ngayCheckOut>2025-11-16</ngayCheckOut>
                 </ChiTietKhachSan>
                 <ChiTietKhachSan maCTKS="CTKS015" maKS="KS015">
                     <soLuongPhong>8</soLuongPhong>
-                    <ngayCheckIn>17-11-2025</ngayCheckIn>
-                    <ngayCheckOut>18-11-2025</ngayCheckOut>
+                    <ngayCheckIn>2025-11-17</ngayCheckIn>
+                    <ngayCheckOut>2025-11-18</ngayCheckOut>
                 </ChiTietKhachSan>
             </DSChiTietKhachSan>
             <DSVanChuyen>
                 <VanChuyen>
                     <loaiPhuongTien>Máy bay</loaiPhuongTien>
-                    <thoiGianXuatPhat>07:00 15-11-2025</thoiGianXuatPhat>
-                    <thoiGianKetThuc>09:00 15-11-2025</thoiGianKetThuc>
+                    <thoiGianXuatPhat>2025-11-15T07:00:00</thoiGianXuatPhat>
+                    <thoiGianKetThuc>2025-11-15T09:00:00</thoiGianKetThuc>
                     <diemXuatPhat>Hà Nội</diemXuatPhat>
                     <diemKetThuc>Quảng Ninh</diemKetThuc>
                     <hangVanChuyen>Vietnam Airlines</hangVanChuyen>
                 </VanChuyen>
                 <VanChuyen>
                     <loaiPhuongTien>Xe khách</loaiPhuongTien>
-                    <thoiGianXuatPhat>10:00 17-11-2025</thoiGianXuatPhat>
-                    <thoiGianKetThuc>16:00 17-11-2025</thoiGianKetThuc>
+                    <thoiGianXuatPhat>2025-11-17T10:00:00</thoiGianXuatPhat>
+                    <thoiGianKetThuc>2025-11-17T16:00:00</thoiGianKetThuc>
                     <diemXuatPhat>Quảng Ninh</diemXuatPhat>
                     <diemKetThuc>Vũng Tàu</diemKetThuc>
                     <hangVanChuyen>Mai Linh</hangVanChuyen>
@@ -413,8 +413,8 @@
         <Tour maTour="T011" maHdv="HDV011">
             <tenTour>Tour TP.HCM - Quảng Bình</tenTour>
             <moTa-tour>Tham quan Dinh Độc Lập và Động Phong Nha</moTa-tour>
-            <ngayBatDau>20-11-2025</ngayBatDau>
-            <ngayKetThuc>23-11-2025</ngayKetThuc>
+            <ngayBatDau>2025-11-20</ngayBatDau>
+            <ngayKetThuc>2025-11-23</ngayKetThuc>
             <DSDiaDiem-ref>
                 <DiaDiem-ref maDiaDiem="DD018"/>
                 <DiaDiem-ref maDiaDiem="DD019"/>
@@ -428,20 +428,20 @@
             <DSChiTietKhachSan>
                 <ChiTietKhachSan maCTKS="CTKS016" maKS="KS009">
                     <soLuongPhong>7</soLuongPhong>
-                    <ngayCheckIn>20-11-2025</ngayCheckIn>
-                    <ngayCheckOut>21-11-2025</ngayCheckOut>
+                    <ngayCheckIn>2025-11-20</ngayCheckIn>
+                    <ngayCheckOut>2025-11-21</ngayCheckOut>
                 </ChiTietKhachSan>
                 <ChiTietKhachSan maCTKS="CTKS017" maKS="KS012">
                     <soLuongPhong>7</soLuongPhong>
-                    <ngayCheckIn>21-11-2025</ngayCheckIn>
-                    <ngayCheckOut>23-11-2025</ngayCheckOut>
+                    <ngayCheckIn>2025-11-21</ngayCheckIn>
+                    <ngayCheckOut>2025-11-23</ngayCheckOut>
                 </ChiTietKhachSan>
             </DSChiTietKhachSan>
             <DSVanChuyen>
                 <VanChuyen>
                     <loaiPhuongTien>Máy bay</loaiPhuongTien>
-                    <thoiGianXuatPhat>08:00 20-11-2025</thoiGianXuatPhat>
-                    <thoiGianKetThuc>10:00 20-11-2025</thoiGianKetThuc>
+                    <thoiGianXuatPhat>2025-11-20T08:00:00</thoiGianXuatPhat>
+                    <thoiGianKetThuc>2025-11-20T10:00:00</thoiGianKetThuc>
                     <diemXuatPhat>TP.HCM</diemXuatPhat>
                     <diemKetThuc>Quảng Bình</diemKetThuc>
                     <hangVanChuyen>Vietnam Airlines</hangVanChuyen>
@@ -451,8 +451,8 @@
         <Tour maTour="T012" maHdv="HDV012">
             <tenTour>Tour Cà Mau - Phan Thiết</tenTour>
             <moTa-tour>Tham quan Mũi Cà Mau và The Cliff Resort Mũi Né</moTa-tour>
-            <ngayBatDau>25-11-2025</ngayBatDau>
-            <ngayKetThuc>28-11-2025</ngayKetThuc>
+            <ngayBatDau>2025-11-25</ngayBatDau>
+            <ngayKetThuc>2025-11-28</ngayKetThuc>
             <DSDiaDiem-ref>
                 <DiaDiem-ref maDiaDiem="DD020"/>
                 <DiaDiem-ref maDiaDiem="DD018"/>
@@ -466,15 +466,15 @@
             <DSChiTietKhachSan>
                 <ChiTietKhachSan maCTKS="CTKS018" maKS="KS018">
                     <soLuongPhong>6</soLuongPhong>
-                    <ngayCheckIn>25-11-2025</ngayCheckIn>
-                    <ngayCheckOut>28-11-2025</ngayCheckOut>
+                    <ngayCheckIn>2025-11-25</ngayCheckIn>
+                    <ngayCheckOut>2025-11-28</ngayCheckOut>
                 </ChiTietKhachSan>
             </DSChiTietKhachSan>
             <DSVanChuyen>
                 <VanChuyen>
                     <loaiPhuongTien>Xe khách</loaiPhuongTien>
-                    <thoiGianXuatPhat>09:00 25-11-2025</thoiGianXuatPhat>
-                    <thoiGianKetThuc>15:00 25-11-2025</thoiGianKetThuc>
+                    <thoiGianXuatPhat>2025-11-25T09:00:00</thoiGianXuatPhat>
+                    <thoiGianKetThuc>2025-11-25T15:00:00</thoiGianKetThuc>
                     <diemXuatPhat>Cà Mau</diemXuatPhat>
                     <diemKetThuc>Phan Thiết</diemKetThuc>
                     <hangVanChuyen>Phương Trang</hangVanChuyen>
@@ -484,8 +484,8 @@
         <Tour maTour="T013" maHdv="HDV013">
             <tenTour>Tour Đà Lạt - Nha Trang</tenTour>
             <moTa-tour>Tham quan Dalat Palace và Vinpearl Nha Trang</moTa-tour>
-            <ngayBatDau>1-12-2025</ngayBatDau>
-            <ngayKetThuc>4-12-2025</ngayKetThuc>
+            <ngayBatDau>2025-12-01</ngayBatDau>
+            <ngayKetThuc>2025-12-04</ngayKetThuc>
             <DSDiaDiem-ref>
                 <DiaDiem-ref maDiaDiem="DD007"/>
                 <DiaDiem-ref maDiaDiem="DD006"/>
@@ -499,20 +499,20 @@
             <DSChiTietKhachSan>
                 <ChiTietKhachSan maCTKS="CTKS019" maKS="KS019">
                     <soLuongPhong>5</soLuongPhong>
-                    <ngayCheckIn>1-12-2025</ngayCheckIn>
-                    <ngayCheckOut>2-12-2025</ngayCheckOut>
+                    <ngayCheckIn>2025-12-01</ngayCheckIn>
+                    <ngayCheckOut>2025-12-02</ngayCheckOut>
                 </ChiTietKhachSan>
                 <ChiTietKhachSan maCTKS="CTKS020" maKS="KS004">
                     <soLuongPhong>5</soLuongPhong>
-                    <ngayCheckIn>3-12-2025</ngayCheckIn>
-                    <ngayCheckOut>4-12-2025</ngayCheckOut>
+                    <ngayCheckIn>2025-12-03</ngayCheckIn>
+                    <ngayCheckOut>2025-12-04</ngayCheckOut>
                 </ChiTietKhachSan>
             </DSChiTietKhachSan>
             <DSVanChuyen>
                 <VanChuyen>
                     <loaiPhuongTien>Xe khách</loaiPhuongTien>
-                    <thoiGianXuatPhat>08:00 1-12-2025</thoiGianXuatPhat>
-                    <thoiGianKetThuc>12:00 1-12-2025</thoiGianKetThuc>
+                    <thoiGianXuatPhat>2025-12-01T08:00:00</thoiGianXuatPhat>
+                    <thoiGianKetThuc>2025-12-01T12:00:00</thoiGianKetThuc>
                     <diemXuatPhat>Đà Lạt</diemXuatPhat>
                     <diemKetThuc>Nha Trang</diemKetThuc>
                     <hangVanChuyen>Phương Trang</hangVanChuyen>
@@ -522,8 +522,8 @@
         <Tour maTour="T014" maHdv="HDV014">
             <tenTour>Tour Hà Nội - TP.HCM</tenTour>
             <moTa-tour>Tham quan Hồ Gươm và Dinh Độc Lập</moTa-tour>
-            <ngayBatDau>5-12-2025</ngayBatDau>
-            <ngayKetThuc>8-12-2025</ngayKetThuc>
+            <ngayBatDau>2025-12-05</ngayBatDau>
+            <ngayKetThuc>2025-12-08</ngayKetThuc>
             <DSDiaDiem-ref>
                 <DiaDiem-ref maDiaDiem="DD001"/>
                 <DiaDiem-ref maDiaDiem="DD018"/>
@@ -537,20 +537,20 @@
             <DSChiTietKhachSan>
                 <ChiTietKhachSan maCTKS="CTKS021" maKS="KS001">
                     <soLuongPhong>8</soLuongPhong>
-                    <ngayCheckIn>5-12-2025</ngayCheckIn>
-                    <ngayCheckOut>6-12-2025</ngayCheckOut>
+                    <ngayCheckIn>2025-12-05</ngayCheckIn>
+                    <ngayCheckOut>2025-12-06</ngayCheckOut>
                 </ChiTietKhachSan>
                 <ChiTietKhachSan maCTKS="CTKS022" maKS="KS009">
                     <soLuongPhong>8</soLuongPhong>
-                    <ngayCheckIn>7-12-2025</ngayCheckIn>
-                    <ngayCheckOut>8-12-2025</ngayCheckOut>
+                    <ngayCheckIn>2025-12-07</ngayCheckIn>
+                    <ngayCheckOut>2025-12-08</ngayCheckOut>
                 </ChiTietKhachSan>
             </DSChiTietKhachSan>
             <DSVanChuyen>
                 <VanChuyen>
                     <loaiPhuongTien>Máy bay</loaiPhuongTien>
-                    <thoiGianXuatPhat>07:00 5-12-2025</thoiGianXuatPhat>
-                    <thoiGianKetThuc>09:00 5-12-2025</thoiGianKetThuc>
+                    <thoiGianXuatPhat>2025-12-05T09:00:00</thoiGianXuatPhat>
+                    <thoiGianKetThuc>2025-12-06T12:00:00</thoiGianKetThuc>
                     <diemXuatPhat>Hà Nội</diemXuatPhat>
                     <diemKetThuc>TP.HCM</diemKetThuc>
                     <hangVanChuyen>Vietnam Airlines</hangVanChuyen>
@@ -560,8 +560,8 @@
         <Tour maTour="T015" maHdv="HDV015">
             <tenTour>Tour Quảng Ninh - Đà Nẵng</tenTour>
             <moTa-tour>Tham quan Vịnh Hạ Long và Bà Nà Hills</moTa-tour>
-            <ngayBatDau>10-12-2025</ngayBatDau>
-            <ngayKetThuc>13-12-2025</ngayKetThuc>
+            <ngayBatDau>2025-12-10</ngayBatDau>
+            <ngayKetThuc>2025-12-13</ngayKetThuc>
             <DSDiaDiem-ref>
                 <DiaDiem-ref maDiaDiem="DD016"/>
                 <DiaDiem-ref maDiaDiem="DD003"/>
@@ -575,20 +575,20 @@
             <DSChiTietKhachSan>
                 <ChiTietKhachSan maCTKS="CTKS023" maKS="KS016">
                     <soLuongPhong>7</soLuongPhong>
-                    <ngayCheckIn>10-12-2025</ngayCheckIn>
-                    <ngayCheckOut>11-12-2025</ngayCheckOut>
+                    <ngayCheckIn>2025-12-10</ngayCheckIn>
+                    <ngayCheckOut>2025-12-11</ngayCheckOut>
                 </ChiTietKhachSan>
                 <ChiTietKhachSan maCTKS="CTKS024" maKS="KS003">
                     <soLuongPhong>7</soLuongPhong>
-                    <ngayCheckIn>12-12-2025</ngayCheckIn>
-                    <ngayCheckOut>13-12-2025</ngayCheckOut>
+                    <ngayCheckIn>2025-12-12</ngayCheckIn>
+                    <ngayCheckOut>2025-12-13</ngayCheckOut>
                 </ChiTietKhachSan>
             </DSChiTietKhachSan>
             <DSVanChuyen>
                 <VanChuyen>
                     <loaiPhuongTien>Máy bay</loaiPhuongTien>
-                    <thoiGianXuatPhat>08:00 10-12-2025</thoiGianXuatPhat>
-                    <thoiGianKetThuc>10:00 10-12-2025</thoiGianKetThuc>
+                    <thoiGianXuatPhat>2025-12-10T08:00:00</thoiGianXuatPhat>
+                    <thoiGianKetThuc>2025-12-10T10:00:00</thoiGianKetThuc>
                     <diemXuatPhat>Quảng Ninh</diemXuatPhat>
                     <diemKetThuc>Đà Nẵng</diemKetThuc>
                     <hangVanChuyen>Vietnam Airlines</hangVanChuyen>
@@ -598,8 +598,8 @@
         <Tour maTour="T016" maHdv="HDV016">
             <tenTour>Tour Vũng Tàu - Đà Lạt</tenTour>
             <moTa-tour>Tham quan Tượng Chúa Kitô và Dalat Palace</moTa-tour>
-            <ngayBatDau>15-12-2025</ngayBatDau>
-            <ngayKetThuc>18-12-2025</ngayKetThuc>
+            <ngayBatDau>2025-12-15</ngayBatDau>
+            <ngayKetThuc>2025-12-18</ngayKetThuc>
             <DSDiaDiem-ref>
                 <DiaDiem-ref maDiaDiem="DD017"/>
                 <DiaDiem-ref maDiaDiem="DD007"/>
@@ -613,20 +613,20 @@
             <DSChiTietKhachSan>
                 <ChiTietKhachSan maCTKS="CTKS025" maKS="KS017">
                     <soLuongPhong>6</soLuongPhong>
-                    <ngayCheckIn>15-12-2025</ngayCheckIn>
-                    <ngayCheckOut>16-12-2025</ngayCheckOut>
+                    <ngayCheckIn>2025-12-15</ngayCheckIn>
+                    <ngayCheckOut>2025-12-16</ngayCheckOut>
                 </ChiTietKhachSan>
                 <ChiTietKhachSan maCTKS="CTKS026" maKS="KS019">
                     <soLuongPhong>6</soLuongPhong>
-                    <ngayCheckIn>17-12-2025</ngayCheckIn>
-                    <ngayCheckOut>18-12-2025</ngayCheckOut>
+                    <ngayCheckIn>2025-12-17</ngayCheckIn>
+                    <ngayCheckOut>2025-12-18</ngayCheckOut>
                 </ChiTietKhachSan>
             </DSChiTietKhachSan>
             <DSVanChuyen>
                 <VanChuyen>
                     <loaiPhuongTien>Xe khách</loaiPhuongTien>
-                    <thoiGianXuatPhat>09:00 15-12-2025</thoiGianXuatPhat>
-                    <thoiGianKetThuc>13:00 15-12-2025</thoiGianKetThuc>
+                    <thoiGianXuatPhat>2025-12-15T09:00:00</thoiGianXuatPhat>
+                    <thoiGianKetThuc>2025-12-15T13:00:00</thoiGianKetThuc>
                     <diemXuatPhat>Vũng Tàu</diemXuatPhat>
                     <diemKetThuc>Đà Lạt</diemKetThuc>
                     <hangVanChuyen>Mai Linh</hangVanChuyen>
@@ -636,8 +636,8 @@
         <Tour maTour="T017" maHdv="HDV017">
             <tenTour>Tour Hà Nội - Huế</tenTour>
             <moTa-tour>Tham quan Hồ Gươm và Đại Nội Huế</moTa-tour>
-            <ngayBatDau>20-12-2025</ngayBatDau>
-            <ngayKetThuc>23-12-2025</ngayKetThuc>
+            <ngayBatDau>2025-12-20</ngayBatDau>
+            <ngayKetThuc>2025-12-23</ngayKetThuc>
             <DSDiaDiem-ref>
                 <DiaDiem-ref maDiaDiem="DD001"/>
                 <DiaDiem-ref maDiaDiem="DD005"/>
@@ -651,20 +651,20 @@
             <DSChiTietKhachSan>
                 <ChiTietKhachSan maCTKS="CTKS027" maKS="KS001">
                     <soLuongPhong>7</soLuongPhong>
-                    <ngayCheckIn>20-12-2025</ngayCheckIn>
-                    <ngayCheckOut>21-12-2025</ngayCheckOut>
+                    <ngayCheckIn>2025-12-20</ngayCheckIn>
+                    <ngayCheckOut>2025-12-21</ngayCheckOut>
                 </ChiTietKhachSan>
                 <ChiTietKhachSan maCTKS="CTKS028" maKS="KS012">
                     <soLuongPhong>7</soLuongPhong>
-                    <ngayCheckIn>22-12-2025</ngayCheckIn>
-                    <ngayCheckOut>23-12-2025</ngayCheckOut>
+                    <ngayCheckIn>2025-12-22</ngayCheckIn>
+                    <ngayCheckOut>2025-12-23</ngayCheckOut>
                 </ChiTietKhachSan>
             </DSChiTietKhachSan>
             <DSVanChuyen>
                 <VanChuyen>
                     <loaiPhuongTien>Máy bay</loaiPhuongTien>
-                    <thoiGianXuatPhat>07:00 20-12-2025</thoiGianXuatPhat>
-                    <thoiGianKetThuc>09:00 20-12-2025</thoiGianKetThuc>
+                    <thoiGianXuatPhat>2025-12-20T07:00:00</thoiGianXuatPhat>
+                    <thoiGianKetThuc>2025-12-20T09:00:00</thoiGianKetThuc>
                     <diemXuatPhat>Hà Nội</diemXuatPhat>
                     <diemKetThuc>Huế</diemKetThuc>
                     <hangVanChuyen>Vietnam Airlines</hangVanChuyen>
@@ -674,8 +674,8 @@
         <Tour maTour="T018" maHdv="HDV018">
             <tenTour>Tour Đà Nẵng - Quảng Nam</tenTour>
             <moTa-tour>Tham quan Cầu Rồng và Phố cổ Hội An</moTa-tour>
-            <ngayBatDau>25-12-2025</ngayBatDau>
-            <ngayKetThuc>28-12-2025</ngayKetThuc>
+            <ngayBatDau>2025-12-25</ngayBatDau>
+            <ngayKetThuc>2025-12-28</ngayKetThuc>
             <DSDiaDiem-ref>
                 <DiaDiem-ref maDiaDiem="DD002"/>
                 <DiaDiem-ref maDiaDiem="DD004"/>
@@ -689,20 +689,20 @@
             <DSChiTietKhachSan>
                 <ChiTietKhachSan maCTKS="CTKS029" maKS="KS003">
                     <soLuongPhong>6</soLuongPhong>
-                    <ngayCheckIn>25-12-2025</ngayCheckIn>
-                    <ngayCheckOut>27-12-2025</ngayCheckOut>
+                    <ngayCheckIn>2025-12-25</ngayCheckIn>
+                    <ngayCheckOut>2025-12-26</ngayCheckOut>
                 </ChiTietKhachSan>
                 <ChiTietKhachSan maCTKS="CTKS030" maKS="KS007">
                     <soLuongPhong>6</soLuongPhong>
-                    <ngayCheckIn>27-12-2025</ngayCheckIn>
-                    <ngayCheckOut>28-12-2025</ngayCheckOut>
+                    <ngayCheckIn>2025-12-27</ngayCheckIn>
+                    <ngayCheckOut>2025-12-28</ngayCheckOut>
                 </ChiTietKhachSan>
             </DSChiTietKhachSan>
             <DSVanChuyen>
                 <VanChuyen>
                     <loaiPhuongTien>Máy bay</loaiPhuongTien>
-                    <thoiGianXuatPhat>08:00 25-12-2025</thoiGianXuatPhat>
-                    <thoiGianKetThuc>10:00 25-12-2025</thoiGianKetThuc>
+                    <thoiGianXuatPhat>2025-12-25T08:00:00</thoiGianXuatPhat>
+                    <thoiGianKetThuc>2025-12-25T10:00:00</thoiGianKetThuc>
                     <diemXuatPhat>Hà Nội</diemXuatPhat>
                     <diemKetThuc>Đà Nẵng</diemKetThuc>
                     <hangVanChuyen>Bamboo Airways</hangVanChuyen>
@@ -712,8 +712,8 @@
         <Tour maTour="T019" maHdv="HDV019">
             <tenTour>Tour TP.HCM - Vũng Tàu</tenTour>
             <moTa-tour>Tham quan Dinh Độc Lập và Tượng Chúa Kitô</moTa-tour>
-            <ngayBatDau>30-12-2025</ngayBatDau>
-            <ngayKetThuc>2-1-2026</ngayKetThuc>
+            <ngayBatDau>2025-12-30</ngayBatDau>
+            <ngayKetThuc>2026-01-02</ngayKetThuc>
             <DSDiaDiem-ref>
                 <DiaDiem-ref maDiaDiem="DD018"/>
                 <DiaDiem-ref maDiaDiem="DD017"/>
@@ -727,20 +727,20 @@
             <DSChiTietKhachSan>
                 <ChiTietKhachSan maCTKS="CTKS031" maKS="KS009">
                     <soLuongPhong>7</soLuongPhong>
-                    <ngayCheckIn>30-12-2025</ngayCheckIn>
-                    <ngayCheckOut>31-12-2025</ngayCheckOut>
+                    <ngayCheckIn>2025-12-30</ngayCheckIn>
+                    <ngayCheckOut>2025-12-31</ngayCheckOut>
                 </ChiTietKhachSan>
                 <ChiTietKhachSan maCTKS="CTKS032" maKS="KS015">
                     <soLuongPhong>7</soLuongPhong>
-                    <ngayCheckIn>1-1-2026</ngayCheckIn>
-                    <ngayCheckOut>2-1-2026</ngayCheckOut>
+                    <ngayCheckIn>2026-01-01</ngayCheckIn>
+                    <ngayCheckOut>2026-01-02</ngayCheckOut>
                 </ChiTietKhachSan>
             </DSChiTietKhachSan>
             <DSVanChuyen>
                 <VanChuyen>
                     <loaiPhuongTien>Xe khách</loaiPhuongTien>
-                    <thoiGianXuatPhat>09:00 30-12-2025</thoiGianXuatPhat>
-                    <thoiGianKetThuc>12:00 30-12-2025</thoiGianKetThuc>
+                    <thoiGianXuatPhat>2025-12-30T09:00:00</thoiGianXuatPhat>
+                    <thoiGianKetThuc>2025-12-30T12:00:00</thoiGianKetThuc>
                     <diemXuatPhat>TP.HCM</diemXuatPhat>
                     <diemKetThuc>Vũng Tàu</diemKetThuc>
                     <hangVanChuyen>Phương Trang</hangVanChuyen>
@@ -750,8 +750,8 @@
         <Tour maTour="T020" maHdv="HDV020">
             <tenTour>Tour Hà Nội - Cần Thơ</tenTour>
             <moTa-tour>Tham quan Hồ Gươm và Bến Ninh Kiều</moTa-tour>
-            <ngayBatDau>5-1-2026</ngayBatDau>
-            <ngayKetThuc>8-1-2026</ngayKetThuc>
+            <ngayBatDau>2026-01-05</ngayBatDau>
+            <ngayKetThuc>2026-01-08</ngayKetThuc>
             <DSDiaDiem-ref>
                 <DiaDiem-ref maDiaDiem="DD001"/>
                 <DiaDiem-ref maDiaDiem="DD011"/>
@@ -765,20 +765,20 @@
             <DSChiTietKhachSan>
                 <ChiTietKhachSan maCTKS="CTKS033" maKS="KS001">
                     <soLuongPhong>8</soLuongPhong>
-                    <ngayCheckIn>5-1-2026</ngayCheckIn>
-                    <ngayCheckOut>6-1-2026</ngayCheckOut>
+                    <ngayCheckIn>2026-01-05</ngayCheckIn>
+                    <ngayCheckOut></ngayCheckOut>
                 </ChiTietKhachSan>
                 <ChiTietKhachSan maCTKS="CTKS034" maKS="KS010">
                     <soLuongPhong>8</soLuongPhong>
-                    <ngayCheckIn>7-1-2026</ngayCheckIn>
-                    <ngayCheckOut>8-1-2026</ngayCheckOut>
+                    <ngayCheckIn>2026-01-07</ngayCheckIn>
+                    <ngayCheckOut>2026-01-08</ngayCheckOut>
                 </ChiTietKhachSan>
             </DSChiTietKhachSan>
             <DSVanChuyen>
                 <VanChuyen>
                     <loaiPhuongTien>Máy bay</loaiPhuongTien>
-                    <thoiGianXuatPhat>07:00 5-1-2026</thoiGianXuatPhat>
-                    <thoiGianKetThuc>09:00 5-1-2026</thoiGianKetThuc>
+                    <thoiGianXuatPhat></thoiGianXuatPhat>
+                    <thoiGianKetThuc>2026-01-05T09:00:00</thoiGianKetThuc>
                     <diemXuatPhat>Hà Nội</diemXuatPhat>
                     <diemKetThuc>Cần Thơ</diemKetThuc>
                     <hangVanChuyen>Vietnam Airlines</hangVanChuyen>
