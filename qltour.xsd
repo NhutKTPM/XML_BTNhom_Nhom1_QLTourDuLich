@@ -15,7 +15,7 @@
                                         <xs:element name="moTa-tour" type="xs:string"/>
                                         <xs:element name="ngayBatDau" type="xs:date"/>
                                         <xs:element name="ngayKetThuc" type="xs:date"/>
-                                        <xs:element name="DSDiaDiem-ref">
+                                        <!-- <xs:element name="DSDiaDiem-ref">
                                             <xs:complexType>
                                                 <xs:sequence>
                                                     <xs:element name="DiaDiem-ref" maxOccurs="unbounded">
@@ -25,7 +25,7 @@
                                                     </xs:element>
                                                 </xs:sequence>
                                             </xs:complexType>
-                                        </xs:element>
+                                        </xs:element> -->
                                         <xs:element name="lichTrinh" type="xs:string"/>
                                         <xs:element name="DSChiTietKhachSan">
                                             <xs:complexType>
@@ -50,14 +50,14 @@
                                                     <xs:element name="VanChuyen" maxOccurs="unbounded">
                                                         <xs:complexType>
                                                             <xs:sequence>
-                                                                <xs:element name="loaiPhuongTien">
+                                                                <!-- <xs:element name="loaiPhuongTien">
                                                                     <xs:simpleType>
                                                                         <xs:restriction base="xs:string">
                                                                             <xs:enumeration value="Máy bay"/>
                                                                             <xs:enumeration value="Xe khách"/>
                                                                         </xs:restriction>
                                                                     </xs:simpleType>
-                                                                </xs:element>
+                                                                </xs:element> -->
                                                                 <xs:element name="thoiGianXuatPhat" type="xs:dateTime"/>
                                                                 <xs:element name="thoiGianKetThuc" type="xs:dateTime"/>
                                                                 <xs:element name="diemXuatPhat" type="xs:string"/>
@@ -66,6 +66,15 @@
 
 
                                                             </xs:sequence>
+                                                            <xs:attribute name="maVC" type="xs:ID" use="required"/>
+                                                            <xs:attribute name="loaiPhuongTien" use="required">
+                                                                <xs:simpleType>
+                                                                    <xs:restriction base="xs:string">
+                                                                        <xs:enumeration value="Máy_bay"/>
+                                                                        <xs:enumeration value="Xe_khách"/>
+                                                                    </xs:restriction>
+                                                                </xs:simpleType>
+                                                            </xs:attribute>
                                                         </xs:complexType>
                                                     </xs:element>
                                                 </xs:sequence>
@@ -74,7 +83,7 @@
                                     </xs:sequence>
                                     <xs:attribute name="maTour" type="xs:ID" use="required"/>
                                     <xs:attribute name="maHdv" type="xs:IDREF" use="required"/>
-
+                                    <xs:attribute name="maDiaDiem" type="xs:IDREFS" use="required"/>
                                 </xs:complexType>
                             </xs:element>
                         </xs:sequence>

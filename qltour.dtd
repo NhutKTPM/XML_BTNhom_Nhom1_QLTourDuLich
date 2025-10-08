@@ -6,10 +6,11 @@
 
 <!-- ======= Tour ======= -->
 <!ELEMENT DSTour (Tour+)>
-<!ELEMENT Tour (tenTour, moTa-tour, ngayBatDau, ngayKetThuc, DSDiaDiem-ref, lichTrinh, DSChiTietKhachSan, DSVanChuyen)>
+<!ELEMENT Tour (tenTour, moTa-tour, ngayBatDau, ngayKetThuc, lichTrinh, DSChiTietKhachSan, DSVanChuyen)>
 <!ATTLIST Tour 
     maTour ID #REQUIRED
-    maHdv IDREF #REQUIRED>
+    maHdv IDREF #REQUIRED
+    maDiaDiem IDREFS #REQUIRED>
 <!ELEMENT tenTour (#PCDATA)>
 <!ELEMENT moTa-tour (#PCDATA)>
 <!ELEMENT ngayBatDau (#PCDATA)>
@@ -28,8 +29,11 @@
 <!ELEMENT ngayCheckIn (#PCDATA)>
 <!ELEMENT ngayCheckOut (#PCDATA)>
 <!ELEMENT DSVanChuyen (VanChuyen*)>
-<!ELEMENT VanChuyen (loaiPhuongTien, thoiGianXuatPhat, thoiGianKetThuc, diemXuatPhat, diemKetThuc, hangVanChuyen)>
-<!ELEMENT loaiPhuongTien (#PCDATA)>
+<!ELEMENT VanChuyen (thoiGianXuatPhat, thoiGianKetThuc, diemXuatPhat, diemKetThuc, hangVanChuyen)>
+<!ATTLIST VanChuyen 
+    maVC ID #REQUIRED
+    loaiPhuongTien (Máy_bay | Xe_khách) #REQUIRED>
+<!--<!ELEMENT loaiPhuongTien (#PCDATA)>-->
 <!ELEMENT thoiGianXuatPhat (#PCDATA)>
 <!ELEMENT diemXuatPhat (#PCDATA)>
 <!ELEMENT thoiGianKetThuc (#PCDATA)>
