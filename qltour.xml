@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QLTour SYSTEM "qltour.dtd">
 
-<!-- <QLTour> -->
 <QLTour xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:noNamespaceSchemaLocation="qltour.xsd">
     
     <DSTour>
-        <Tour maTour="T001" maHdv="HDV001" maDiaDiem="DD001 DD002 DD003 DD004">
+        <Tour maTour="T001" maHdv="HDV001">
             <tenTour>Tour Hà Nội</tenTour>
-            <moTa-tour>Tour thăm quan Hà Nội - Hạ Long 4 ngày 3 đêm</moTa-tour>
+            <moTa-tour>Tour tham quan Hà Nội - Hạ Long 4 ngày 3 đêm</moTa-tour>
             <ngayBatDau>2025-10-01</ngayBatDau>
             <ngayKetThuc>2025-10-04</ngayKetThuc>
             <lichTrinh>
@@ -17,6 +16,12 @@
                 Ngày 3: Tham quan Vịnh Hạ Long.
                 Ngày 4: Tự do tham quan, mua sắm.
             </lichTrinh>
+            <DSDiaDiem-ref>
+                <DiaDiem-ref maDiaDiem="DD001"/>
+                <DiaDiem-ref maDiaDiem="DD002"/>
+                <DiaDiem-ref maDiaDiem="DD003"/>
+                <DiaDiem-ref maDiaDiem="DD004"/>
+            </DSDiaDiem-ref>
             <DSChiTietKhachSan>
                 <ChiTietKhachSan maCTKS="CTKS001" maKS="KS001">
                     <soLuongPhong>10</soLuongPhong>
@@ -54,7 +59,7 @@
             </DSVanChuyen>
         </Tour>
 
-        <Tour maTour="T002" maHdv="HDV002" maDiaDiem="DD005 DD006 DD007 DD008">
+        <Tour maTour="T002" maHdv="HDV002">
             <tenTour>Tour Đà Nẵng</tenTour>
             <moTa-tour>Tour khám phá Đà Nẵng 4 ngày 3 đêm</moTa-tour>
             <ngayBatDau>2025-11-05</ngayBatDau>
@@ -65,6 +70,12 @@
                 Ngày 3: Tự do tắm biển Mỹ Khê.
                 Ngày 4: Mua sắm đặc sản Đà Nẵng.
             </lichTrinh>
+            <DSDiaDiem-ref>
+                <DiaDiem-ref maDiaDiem="DD005"/>
+                <DiaDiem-ref maDiaDiem="DD006"/>
+                <DiaDiem-ref maDiaDiem="DD007"/>
+                <DiaDiem-ref maDiaDiem="DD008"/>
+            </DSDiaDiem-ref>
             <DSChiTietKhachSan>
                 <ChiTietKhachSan maCTKS="CTKS003" maKS="KS003">
                     <soLuongPhong>8</soLuongPhong>
@@ -95,7 +106,7 @@
             </DSVanChuyen>
         </Tour>
 
-        <Tour maTour="T003" maHdv="HDV003" maDiaDiem="DD009 DD010 DD011">
+        <Tour maTour="T003" maHdv="HDV003">
             <tenTour>Tour Huế - Quảng Bình</tenTour>
             <moTa-tour>Khám phá Đại Nội Huế và Động Phong Nha 4 ngày 3 đêm</moTa-tour>
             <ngayBatDau>2025-10-10</ngayBatDau>
@@ -106,6 +117,11 @@
                 Ngày 3: Khám phá Động Phong Nha.
                 Ngày 4: Tự do mua sắm.
             </lichTrinh>
+            <DSDiaDiem-ref>
+                <DiaDiem-ref maDiaDiem="DD009"/>
+                <DiaDiem-ref maDiaDiem="DD010"/>
+                <DiaDiem-ref maDiaDiem="DD011"/>
+            </DSDiaDiem-ref>
             <DSChiTietKhachSan>
                 <ChiTietKhachSan maCTKS="CTKS005" maKS="KS012">
                     <soLuongPhong>8</soLuongPhong>
@@ -135,7 +151,7 @@
                 </VanChuyen>
             </DSVanChuyen>
         </Tour>
-        <Tour maTour="T004" maHdv="HDV004" maDiaDiem="DD012 DD013 DD014">
+        <Tour maTour="T004" maHdv="HDV004">
             <tenTour>Tour Nha Trang - Đà Lạt</tenTour>
             <moTa-tour>Tham quan Vinpearl Nha Trang và Thung lũng Tình Yêu Đà Lạt</moTa-tour>
             <ngayBatDau>2025-10-15</ngayBatDau>
@@ -146,6 +162,11 @@
                 Ngày 3: Tham quan Thung lũng Tình Yêu Đà Lạt.
                 Ngày 4: Tự do mua sắm.
             </lichTrinh>
+            <DSDiaDiem-ref>
+                <DiaDiem-ref maDiaDiem="DD012"/>
+                <DiaDiem-ref maDiaDiem="DD013"/>
+                <DiaDiem-ref maDiaDiem="DD014"/>
+            </DSDiaDiem-ref>
             <DSChiTietKhachSan>
                 <ChiTietKhachSan maCTKS="CTKS007" maKS="KS004">
                     <soLuongPhong>7</soLuongPhong>
@@ -175,7 +196,7 @@
                 </VanChuyen>
             </DSVanChuyen>
         </Tour>
-        <Tour maTour="T005" maHdv="HDV005" maDiaDiem="DD015 DD016 DD017">
+        <Tour maTour="T005" maHdv="HDV005">
             <tenTour>Tour Phú Quốc</tenTour>
             <moTa-tour>Khám phá Bãi Sao và Vinpearl Safari Phú Quốc 4 ngày 3 đêm</moTa-tour>
             <ngayBatDau>2025-10-20</ngayBatDau>
@@ -186,6 +207,11 @@
                 Ngày 3: Tắm biển Phú Quốc.
                 Ngày 4: Tự do mua sắm.
             </lichTrinh>
+            <DSDiaDiem-ref>
+                <DiaDiem-ref maDiaDiem="DD015"/>
+                <DiaDiem-ref maDiaDiem="DD016"/>
+                <DiaDiem-ref maDiaDiem="DD017"/>
+            </DSDiaDiem-ref>
             <DSChiTietKhachSan>
                 <ChiTietKhachSan maCTKS="CTKS009" maKS="KS008">
                     <soLuongPhong>6</soLuongPhong>
@@ -203,7 +229,7 @@
                 </VanChuyen>
             </DSVanChuyen>
         </Tour>
-        <Tour maTour="T006" maHdv="HDV006" maDiaDiem="DD018 DD019">
+        <Tour maTour="T006" maHdv="HDV006">
             <tenTour>Tour Sapa - Fansipan</tenTour>
             <moTa-tour>Chinh phục Fansipan và tham quan Sapa 3 ngày 2 đêm</moTa-tour>
             <ngayBatDau>2025-10-25</ngayBatDau>
@@ -213,6 +239,10 @@
                 Ngày 2: Leo núi Fansipan.
                 Ngày 3: Tự do tham quan mua sắm.
             </lichTrinh>
+            <DSDiaDiem-ref>
+                <DiaDiem-ref maDiaDiem="DD018"/>
+                <DiaDiem-ref maDiaDiem="DD019"/>
+            </DSDiaDiem-ref>
             <DSChiTietKhachSan>
                 <ChiTietKhachSan maCTKS="CTKS010" maKS="KS011">
                     <soLuongPhong>5</soLuongPhong>
@@ -230,7 +260,7 @@
                 </VanChuyen>
             </DSVanChuyen>
         </Tour>
-        <Tour maTour="T007" maHdv="HDV007" maDiaDiem="DD020 DD021">
+        <Tour maTour="T007" maHdv="HDV007">
             <tenTour>Tour Cần Thơ - Sóc Trăng</tenTour>
             <moTa-tour>Khám phá Chợ nổi Cái Răng và Chùa Dơi Sóc Trăng</moTa-tour>
             <ngayBatDau>2025-10-30</ngayBatDau>
@@ -240,6 +270,10 @@
                 Ngày 2: Tham quan Chùa Dơi Sóc Trăng.
                 Ngày 3: Tự do tham quan mua sắm.
             </lichTrinh>
+            <DSDiaDiem-ref>
+                <DiaDiem-ref maDiaDiem="DD020"/>
+                <DiaDiem-ref maDiaDiem="DD021"/>
+            </DSDiaDiem-ref>
             <DSChiTietKhachSan>
                 <ChiTietKhachSan maCTKS="CTKS011" maKS="KS010">
                     <soLuongPhong>4</soLuongPhong>

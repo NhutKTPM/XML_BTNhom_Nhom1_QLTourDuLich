@@ -6,11 +6,10 @@
 
 <!-- ======= Tour ======= -->
 <!ELEMENT DSTour (Tour+)>
-<!ELEMENT Tour (tenTour, moTa-tour, ngayBatDau, ngayKetThuc, lichTrinh, DSChiTietKhachSan, DSVanChuyen)>
+<!ELEMENT Tour (tenTour, moTa-tour, ngayBatDau, ngayKetThuc, lichTrinh, DSDiaDiem-ref, DSChiTietKhachSan, DSVanChuyen)>
 <!ATTLIST Tour 
     maTour ID #REQUIRED
-    maHdv IDREF #REQUIRED
-    maDiaDiem IDREFS #REQUIRED>
+    maHdv IDREF #REQUIRED>
 <!ELEMENT tenTour (#PCDATA)>
 <!ELEMENT moTa-tour (#PCDATA)>
 <!ELEMENT ngayBatDau (#PCDATA)>
