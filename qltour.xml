@@ -10,7 +10,7 @@
             <tenTour>Tour Hà Nội</tenTour>
             <moTa-tour>Tour thăm quan Hà Nội - Hạ Long 4 ngày 3 đêm</moTa-tour>
             <ngayBatDau>2025-10-01</ngayBatDau>
-            <ngayKetThuc>2025-10-04</ngayKetThuc>
+            <ngayKetThuc>04-10-2025</ngayKetThuc>
             <lichTrinh>
                 Ngày 1: Tham quan Hồ Gươm, Lăng Bác.
                 Ngày 2: Tham quan Cầu Rồng, Bà Nà Hills.
@@ -38,15 +38,15 @@
                     <hangVanChuyen>Vietnam Airline</hangVanChuyen>
                 </VanChuyen>
                 <VanChuyen maVC="VC002" loaiPhuongTien="Xe_khách">
-                    <thoiGianXuatPhat>2025-10-04T06:00:00</thoiGianXuatPhat>
-                    <thoiGianKetThuc>2025-10-04T10:00:00</thoiGianKetThuc>
+                    <thoiGianXuatPhat>06:00 03-10-2025</thoiGianXuatPhat>
+                    <thoiGianKetThuc>08:00 04-10-2025</thoiGianKetThuc>
                     <diemXuatPhat>... Hà Nội</diemXuatPhat>
                     <diemKetThuc>... Hạ Long</diemKetThuc>
                     <hangVanChuyen>Vietnam Airline</hangVanChuyen>
                 </VanChuyen>
                 <VanChuyen maVC="VC003" loaiPhuongTien="Máy_bay">
-                    <thoiGianXuatPhat>2025-10-04T18:00:00</thoiGianXuatPhat>
-                    <thoiGianKetThuc>2025-10-04T20:00:00</thoiGianKetThuc>
+                    <thoiGianXuatPhat>18:00 04-10-2025</thoiGianXuatPhat>
+                    <thoiGianKetThuc>20:00 04-10-2025</thoiGianKetThuc>
                     <diemXuatPhat>Sân bay Nội Bài</diemXuatPhat>
                     <diemKetThuc>Sân bay Cần Thơ</diemKetThuc>
                     <hangVanChuyen>Vietnam Airline</hangVanChuyen>
@@ -57,8 +57,8 @@
         <Tour maTour="T002" maHdv="HDV002" maDiaDiem="DD002 DD003 DD004">
             <tenTour>Tour Đà Nẵng</tenTour>
             <moTa-tour>Tour khám phá Đà Nẵng 4 ngày 3 đêm</moTa-tour>
-            <ngayBatDau>2025-11-05</ngayBatDau>
-            <ngayKetThuc>2025-11-08</ngayKetThuc>
+            <ngayBatDau>5-11-2025</ngayBatDau>
+            <ngayKetThuc>8-11-2025</ngayKetThuc>
             <lichTrinh>
                 Ngày 1: Tham quan Cầu Rồng, Bà Nà Hills.
                 Ngày 2: Tham quan Phố cổ Hội An.
@@ -79,15 +79,15 @@
             </DSChiTietKhachSan>
             <DSVanChuyen>
                 <VanChuyen maVC="VC004" loaiPhuongTien="Máy_bay">
-                    <thoiGianXuatPhat>2025-11-05T07:00:00</thoiGianXuatPhat>
-                    <thoiGianKetThuc>2025-11-05T09:00:00</thoiGianKetThuc>
+                    <thoiGianXuatPhat>07:00 05-11-2025</thoiGianXuatPhat>
+                    <thoiGianKetThuc>09:00 05-11-2025</thoiGianKetThuc>
                     <diemXuatPhat>Hà Nội</diemXuatPhat>
                     <diemKetThuc>Đà Nẵng</diemKetThuc>
                     <hangVanChuyen>Bamboo Airways</hangVanChuyen>
                 </VanChuyen>
                 <VanChuyen maVC="VC005" loaiPhuongTien="Xe_khách">
-                    <thoiGianXuatPhat>2025-11-07T08:00:00</thoiGianXuatPhat>
-                    <thoiGianKetThuc>2025-11-07T09:00:00</thoiGianKetThuc>
+                    <thoiGianXuatPhat>08:00 07-11-2025</thoiGianXuatPhat>
+                    <thoiGianKetThuc>09:00 07-11-2025</thoiGianKetThuc>
                     <diemXuatPhat>Đà Nẵng</diemXuatPhat>
                     <diemKetThuc>Hội An</diemKetThuc>
                     <hangVanChuyen>Phương Trang</hangVanChuyen>
@@ -98,8 +98,8 @@
         <Tour maTour="T003" maHdv="HDV003" maDiaDiem="DD005 DD019">
             <tenTour>Tour Huế - Quảng Bình</tenTour>
             <moTa-tour>Khám phá Đại Nội Huế và Động Phong Nha 4 ngày 3 đêm</moTa-tour>
-            <ngayBatDau>2025-10-10</ngayBatDau>
-            <ngayKetThuc>2025-10-13</ngayKetThuc>
+            <ngayBatDau>10-10-2025</ngayBatDau>
+            <ngayKetThuc>13-10-2025</ngayKetThuc>
             <lichTrinh>
                 Ngày 1: Tham quan Đại Nội Huế.
                 Ngày 2: Tham quan chùa Thiên Mụ.
@@ -120,15 +120,15 @@
             </DSChiTietKhachSan>
             <DSVanChuyen>
                 <VanChuyen maVC="VC006" loaiPhuongTien="Máy_bay">
-                    <thoiGianXuatPhat>2025-10-10T07:00:00</thoiGianXuatPhat>
-                    <thoiGianKetThuc>2025-10-10T09:00:00</thoiGianKetThuc>
+                    <thoiGianXuatPhat>07:00 10-10-2025</thoiGianXuatPhat>
+                    <thoiGianKetThuc>09:00 10-10-2025</thoiGianKetThuc>
                     <diemXuatPhat>Hà Nội</diemXuatPhat>
                     <diemKetThuc>Huế</diemKetThuc>
                     <hangVanChuyen>Vietnam Airlines</hangVanChuyen>
                 </VanChuyen>
                 <VanChuyen maVC="VC007" loaiPhuongTien="Xe_khách">
-                    <thoiGianXuatPhat>2025-10-12T08:00:00</thoiGianXuatPhat>
-                    <thoiGianKetThuc>2025-10-12T11:00:00</thoiGianKetThuc>
+                    <thoiGianXuatPhat>08:00 12-10-2025</thoiGianXuatPhat>
+                    <thoiGianKetThuc>11:00 12-10-2025</thoiGianKetThuc>
                     <diemXuatPhat>Huế</diemXuatPhat>
                     <diemKetThuc>Quảng Bình</diemKetThuc>
                     <hangVanChuyen>Phương Trang</hangVanChuyen>
@@ -164,15 +164,15 @@
             </DSChiTietKhachSan>
             <DSVanChuyen>
                 <VanChuyen maVC="VC008" loaiPhuongTien="Máy_bay">
-                    <thoiGianXuatPhat>2025-10-15T06:00:00</thoiGianXuatPhat>
-                    <thoiGianKetThuc>2025-10-15T08:00:00</thoiGianKetThuc>
+                    <thoiGianXuatPhat>06:00 15-10-2025</thoiGianXuatPhat>
+                    <thoiGianKetThuc>08:00 15-10-2025</thoiGianKetThuc>
                     <diemXuatPhat>Hà Nội</diemXuatPhat>
                     <diemKetThuc>Nha Trang</diemKetThuc>
                     <hangVanChuyen>Vietnam Airlines</hangVanChuyen>
                 </VanChuyen>
                 <VanChuyen maVC="VC009" loaiPhuongTien="Xe_khách">
-                    <thoiGianXuatPhat>2025-10-16T09:00:00</thoiGianXuatPhat>
-                    <thoiGianKetThuc>2025-10-16T13:00:00</thoiGianKetThuc>
+                    <thoiGianXuatPhat>09:00 16-10-2025</thoiGianXuatPhat>
+                    <thoiGianKetThuc>13:00 16-10-2025</thoiGianKetThuc>
                     <diemXuatPhat>Nha Trang</diemXuatPhat>
                     <diemKetThuc>Đà Lạt</diemKetThuc>
                     <hangVanChuyen>Phương Trang</hangVanChuyen>
@@ -202,8 +202,8 @@
             </DSChiTietKhachSan>
             <DSVanChuyen>
                 <VanChuyen maVC="VC010" loaiPhuongTien="Máy_bay">
-                    <thoiGianXuatPhat>2025-10-20T07:00:00</thoiGianXuatPhat>
-                    <thoiGianKetThuc>2025-10-20T09:00:00</thoiGianKetThuc>
+                    <thoiGianXuatPhat>07:00 20-10-2025</thoiGianXuatPhat>
+                    <thoiGianKetThuc>09:00 20-10-2025</thoiGianKetThuc>
                     <diemXuatPhat>Hà Nội</diemXuatPhat>
                     <diemKetThuc>Phú Quốc</diemKetThuc>
                     <hangVanChuyen>Vietnam Airlines</hangVanChuyen>
@@ -234,8 +234,8 @@
             </DSChiTietKhachSan>
             <DSVanChuyen>
                 <VanChuyen maVC="VC011" loaiPhuongTien="Máy_bay">
-                    <thoiGianXuatPhat>2025-10-24T20:00:00</thoiGianXuatPhat>
-                    <thoiGianKetThuc>2025-10-25T06:00:00</thoiGianKetThuc>
+                    <thoiGianXuatPhat>20:00 24-10-2025</thoiGianXuatPhat>
+                    <thoiGianKetThuc>06:00 25-10-2025</thoiGianKetThuc>
                     <diemXuatPhat>Hà Nội</diemXuatPhat>
                     <diemKetThuc>Sapa</diemKetThuc>
                     <hangVanChuyen>Vietnam Airlines</hangVanChuyen>
@@ -245,8 +245,8 @@
         <Tour maTour="T007" maHdv="HDV007" maDiaDiem="DD010 DD015">
             <tenTour>Tour Cần Thơ - Sóc Trăng</tenTour>
             <moTa-tour>Khám phá Chợ nổi Cái Răng và Chùa Dơi Sóc Trăng</moTa-tour>
-            <ngayBatDau>2025-10-30</ngayBatDau>
-            <ngayKetThuc>2025-11-02</ngayKetThuc>
+            <ngayBatDau>30-10-2025</ngayBatDau>
+            <ngayKetThuc>2-11-2025</ngayKetThuc>
             <lichTrinh>
                 Ngày 1: Tham quan Chợ nổi Cái Răng.
                 Ngày 2: Tham quan Chùa Dơi Sóc Trăng.
@@ -261,8 +261,8 @@
             </DSChiTietKhachSan>
             <DSVanChuyen>
                 <VanChuyen maVC="VC012" loaiPhuongTien="Xe_khách">
-                    <thoiGianXuatPhat>2025-10-30T07:00:00</thoiGianXuatPhat>
-                    <thoiGianKetThuc>2025-10-30T09:00:00</thoiGianKetThuc>
+                    <thoiGianXuatPhat>07:00 30-10-2025</thoiGianXuatPhat>
+                    <thoiGianKetThuc>09:00 30-10-2025</thoiGianKetThuc>
                     <diemXuatPhat>Cần Thơ</diemXuatPhat>
                     <diemKetThuc>Sóc Trăng</diemKetThuc>
                     <hangVanChuyen>Phương Trang</hangVanChuyen>
@@ -294,8 +294,8 @@
             <DSVanChuyen>
                 <VanChuyen>
                     <loaiPhuongTien>Xe_khách</loaiPhuongTien>
-                    <thoiGianXuatPhat>2025-11-05T08:00:00</thoiGianXuatPhat>
-                    <thoiGianKetThuc>2025-11-05T12:00:00</thoiGianKetThuc>
+                    <thoiGianXuatPhat>08:00 05-11-2025</thoiGianXuatPhat>
+                    <thoiGianKetThuc>12:00 05-11-2025</thoiGianKetThuc>
                     <diemXuatPhat>Tây Ninh</diemXuatPhat>
                     <diemKetThuc>Đồng Tháp</diemKetThuc>
                     <hangVanChuyen>Mai Linh</hangVanChuyen>
@@ -327,8 +327,8 @@
             <DSVanChuyen>
                 <VanChuyen>
                     <loaiPhuongTien>Xe_khách</loaiPhuongTien>
-                    <thoiGianXuatPhat>2025-11-10T09:00:00</thoiGianXuatPhat>
-                    <thoiGianKetThuc>2025-11-10T12:00:00</thoiGianKetThuc>
+                    <thoiGianXuatPhat>09:00 10-11-2025</thoiGianXuatPhat>
+                    <thoiGianKetThuc>12:00 10-11-2025</thoiGianKetThuc>
                     <diemXuatPhat>Bạc Liêu</diemXuatPhat>
                     <diemKetThuc>Sóc Trăng</diemKetThuc>
                     <hangVanChuyen>Phương Trang</hangVanChuyen>
@@ -365,16 +365,16 @@
             <DSVanChuyen>
                 <VanChuyen>
                     <loaiPhuongTien>Máy_bay</loaiPhuongTien>
-                    <thoiGianXuatPhat>2025-11-15T07:00:00</thoiGianXuatPhat>
-                    <thoiGianKetThuc>2025-11-15T09:00:00</thoiGianKetThuc>
+                    <thoiGianXuatPhat>07:00 15-11-2025</thoiGianXuatPhat>
+                    <thoiGianKetThuc>09:00 15-11-2025</thoiGianKetThuc>
                     <diemXuatPhat>Hà Nội</diemXuatPhat>
                     <diemKetThuc>Quảng Ninh</diemKetThuc>
                     <hangVanChuyen>Vietnam Airlines</hangVanChuyen>
                 </VanChuyen>
                 <VanChuyen>
                     <loaiPhuongTien>Xe_khách</loaiPhuongTien>
-                    <thoiGianXuatPhat>2025-11-17T10:00:00</thoiGianXuatPhat>
-                    <thoiGianKetThuc>2025-11-17T16:00:00</thoiGianKetThuc>
+                    <thoiGianXuatPhat>10:00 17-11-2025</thoiGianXuatPhat>
+                    <thoiGianKetThuc>16:00 17-11-2025</thoiGianKetThuc>
                     <diemXuatPhat>Quảng Ninh</diemXuatPhat>
                     <diemKetThuc>Vũng Tàu</diemKetThuc>
                     <hangVanChuyen>Mai Linh</hangVanChuyen>
@@ -411,8 +411,8 @@
             <DSVanChuyen>
                 <VanChuyen>
                     <loaiPhuongTien>Máy_bay</loaiPhuongTien>
-                    <thoiGianXuatPhat>2025-11-20T08:00:00</thoiGianXuatPhat>
-                    <thoiGianKetThuc>2025-11-20T10:00:00</thoiGianKetThuc>
+                    <thoiGianXuatPhat>08:00 20-11-2025</thoiGianXuatPhat>
+                    <thoiGianKetThuc>10:00 20-11-2025</thoiGianKetThuc>
                     <diemXuatPhat>TP.HCM</diemXuatPhat>
                     <diemKetThuc>Quảng Bình</diemKetThuc>
                     <hangVanChuyen>Vietnam Airlines</hangVanChuyen>
@@ -444,8 +444,8 @@
             <DSVanChuyen>
                 <VanChuyen>
                     <loaiPhuongTien>Xe_khách</loaiPhuongTien>
-                    <thoiGianXuatPhat>2025-11-25T09:00:00</thoiGianXuatPhat>
-                    <thoiGianKetThuc>2025-11-25T15:00:00</thoiGianKetThuc>
+                    <thoiGianXuatPhat>09:00 25-11-2025</thoiGianXuatPhat>
+                    <thoiGianKetThuc>15:00 25-11-2025</thoiGianKetThuc>
                     <diemXuatPhat>Cà Mau</diemXuatPhat>
                     <diemKetThuc>Phan Thiết</diemKetThuc>
                     <hangVanChuyen>Phương Trang</hangVanChuyen>
@@ -482,8 +482,8 @@
             <DSVanChuyen>
                 <VanChuyen>
                     <loaiPhuongTien>Xe_khách</loaiPhuongTien>
-                    <thoiGianXuatPhat>2025-12-01T08:00:00</thoiGianXuatPhat>
-                    <thoiGianKetThuc>2025-12-01T12:00:00</thoiGianKetThuc>
+                    <thoiGianXuatPhat>08:00 1-12-2025</thoiGianXuatPhat>
+                    <thoiGianKetThuc>12:00 1-12-2025</thoiGianKetThuc>
                     <diemXuatPhat>Đà Lạt</diemXuatPhat>
                     <diemKetThuc>Nha Trang</diemKetThuc>
                     <hangVanChuyen>Phương Trang</hangVanChuyen>
@@ -520,8 +520,8 @@
             <DSVanChuyen>
                 <VanChuyen>
                     <loaiPhuongTien>Máy_bay</loaiPhuongTien>
-                    <thoiGianXuatPhat>2025-12-05T09:00:00</thoiGianXuatPhat>
-                    <thoiGianKetThuc>2025-12-06T12:00:00</thoiGianKetThuc>
+                    <thoiGianXuatPhat>07:00 5-12-2025</thoiGianXuatPhat>
+                    <thoiGianKetThuc>09:00 5-12-2025</thoiGianKetThuc>
                     <diemXuatPhat>Hà Nội</diemXuatPhat>
                     <diemKetThuc>TP.HCM</diemKetThuc>
                     <hangVanChuyen>Vietnam Airlines</hangVanChuyen>
@@ -558,8 +558,8 @@
             <DSVanChuyen>
                 <VanChuyen>
                     <loaiPhuongTien>Máy_bay</loaiPhuongTien>
-                    <thoiGianXuatPhat>2025-12-10T08:00:00</thoiGianXuatPhat>
-                    <thoiGianKetThuc>2025-12-10T10:00:00</thoiGianKetThuc>
+                    <thoiGianXuatPhat>08:00 10-12-2025</thoiGianXuatPhat>
+                    <thoiGianKetThuc>10:00 10-12-2025</thoiGianKetThuc>
                     <diemXuatPhat>Quảng Ninh</diemXuatPhat>
                     <diemKetThuc>Đà Nẵng</diemKetThuc>
                     <hangVanChuyen>Vietnam Airlines</hangVanChuyen>
@@ -596,8 +596,8 @@
             <DSVanChuyen>
                 <VanChuyen>
                     <loaiPhuongTien>Xe_khách</loaiPhuongTien>
-                    <thoiGianXuatPhat>2025-12-15T09:00:00</thoiGianXuatPhat>
-                    <thoiGianKetThuc>2025-12-15T13:00:00</thoiGianKetThuc>
+                    <thoiGianXuatPhat>09:00 15-12-2025</thoiGianXuatPhat>
+                    <thoiGianKetThuc>13:00 15-12-2025</thoiGianKetThuc>
                     <diemXuatPhat>Vũng Tàu</diemXuatPhat>
                     <diemKetThuc>Đà Lạt</diemKetThuc>
                     <hangVanChuyen>Mai Linh</hangVanChuyen>
@@ -634,8 +634,8 @@
             <DSVanChuyen>
                 <VanChuyen>
                     <loaiPhuongTien>Máy_bay</loaiPhuongTien>
-                    <thoiGianXuatPhat>2025-12-20T07:00:00</thoiGianXuatPhat>
-                    <thoiGianKetThuc>2025-12-20T09:00:00</thoiGianKetThuc>
+                    <thoiGianXuatPhat>07:00 20-12-2025</thoiGianXuatPhat>
+                    <thoiGianKetThuc>09:00 20-12-2025</thoiGianKetThuc>
                     <diemXuatPhat>Hà Nội</diemXuatPhat>
                     <diemKetThuc>Huế</diemKetThuc>
                     <hangVanChuyen>Vietnam Airlines</hangVanChuyen>
@@ -672,8 +672,8 @@
             <DSVanChuyen>
                 <VanChuyen>
                     <loaiPhuongTien>Máy_bay</loaiPhuongTien>
-                    <thoiGianXuatPhat>2025-12-25T08:00:00</thoiGianXuatPhat>
-                    <thoiGianKetThuc>2025-12-25T10:00:00</thoiGianKetThuc>
+                    <thoiGianXuatPhat>08:00 25-12-2025</thoiGianXuatPhat>
+                    <thoiGianKetThuc>10:00 25-12-2025</thoiGianKetThuc>
                     <diemXuatPhat>Hà Nội</diemXuatPhat>
                     <diemKetThuc>Đà Nẵng</diemKetThuc>
                     <hangVanChuyen>Bamboo Airways</hangVanChuyen>
@@ -710,8 +710,8 @@
             <DSVanChuyen>
                 <VanChuyen>
                     <loaiPhuongTien>Xe_khách</loaiPhuongTien>
-                    <thoiGianXuatPhat>2025-12-30T09:00:00</thoiGianXuatPhat>
-                    <thoiGianKetThuc>2025-12-30T12:00:00</thoiGianKetThuc>
+                    <thoiGianXuatPhat>09:00 30-12-2025</thoiGianXuatPhat>
+                    <thoiGianKetThuc>12:00 30-12-2025</thoiGianKetThuc>
                     <diemXuatPhat>TP.HCM</diemXuatPhat>
                     <diemKetThuc>Vũng Tàu</diemKetThuc>
                     <hangVanChuyen>Phương Trang</hangVanChuyen>
@@ -748,8 +748,8 @@
             <DSVanChuyen>
                 <VanChuyen>
                     <loaiPhuongTien>Máy_bay</loaiPhuongTien>
-                    <thoiGianXuatPhat></thoiGianXuatPhat>
-                    <thoiGianKetThuc>2026-01-05T09:00:00</thoiGianKetThuc>
+                    <thoiGianXuatPhat>07:00 5-1-2026</thoiGianXuatPhat>
+                    <thoiGianKetThuc>09:00 5-1-2026</thoiGianKetThuc>
                     <diemXuatPhat>Hà Nội</diemXuatPhat>
                     <diemKetThuc>Cần Thơ</diemKetThuc>
                     <hangVanChuyen>Vietnam Airlines</hangVanChuyen>
