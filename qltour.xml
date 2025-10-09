@@ -92,16 +92,23 @@
                 <VanChuyen maVC="VC004" loaiPhuongTien="Máy_bay">
                     <thoiGianXuatPhat>2025-11-05T07:00:00</thoiGianXuatPhat>
                     <thoiGianKetThuc>2025-11-05T09:00:00</thoiGianKetThuc>
-                    <diemXuatPhat>Hà Nội</diemXuatPhat>
-                    <diemKetThuc>Đà Nẵng</diemKetThuc>
+                    <diemXuatPhat>Sân Bay Cần Thơ</diemXuatPhat>
+                    <diemKetThuc>Sân Bay Đà Nẵng</diemKetThuc>
                     <hangVanChuyen>Bamboo Airways</hangVanChuyen>
                 </VanChuyen>
                 <VanChuyen maVC="VC005" loaiPhuongTien="Xe_khách">
                     <thoiGianXuatPhat>2025-11-07T08:00:00</thoiGianXuatPhat>
                     <thoiGianKetThuc>2025-11-07T09:00:00</thoiGianKetThuc>
-                    <diemXuatPhat>Đà Nẵng</diemXuatPhat>
+                    <diemXuatPhat>Bến Xe Trung Tâm Đà Nẵng</diemXuatPhat>
                     <diemKetThuc>Hội An</diemKetThuc>
-                    <hangVanChuyen>Phương Trang</hangVanChuyen>
+                    <hangVanChuyen>Hội An Express</hangVanChuyen>
+                </VanChuyen>
+                <VanChuyen maVC="VC013" loaiPhuongTien="Máy_bay">
+                    <thoiGianXuatPhat>2025-11-08T18:00:00</thoiGianXuatPhat>
+                    <thoiGianKetThuc>2025-11-08T20:00:00</thoiGianKetThuc>
+                    <diemXuatPhat>Sân Bay Đà Nẵng</diemXuatPhat>
+                    <diemKetThuc>Sân Bay Cần Thơ</diemKetThuc>
+                    <hangVanChuyen>Bamboo Airways</hangVanChuyen>
                 </VanChuyen>
             </DSVanChuyen>
         </Tour>
@@ -126,11 +133,6 @@
                 <ChiTietKhachSan maCTKS="CTKS005" maKS="KS012">
                     <soLuongPhong>8</soLuongPhong>
                     <ngayCheckIn>2025-10-10</ngayCheckIn>
-                    <ngayCheckOut>2025-10-12</ngayCheckOut>
-                </ChiTietKhachSan>
-                <ChiTietKhachSan maCTKS="CTKS006" maKS="KS004">
-                    <soLuongPhong>8</soLuongPhong>
-                    <ngayCheckIn>2025-10-12</ngayCheckIn>
                     <ngayCheckOut>2025-10-13</ngayCheckOut>
                 </ChiTietKhachSan>
             </DSChiTietKhachSan>
@@ -138,16 +140,16 @@
                 <VanChuyen maVC="VC006" loaiPhuongTien="Máy_bay">
                     <thoiGianXuatPhat>2025-10-10T07:00:00</thoiGianXuatPhat>
                     <thoiGianKetThuc>2025-10-10T09:00:00</thoiGianKetThuc>
-                    <diemXuatPhat>Hà Nội</diemXuatPhat>
-                    <diemKetThuc>Huế</diemKetThuc>
+                    <diemXuatPhat>Sân Bay Cần Thơ</diemXuatPhat>
+                    <diemKetThuc>Sân Bay Phú Bài</diemKetThuc>
                     <hangVanChuyen>Vietnam Airlines</hangVanChuyen>
                 </VanChuyen>
                 <VanChuyen maVC="VC007" loaiPhuongTien="Xe_khách">
                     <thoiGianXuatPhat>2025-10-12T08:00:00</thoiGianXuatPhat>
                     <thoiGianKetThuc>2025-10-12T11:00:00</thoiGianKetThuc>
-                    <diemXuatPhat>Huế</diemXuatPhat>
-                    <diemKetThuc>Quảng Bình</diemKetThuc>
-                    <hangVanChuyen>Phương Trang</hangVanChuyen>
+                    <diemXuatPhat>Bến Xe Phía Bắc Huế</diemXuatPhat>
+                    <diemKetThuc>Bến Xe Đồng Hới, Quảng Bình</diemKetThuc>
+                    <hangVanChuyen>Xe Futa Hà Sơn</hangVanChuyen>
                 </VanChuyen>
             </DSVanChuyen>
         </Tour>
@@ -550,13 +552,13 @@
     <!-- Danh sách khách sạn -->
     <DSKhachSan>
         <KhachSan maKS="KS001">
-            <tenKhachSan>Khách sạn Hà Nội</tenKhachSan>
-            <diaChi-khachSan>Hà Nội</diaChi-khachSan>
+            <tenKhachSan>Khách sạn Dahlia Hà Nội</tenKhachSan>
+            <diaChi-khachSan>18 Hàng Đường, Hoàn Kiếm, Hà Nội</diaChi-khachSan>
             <soDienThoai>0241234567</soDienThoai>
         </KhachSan>
         <KhachSan maKS="KS002">
-            <tenKhachSan>Khách sạn Hạ Long</tenKhachSan>
-            <diaChi-khachSan>Hạ Long</diaChi-khachSan>
+            <tenKhachSan>Khách sạn Mường Thanh Luxury Hạ Long </tenKhachSan>
+            <diaChi-khachSan>2 Bãi Cháy, Hạ Long, Quảng Ninh</diaChi-khachSan>
             <soDienThoai>0236123456</soDienThoai>
         </KhachSan>
         <KhachSan maKS="KS003">
