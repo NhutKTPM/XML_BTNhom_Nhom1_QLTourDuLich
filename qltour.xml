@@ -265,7 +265,7 @@
         <DiaDiem maDiaDiem="DD001">
             <tenDiaDiem>Hồ Gươm</tenDiaDiem>
             <diaChi-diaDiem>(Cho địa chỉ cụ thể nếu có)</diaChi-diaDiem>
-            <moTa-diaDiem>...</moTa-diaDiem>
+            <moTa-diaDiem>(Cho mô tả)</moTa-diaDiem>
         </DiaDiem>
         <DiaDiem maDiaDiem="DD002">
             <tenDiaDiem>Lăng Bác</tenDiaDiem>
