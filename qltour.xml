@@ -6,15 +6,15 @@
         xsi:noNamespaceSchemaLocation="qltour.xsd">
     
     <DSTour>
-        <Tour maTour="T001" maHdv="HDV001" maDiaDiem="DD001 DD002">
+        <Tour maTour="T001" maHdv="HDV001" maDiaDiem="DD001 DD002 DD003 DD004">
             <tenTour>Tour Hà Nội</tenTour>
             <moTa-tour>Tour thăm quan Hà Nội - Hạ Long 4 ngày 3 đêm</moTa-tour>
             <ngayBatDau>2025-10-01</ngayBatDau>
             <ngayKetThuc>2025-10-04</ngayKetThuc>
             <lichTrinh>
                 Ngày 1: Tham quan Hồ Gươm, Lăng Bác.
-                Ngày 2: Tham quan Cầu Rồng, Bà Nà Hills.
-                Ngày 3: Tham quan Vịnh Hạng Long.
+                Ngày 2: Tham quan Hoàng Thành Thăng Long.
+                Ngày 3: Tham quan Vịnh Hạ Long.
                 Ngày 4: Tự do tham quan, mua sắm.
             </lichTrinh>
             <DSChiTietKhachSan>
@@ -38,10 +38,10 @@
                     <hangVanChuyen>Vietnam Airline</hangVanChuyen>
                 </VanChuyen>
                 <VanChuyen maVC="VC002" loaiPhuongTien="Xe_khách">
-                    <thoiGianXuatPhat>2025-10-04T06:00:00</thoiGianXuatPhat>
-                    <thoiGianKetThuc>2025-10-04T10:00:00</thoiGianKetThuc>
-                    <diemXuatPhat>... Hà Nội</diemXuatPhat>
-                    <diemKetThuc>... Hạ Long</diemKetThuc>
+                    <thoiGianXuatPhat>2025-10-03T06:00:00</thoiGianXuatPhat>
+                    <thoiGianKetThuc>2025-10-03T10:00:00</thoiGianKetThuc>
+                    <diemXuatPhat>Bến xe Mỹ Đình, Hà Nội</diemXuatPhat>
+                    <diemKetThuc>Bến xe Bãi Cháy, Quảng Ninh</diemKetThuc>
                     <hangVanChuyen>Vietnam Airline</hangVanChuyen>
                 </VanChuyen>
                 <VanChuyen maVC="VC003" loaiPhuongTien="Máy_bay">
@@ -54,7 +54,7 @@
             </DSVanChuyen>
         </Tour>
 
-        <Tour maTour="T002" maHdv="HDV002" maDiaDiem="DD002 DD003 DD004">
+        <Tour maTour="T002" maHdv="HDV002" maDiaDiem="DD005 DD006 DD007 DD008">
             <tenTour>Tour Đà Nẵng</tenTour>
             <moTa-tour>Tour khám phá Đà Nẵng 4 ngày 3 đêm</moTa-tour>
             <ngayBatDau>2025-11-05</ngayBatDau>
@@ -95,7 +95,7 @@
             </DSVanChuyen>
         </Tour>
 
-        <Tour maTour="T003" maHdv="HDV003" maDiaDiem="DD005 DD019">
+        <Tour maTour="T003" maHdv="HDV003" maDiaDiem="DD009 DD010 DD011">
             <tenTour>Tour Huế - Quảng Bình</tenTour>
             <moTa-tour>Khám phá Đại Nội Huế và Động Phong Nha 4 ngày 3 đêm</moTa-tour>
             <ngayBatDau>2025-10-10</ngayBatDau>
@@ -135,7 +135,7 @@
                 </VanChuyen>
             </DSVanChuyen>
         </Tour>
-        <Tour maTour="T004" maHdv="HDV004" maDiaDiem="DD006 DD007">
+        <Tour maTour="T004" maHdv="HDV004" maDiaDiem="DD012 DD013 DD014">
             <tenTour>Tour Nha Trang - Đà Lạt</tenTour>
             <moTa-tour>Tham quan Vinpearl Nha Trang và Thung lũng Tình Yêu Đà Lạt</moTa-tour>
             <ngayBatDau>2025-10-15</ngayBatDau>
@@ -175,9 +175,9 @@
                 </VanChuyen>
             </DSVanChuyen>
         </Tour>
-        <Tour maTour="T005" maHdv="HDV005" maDiaDiem="DD008">
+        <Tour maTour="T005" maHdv="HDV005" maDiaDiem="DD015 DD016 DD017">
             <tenTour>Tour Phú Quốc</tenTour>
-            <moTa-tour>Khám phá Bãi Sao và Intercontinental Phú Quốc 4 ngày 3 đêm</moTa-tour>
+            <moTa-tour>Khám phá Bãi Sao và Vinpearl Safari Phú Quốc 4 ngày 3 đêm</moTa-tour>
             <ngayBatDau>2025-10-20</ngayBatDau>
             <ngayKetThuc>2025-10-23</ngayKetThuc>
             <lichTrinh>
@@ -203,16 +203,15 @@
                 </VanChuyen>
             </DSVanChuyen>
         </Tour>
-        <Tour maTour="T006" maHdv="HDV006" maDiaDiem="DD009 DD011">
+        <Tour maTour="T006" maHdv="HDV006" maDiaDiem="DD018 DD019">
             <tenTour>Tour Sapa - Fansipan</tenTour>
-            <moTa-tour>Chinh phục Fansipan và tham quan Sapa 4 ngày 3 đêm</moTa-tour>
+            <moTa-tour>Chinh phục Fansipan và tham quan Sapa 3 ngày 2 đêm</moTa-tour>
             <ngayBatDau>2025-10-25</ngayBatDau>
             <ngayKetThuc>2025-10-28</ngayKetThuc>
             <lichTrinh>
                 Ngày 1: Tham quan thị trấn Sapa.
                 Ngày 2: Leo núi Fansipan.
-                Ngày 3: Tham quan Bến Ninh Kiều.
-                Ngày 4: Tự do mua sắm.
+                Ngày 3: Tự do tham quan mua sắm.
             </lichTrinh>
             <DSChiTietKhachSan>
                 <ChiTietKhachSan maCTKS="CTKS010" maKS="KS011">
@@ -231,7 +230,7 @@
                 </VanChuyen>
             </DSVanChuyen>
         </Tour>
-        <Tour maTour="T007" maHdv="HDV007" maDiaDiem="DD010 DD015">
+        <Tour maTour="T007" maHdv="HDV007" maDiaDiem="DD020 DD021">
             <tenTour>Tour Cần Thơ - Sóc Trăng</tenTour>
             <moTa-tour>Khám phá Chợ nổi Cái Răng và Chùa Dơi Sóc Trăng</moTa-tour>
             <ngayBatDau>2025-10-30</ngayBatDau>
@@ -239,7 +238,7 @@
             <lichTrinh>
                 Ngày 1: Tham quan Chợ nổi Cái Răng.
                 Ngày 2: Tham quan Chùa Dơi Sóc Trăng.
-                Ngày 3: Tự do mua sắm.
+                Ngày 3: Tự do tham quan mua sắm.
             </lichTrinh>
             <DSChiTietKhachSan>
                 <ChiTietKhachSan maCTKS="CTKS011" maKS="KS010">
@@ -265,101 +264,106 @@
     <DSDiaDiem>
         <DiaDiem maDiaDiem="DD001">
             <tenDiaDiem>Hồ Gươm</tenDiaDiem>
-            <diaChi-diaDiem>Hà Nội</diaChi-diaDiem>
-            <moTa-diaDiem>Lăng Bác.</moTa-diaDiem>
+            <diaChi-diaDiem>(Cho địa chỉ cụ thể nếu có)</diaChi-diaDiem>
+            <moTa-diaDiem>...</moTa-diaDiem>
         </DiaDiem>
         <DiaDiem maDiaDiem="DD002">
-            <tenDiaDiem>Cầu Rồng</tenDiaDiem>
-            <diaChi-diaDiem>Đà Nẵng</diaChi-diaDiem>
-            <moTa-diaDiem>Mô tả về Lăng Bác.</moTa-diaDiem>
+            <tenDiaDiem>Lăng Bác</tenDiaDiem>
+            <diaChi-diaDiem>...</diaChi-diaDiem>
+            <moTa-diaDiem>...</moTa-diaDiem>
         </DiaDiem>
         <DiaDiem maDiaDiem="DD003">
-            <tenDiaDiem>Bà Nà Hills</tenDiaDiem>
+            <tenDiaDiem>Hoàng Thành Thăng Long</tenDiaDiem>
             <diaChi-diaDiem>Đà Nẵng</diaChi-diaDiem>
             <moTa-diaDiem>...</moTa-diaDiem>
         </DiaDiem>
         <DiaDiem maDiaDiem="DD004">
-            <tenDiaDiem>Phố cổ Hội An</tenDiaDiem>
+            <tenDiaDiem>Vịnh Hạ Long</tenDiaDiem>
             <diaChi-diaDiem>Quảng Nam</diaChi-diaDiem>
             <moTa-diaDiem>...</moTa-diaDiem>
         </DiaDiem>
         <DiaDiem maDiaDiem="DD005">
-            <tenDiaDiem>Đại Nội Huế</tenDiaDiem>
+            <tenDiaDiem>Cầu Rồng</tenDiaDiem>
             <diaChi-diaDiem>Huế</diaChi-diaDiem>
             <moTa-diaDiem>...</moTa-diaDiem>
         </DiaDiem>
         <DiaDiem maDiaDiem="DD006">
-            <tenDiaDiem>Vinpearl Nha Trang</tenDiaDiem>
-            <diaChi-diaDiem>Nha Trang</diaChi-diaDiem>
+            <tenDiaDiem>Bà Nà Hills</tenDiaDiem>
+            <diaChi-diaDiem>...</diaChi-diaDiem>
             <moTa-diaDiem>...</moTa-diaDiem>
         </DiaDiem>
         <DiaDiem maDiaDiem="DD007">
-            <tenDiaDiem>Thung lũng Tình Yêu</tenDiaDiem>
+            <tenDiaDiem>Phố Cổ Hội An</tenDiaDiem>
             <diaChi-diaDiem>Đà Lạt</diaChi-diaDiem>
             <moTa-diaDiem>...</moTa-diaDiem>
         </DiaDiem>
         <DiaDiem maDiaDiem="DD008">
-            <tenDiaDiem>Bãi Sao</tenDiaDiem>
+            <tenDiaDiem>Biển Mỹ Khê</tenDiaDiem>
             <diaChi-diaDiem>Phú Quốc</diaChi-diaDiem>
             <moTa-diaDiem>...</moTa-diaDiem>
         </DiaDiem>
         <DiaDiem maDiaDiem="DD009">
-            <tenDiaDiem>Fansipan</tenDiaDiem>
+            <tenDiaDiem>Đại Nội Huế</tenDiaDiem>
             <diaChi-diaDiem>Sapa</diaChi-diaDiem>
             <moTa-diaDiem>...</moTa-diaDiem>
         </DiaDiem>
         <DiaDiem maDiaDiem="DD010">
-            <tenDiaDiem>Chợ nổi Cái Răng</tenDiaDiem>
+            <tenDiaDiem>Chùa Thiên Mụ</tenDiaDiem>
             <diaChi-diaDiem>Cần Thơ</diaChi-diaDiem>
             <moTa-diaDiem>...</moTa-diaDiem>
         </DiaDiem>
         <DiaDiem maDiaDiem="DD011">
-            <tenDiaDiem>Bến Ninh Kiều</tenDiaDiem>
+            <tenDiaDiem>Động Phong Nha</tenDiaDiem>
             <diaChi-diaDiem>Cần Thơ</diaChi-diaDiem>
             <moTa-diaDiem>...</moTa-diaDiem>
         </DiaDiem>
         <DiaDiem maDiaDiem="DD012">
-            <tenDiaDiem>Núi Bà Đen</tenDiaDiem>
+            <tenDiaDiem>Vinpearl Nha Trang</tenDiaDiem>
             <diaChi-diaDiem>Tây Ninh</diaChi-diaDiem>
             <moTa-diaDiem>...</moTa-diaDiem>
         </DiaDiem>
         <DiaDiem maDiaDiem="DD013">
-            <tenDiaDiem>Làng hoa Sa Đéc</tenDiaDiem>
-            <diaChi-diaDiem>Đồng Tháp</diaChi-diaDiem>
+            <tenDiaDiem>Bãi biển Trần Phú (Nha Trang)</tenDiaDiem>
+            <diaChi-diaDiem>...</diaChi-diaDiem>
             <moTa-diaDiem>...</moTa-diaDiem>
         </DiaDiem>
         <DiaDiem maDiaDiem="DD014">
-            <tenDiaDiem>Nhà công tử Bạc Liêu</tenDiaDiem>
+            <tenDiaDiem>Thung Lũng Tình Yêu Đà Lạc</tenDiaDiem>
             <diaChi-diaDiem>Bạc Liêu</diaChi-diaDiem>
             <moTa-diaDiem>...</moTa-diaDiem>
         </DiaDiem>
         <DiaDiem maDiaDiem="DD015">
-            <tenDiaDiem>Chùa Dơi</tenDiaDiem>
+            <tenDiaDiem>Bãi Sao</tenDiaDiem>
             <diaChi-diaDiem>Sóc Trăng</diaChi-diaDiem>
             <moTa-diaDiem>...</moTa-diaDiem>
         </DiaDiem>
         <DiaDiem maDiaDiem="DD016">
-            <tenDiaDiem>Vịnh Hạ Long</tenDiaDiem>
+            <tenDiaDiem>Vinpearl Safari</tenDiaDiem>
             <diaChi-diaDiem>Quảng Ninh</diaChi-diaDiem>
             <moTa-diaDiem>...</moTa-diaDiem>
         </DiaDiem>
         <DiaDiem maDiaDiem="DD017">
-            <tenDiaDiem>Tượng Chúa Kitô</tenDiaDiem>
+            <tenDiaDiem>Biển Phú Quốc</tenDiaDiem>
             <diaChi-diaDiem>Vũng Tàu</diaChi-diaDiem>
             <moTa-diaDiem>...</moTa-diaDiem>
         </DiaDiem>
         <DiaDiem maDiaDiem="DD018">
-            <tenDiaDiem>Dinh Độc Lập</tenDiaDiem>
+            <tenDiaDiem>Thị trấn Sapa</tenDiaDiem>
             <diaChi-diaDiem>TP. HCM</diaChi-diaDiem>
             <moTa-diaDiem>...</moTa-diaDiem>
         </DiaDiem>
         <DiaDiem maDiaDiem="DD019">
-            <tenDiaDiem>Động Phong Nha</tenDiaDiem>
+            <tenDiaDiem>Núi Fansipan</tenDiaDiem>
             <diaChi-diaDiem>Quảng Bình</diaChi-diaDiem>
             <moTa-diaDiem>...</moTa-diaDiem>
         </DiaDiem>
         <DiaDiem maDiaDiem="DD020">
-            <tenDiaDiem>Mũi Cà Mau</tenDiaDiem>
+            <tenDiaDiem>Chọ nổi Cái Răng</tenDiaDiem>
+            <diaChi-diaDiem>Cà Mau</diaChi-diaDiem>
+            <moTa-diaDiem>...</moTa-diaDiem>
+        </DiaDiem>
+        <DiaDiem maDiaDiem="DD021">
+            <tenDiaDiem>Chùa Dơi Sóc Trăng</tenDiaDiem>
             <diaChi-diaDiem>Cà Mau</diaChi-diaDiem>
             <moTa-diaDiem>...</moTa-diaDiem>
         </DiaDiem>
