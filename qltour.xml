@@ -777,12 +777,9 @@
 
     <!-- Danh sách booking -->
     <DSBooking>
-        <Booking maBooking="B001" maTour="T001" maKhachHang="KH001"> 
-            <!-- maTour IDREF maTour của Tour -->
+        <Booking maBooking="B001" maTour="T001" maKhachHang="KH001" trangThai="Da_xac_nhan" phuongThucThanhToan="Chuyen_khoan"> 
             <thoiGianDat>2025-09-15</thoiGianDat>
-            <trangThai>Đã xác nhận</trangThai>
             <soTien>6000000</soTien>
-            <phuongThucThanhToan>Chuyển khoản</phuongThucThanhToan>
             <DSChiTietBooking>
                 <ChiTietBooking maChiTietBooking="CTB001">
                     <hoTenNguoiDi>Huỳnh Minh Nhựt</hoTenNguoiDi>
@@ -798,7 +795,7 @@
                     <loaiKhachHang>Người lớn</loaiKhachHang>
                 </ChiTietBooking>
                 <ChiTietBooking maChiTietBooking="CTB003">
-                    <hoTenNguoiDi>Huỳnh Minh Nhựt</hoTenNguoiDi>
+                    <hoTenNguoiDi>Nguyễn Quỳnh Như</hoTenNguoiDi>
                     <ngaySinh>2003-11-06</ngaySinh>
                     <gioiTinh>0</gioiTinh>
                     <loaiKhachHang>Người lớn</loaiKhachHang>
@@ -806,11 +803,9 @@
             </DSChiTietBooking>
         </Booking>
         
-        <Booking maBooking="B002" maTour="T001" maKhachHang="KH002"> 
+        <Booking maBooking="B002" maTour="T001" maKhachHang="KH002" trangThai="Da_thanh_toan" phuongThucThanhToan="Chuyen_khoan"> 
             <thoiGianDat>2025-09-15</thoiGianDat>
-            <trangThai>Đã thanh toán</trangThai>
             <soTien>4000000</soTien>
-            <phuongThucThanhToan>Chuyển khoản</phuongThucThanhToan>
             <diemDanhGia>5</diemDanhGia>
             <noiDungDanhGia>Dịch vụ tốt</noiDungDanhGia>
             <DSChiTietBooking>
@@ -824,17 +819,15 @@
                     <hoTenNguoiDi>Phạm Kiều Oanh</hoTenNguoiDi>
                     <ngaySinh>2004-08-10</ngaySinh>
                     <gioiTinh>1</gioiTinh>
-                    <ghiChu>Ăn chay</ghiChu>
+                    <ghiChu>Dị ứng hải sản</ghiChu>
                     <loaiKhachHang>Người lớn</loaiKhachHang>
                 </ChiTietBooking>
             </DSChiTietBooking>
         </Booking>
 
-        <Booking maBooking="B003" maTour="T002" maKhachHang="KH003"> 
+        <Booking maBooking="B003" maTour="T002" maKhachHang="KH003" trangThai="Da_dat" phuongThucThanhToan="Tien_mat"> 
             <thoiGianDat>2025-09-20</thoiGianDat>
-            <trangThai>Đã đặt</trangThai>
             <soTien>5500000</soTien>
-            <phuongThucThanhToan>Tiền mặt</phuongThucThanhToan>
             <DSChiTietBooking>
                 <ChiTietBooking maChiTietBooking="CTB006">
                     <hoTenNguoiDi>Nguyễn Văn A</hoTenNguoiDi>
@@ -845,11 +838,9 @@
             </DSChiTietBooking>
         </Booking>
 
-        <Booking maBooking="B004" maTour="T003" maKhachHang="KH004"> 
+        <Booking maBooking="B004" maTour="T003" maKhachHang="KH004" trangThai="Da_huy" phuongThucThanhToan="Chuyen_khoan"> 
             <thoiGianDat>2025-09-21</thoiGianDat>
-            <trangThai>Đã hủy</trangThai>
             <soTien>3000000</soTien>
-            <phuongThucThanhToan>Chuyển khoản</phuongThucThanhToan>
             <DSChiTietBooking>
                 <ChiTietBooking maChiTietBooking="CTB007">
                     <hoTenNguoiDi>Trần Thị B</hoTenNguoiDi>
@@ -866,11 +857,9 @@
             </DSChiTietBooking>
         </Booking>
 
-        <Booking maBooking="B005" maTour="T004" maKhachHang="KH005"> 
+        <Booking maBooking="B005" maTour="T004" maKhachHang="KH005" trangThai="Da_hoan_tien" phuongThucThanhToan="Vi_dien_tu"> 
             <thoiGianDat>2025-09-23</thoiGianDat>
-            <trangThai>Đã hoàn tiền</trangThai>
             <soTien>4500000</soTien>
-            <phuongThucThanhToan>Ví điện tử</phuongThucThanhToan>
             <diemDanhGia>4</diemDanhGia>
             <noiDungDanhGia>Tour ổn nhưng thời tiết xấu</noiDungDanhGia>
             <DSChiTietBooking>
@@ -889,11 +878,9 @@
             </DSChiTietBooking>
         </Booking>
 
-        <Booking maBooking="B006" maTour="T005" maKhachHang="KH006"> 
+        <Booking maBooking="B006" maTour="T005" maKhachHang="KH006" trangThai="Da_xac_nhan" phuongThucThanhToan="Chuyen_khoan"> 
             <thoiGianDat>2025-09-24</thoiGianDat>
-            <trangThai>Đã xác nhận</trangThai>
             <soTien>7000000</soTien>
-            <phuongThucThanhToan>Chuyển khoản</phuongThucThanhToan>
             <DSChiTietBooking>
                 <ChiTietBooking maChiTietBooking="CTB011">
                     <hoTenNguoiDi>Nguyễn Văn F</hoTenNguoiDi>
@@ -904,11 +891,9 @@
             </DSChiTietBooking>
         </Booking>
 
-        <Booking maBooking="B007" maTour="T006" maKhachHang="KH007"> 
+        <Booking maBooking="B007" maTour="T006" maKhachHang="KH007" trangThai="Da_thanh_toan" phuongThucThanhToan="Tien_mat"> 
             <thoiGianDat>2025-09-25</thoiGianDat>
-            <trangThai>Đã thanh toán</trangThai>
             <soTien>5200000</soTien>
-            <phuongThucThanhToan>Tiền mặt</phuongThucThanhToan>
             <diemDanhGia>5</diemDanhGia>
             <noiDungDanhGia>Rất hài lòng với dịch vụ</noiDungDanhGia>
             <DSChiTietBooking>
@@ -921,11 +906,9 @@
             </DSChiTietBooking>
         </Booking>
 
-        <Booking maBooking="B008" maTour="T007" maKhachHang="KH008"> 
+        <Booking maBooking="B008" maTour="T007" maKhachHang="KH008" trangThai="Da_huy" phuongThucThanhToan="Vi_dien_tu"> 
             <thoiGianDat>2025-09-26</thoiGianDat>
-            <trangThai>Đã hủy</trangThai>
             <soTien>4800000</soTien>
-            <phuongThucThanhToan>Ví điện tử</phuongThucThanhToan>
             <DSChiTietBooking>
                 <ChiTietBooking maChiTietBooking="CTB013">
                     <hoTenNguoiDi>Trần Văn H</hoTenNguoiDi>
@@ -936,11 +919,9 @@
             </DSChiTietBooking>
         </Booking>
 
-        <Booking maBooking="B009" maTour="T001" maKhachHang="KH009"> 
+        <Booking maBooking="B009" maTour="T001" maKhachHang="KH009" trangThai="Da_dat" phuongThucThanhToan="Chuyen_khoan"> 
             <thoiGianDat>2025-09-27</thoiGianDat>
-            <trangThai>Đã đặt</trangThai>
             <soTien>3600000</soTien>
-            <phuongThucThanhToan>Chuyển khoản</phuongThucThanhToan>
             <DSChiTietBooking>
                 <ChiTietBooking maChiTietBooking="CTB014">
                     <hoTenNguoiDi>Đỗ Thị I</hoTenNguoiDi>
@@ -951,11 +932,9 @@
             </DSChiTietBooking>
         </Booking>
 
-        <Booking maBooking="B010" maTour="T002" maKhachHang="KH010"> 
+        <Booking maBooking="B010" maTour="T002" maKhachHang="KH010" trangThai="Da_hoan_tien" phuongThucThanhToan="Chuyen_khoan"> 
             <thoiGianDat>2025-09-28</thoiGianDat>
-            <trangThai>Đã hoàn tiền</trangThai>
             <soTien>8000000</soTien>
-            <phuongThucThanhToan>Chuyển khoản</phuongThucThanhToan>
             <diemDanhGia>3</diemDanhGia>
             <noiDungDanhGia>Tour không như mong đợi</noiDungDanhGia>
             <DSChiTietBooking>
@@ -968,161 +947,7 @@
             </DSChiTietBooking>
         </Booking>
 
-        <Booking maBooking="B011" maTour="T003" maKhachHang="KH011"> 
-            <thoiGianDat>2025-09-29</thoiGianDat>
-            <trangThai>Đã xác nhận</trangThai>
-            <soTien>2500000</soTien>
-            <phuongThucThanhToan>Ví điện tử</phuongThucThanhToan>
-            <DSChiTietBooking>
-                <ChiTietBooking maChiTietBooking="CTB016">
-                    <hoTenNguoiDi>Nguyễn Văn K</hoTenNguoiDi>
-                    <ngaySinh>1999-12-20</ngaySinh>
-                    <gioiTinh>1</gioiTinh>
-                    <loaiKhachHang>Sinh viên</loaiKhachHang>
-                </ChiTietBooking>
-            </DSChiTietBooking>
-        </Booking>
-
-        <Booking maBooking="B012" maTour="T004" maKhachHang="KH012"> 
-            <thoiGianDat>2025-09-30</thoiGianDat>
-            <trangThai>Đã đặt</trangThai>
-            <soTien>4200000</soTien>
-            <phuongThucThanhToan>Tiền mặt</phuongThucThanhToan>
-            <DSChiTietBooking>
-                <ChiTietBooking maChiTietBooking="CTB017">
-                    <hoTenNguoiDi>Trần Thị L</hoTenNguoiDi>
-                    <ngaySinh>2002-01-01</ngaySinh>
-                    <gioiTinh>0</gioiTinh>
-                    <loaiKhachHang>Người lớn</loaiKhachHang>
-                </ChiTietBooking>
-            </DSChiTietBooking>
-        </Booking>
-
-        <Booking maBooking="B013" maTour="T005" maKhachHang="KH013"> 
-            <thoiGianDat>2025-10-01</thoiGianDat>
-            <trangThai>Đã thanh toán</trangThai>
-            <soTien>9000000</soTien>
-            <phuongThucThanhToan>Chuyển khoản</phuongThucThanhToan>
-            <diemDanhGia>5</diemDanhGia>
-            <noiDungDanhGia>Tour tuyệt vời, HDV nhiệt tình</noiDungDanhGia>
-            <DSChiTietBooking>
-                <ChiTietBooking maChiTietBooking="CTB018">
-                    <hoTenNguoiDi>Phạm Văn M</hoTenNguoiDi>
-                    <ngaySinh>1993-04-18</ngaySinh>
-                    <gioiTinh>1</gioiTinh>
-                    <loaiKhachHang>Người lớn</loaiKhachHang>
-                </ChiTietBooking>
-            </DSChiTietBooking>
-        </Booking>
-
-        <Booking maBooking="B014" maTour="T006" maKhachHang="KH014"> 
-            <thoiGianDat>2025-10-02</thoiGianDat>
-            <trangThai>Đã hủy</trangThai>
-            <soTien>3100000</soTien>
-            <phuongThucThanhToan>Ví điện tử</phuongThucThanhToan>
-            <DSChiTietBooking>
-                <ChiTietBooking maChiTietBooking="CTB019">
-                    <hoTenNguoiDi>Nguyễn Thị N</hoTenNguoiDi>
-                    <ngaySinh>1997-08-30</ngaySinh>
-                    <gioiTinh>0</gioiTinh>
-                    <loaiKhachHang>Người lớn</loaiKhachHang>
-                </ChiTietBooking>
-            </DSChiTietBooking>
-        </Booking>
-
-        <Booking maBooking="B015" maTour="T007" maKhachHang="KH015"> 
-            <thoiGianDat>2025-10-03</thoiGianDat>
-            <trangThai>Đã xác nhận</trangThai>
-            <soTien>6000000</soTien>
-            <phuongThucThanhToan>Chuyển khoản</phuongThucThanhToan>
-            <DSChiTietBooking>
-                <ChiTietBooking maChiTietBooking="CTB020">
-                    <hoTenNguoiDi>Trần Văn O</hoTenNguoiDi>
-                    <ngaySinh>1991-05-21</ngaySinh>
-                    <gioiTinh>1</gioiTinh>
-                    <loaiKhachHang>Người lớn</loaiKhachHang>
-                </ChiTietBooking>
-            </DSChiTietBooking>
-        </Booking>
-
-        <Booking maBooking="B016" maTour="T001" maKhachHang="KH016"> 
-            <thoiGianDat>2025-10-04</thoiGianDat>
-            <trangThai>Đã đặt</trangThai>
-            <soTien>3500000</soTien>
-            <phuongThucThanhToan>Tiền mặt</phuongThucThanhToan>
-            <DSChiTietBooking>
-                <ChiTietBooking maChiTietBooking="CTB021">
-                    <hoTenNguoiDi>Phạm Văn P</hoTenNguoiDi>
-                    <ngaySinh>1995-07-17</ngaySinh>
-                    <gioiTinh>1</gioiTinh>
-                    <loaiKhachHang>Người lớn</loaiKhachHang>
-                </ChiTietBooking>
-            </DSChiTietBooking>
-        </Booking>
-
-        <Booking maBooking="B017" maTour="T002" maKhachHang="KH017"> 
-            <thoiGianDat>2025-10-05</thoiGianDat>
-            <trangThai>Đã hoàn tiền</trangThai>
-            <soTien>7600000</soTien>
-            <phuongThucThanhToan>Ví điện tử</phuongThucThanhToan>
-            <diemDanhGia>2</diemDanhGia>
-            <noiDungDanhGia>Tour chậm trễ, dịch vụ kém</noiDungDanhGia>
-            <DSChiTietBooking>
-                <ChiTietBooking maChiTietBooking="CTB022">
-                    <hoTenNguoiDi>Lê Thị Q</hoTenNguoiDi>
-                    <ngaySinh>1990-12-12</ngaySinh>
-                    <gioiTinh>0</gioiTinh>
-                    <loaiKhachHang>Người lớn</loaiKhachHang>
-                </ChiTietBooking>
-            </DSChiTietBooking>
-        </Booking>
-
-        <Booking maBooking="B018" maTour="T003" maKhachHang="KH018"> 
-            <thoiGianDat>2025-10-06</thoiGianDat>
-            <trangThai>Đã thanh toán</trangThai>
-            <soTien>5800000</soTien>
-            <phuongThucThanhToan>Chuyển khoản</phuongThucThanhToan>
-            <diemDanhGia>4</diemDanhGia>
-            <noiDungDanhGia>Dịch vụ tốt, hài lòng</noiDungDanhGia>
-            <DSChiTietBooking>
-                <ChiTietBooking maChiTietBooking="CTB023">
-                    <hoTenNguoiDi>Nguyễn Văn R</hoTenNguoiDi>
-                    <ngaySinh>1994-06-05</ngaySinh>
-                    <gioiTinh>1</gioiTinh>
-                    <loaiKhachHang>Người lớn</loaiKhachHang>
-                </ChiTietBooking>
-            </DSChiTietBooking>
-        </Booking>
-
-        <Booking maBooking="B019" maTour="T004" maKhachHang="KH019"> 
-            <thoiGianDat>2025-10-07</thoiGianDat>
-            <trangThai>Đã xác nhận</trangThai>
-            <soTien>6400000</soTien>
-            <phuongThucThanhToan>Tiền mặt</phuongThucThanhToan>
-            <DSChiTietBooking>
-                <ChiTietBooking maChiTietBooking="CTB024">
-                    <hoTenNguoiDi>Phạm Thị S</hoTenNguoiDi>
-                    <ngaySinh>1998-11-27</ngaySinh>
-                    <gioiTinh>0</gioiTinh>
-                    <loaiKhachHang>Người lớn</loaiKhachHang>
-                </ChiTietBooking>
-            </DSChiTietBooking>
-        </Booking>
-
-        <Booking maBooking="B020" maTour="T005" maKhachHang="KH020"> 
-            <thoiGianDat>2025-10-08</thoiGianDat>
-            <trangThai>Đã hủy</trangThai>
-            <soTien>2900000</soTien>
-            <phuongThucThanhToan>Ví điện tử</phuongThucThanhToan>
-            <DSChiTietBooking>
-                <ChiTietBooking maChiTietBooking="CTB025">
-                    <hoTenNguoiDi>Đỗ Văn T</hoTenNguoiDi>
-                    <ngaySinh>1990-01-14</ngaySinh>
-                    <gioiTinh>1</gioiTinh>
-                    <loaiKhachHang>Người lớn</loaiKhachHang>
-                </ChiTietBooking>
-            </DSChiTietBooking>
-        </Booking>
+       
     </DSBooking>
 
 </QLTour>

@@ -32,15 +32,11 @@
 <!ATTLIST VanChuyen 
     maVC ID #REQUIRED
     loaiPhuongTien (Máy_bay | Xe_khách) #REQUIRED>
-<!--<!ELEMENT loaiPhuongTien (#PCDATA)>-->
 <!ELEMENT thoiGianXuatPhat (#PCDATA)>
 <!ELEMENT diemXuatPhat (#PCDATA)>
 <!ELEMENT thoiGianKetThuc (#PCDATA)>
 <!ELEMENT diemKetThuc (#PCDATA)>
 <!ELEMENT hangVanChuyen (#PCDATA)>
-
-
-
 
 <!-- ======= Dia diem ======= -->
 <!ELEMENT DSDiaDiem (DiaDiem+)>
@@ -71,24 +67,26 @@
 <!ELEMENT tenKhachSan (#PCDATA)>
 <!ELEMENT diaChi-khachSan (#PCDATA)>
 <!ELEMENT hangSao (#PCDATA)>
+
 <!-- ======= Khach hang ======= -->
 <!ELEMENT DSKhachHang (KhachHang+)>
 <!ELEMENT KhachHang (tenKhachHang, diaChi, soDienThoai, email)>
 <!ATTLIST KhachHang 
     maKhachHang ID #REQUIRED>
-
 <!ELEMENT tenKhachHang (#PCDATA)>
 <!ELEMENT diaChi (#PCDATA)>
 <!ELEMENT email (#PCDATA)>
 
 <!-- ======= Booking ======= -->
 <!ELEMENT DSBooking (Booking+)>
-<!ELEMENT Booking (thoiGianDat, trangThai, soTien, phuongThucThanhToan, diemDanhGia?, noiDungDanhGia?, DSChiTietBooking)>
+<!ELEMENT Booking (thoiGianDat, soTien, diemDanhGia?, noiDungDanhGia?, DSChiTietBooking)>
 <!ATTLIST Booking 
     maBooking ID #REQUIRED
     maTour IDREF #REQUIRED
-    maKhachHang IDREF #REQUIRED>
-
+    maKhachHang IDREF #REQUIRED
+    trangThai (Da_dat | Da_xac_nhan | Da_thanh_toan | Da_huy | Da_hoan_tien) #REQUIRED
+    phuongThucThanhToan (Tien_mat | Chuyen_khoan | Vi_dien_tu) #REQUIRED
+>
 <!ELEMENT thoiGianDat (#PCDATA)>
 <!ELEMENT trangThai (#PCDATA)>
 <!ELEMENT soTien (#PCDATA)>

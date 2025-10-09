@@ -199,27 +199,7 @@
                                 <xs:complexType>
                                     <xs:sequence>
                                         <xs:element name="thoiGianDat" type="xs:date"/>
-                                        <xs:element name="trangThai">
-                                            <xs:simpleType>
-                                                <xs:restriction base="xs:string">
-                                                    <xs:enumeration value="Đã đặt"/>
-                                                    <xs:enumeration value="Đã xác nhận"/>
-                                                    <xs:enumeration value="Đã hủy"/>
-                                                    <xs:enumeration value="Đã thanh toán"/>
-                                                    <xs:enumeration value="Đã hoàn tiền"/>
-                                                </xs:restriction>
-                                            </xs:simpleType>
-                                        </xs:element>
                                         <xs:element name="soTien" type="xs:float"/>
-                                        <xs:element name="phuongThucThanhToan">
-                                            <xs:simpleType>
-                                                <xs:restriction base="xs:string">
-                                                    <xs:enumeration value="Tiền mặt"/>
-                                                    <xs:enumeration value="Chuyển khoản"/>
-                                                    <xs:enumeration value="Ví điện tử"/>
-                                                </xs:restriction>
-                                            </xs:simpleType>
-                                        </xs:element>
                                         <xs:element name="diemDanhGia" minOccurs="0" maxOccurs="1">
                                             <xs:simpleType>
                                                 <xs:restriction base="xs:int">
@@ -266,6 +246,26 @@
                                     <xs:attribute name="maBooking" type="maType" use="required"/>
                                     <xs:attribute name="maTour" type="maType" use="required"/>
                                     <xs:attribute name="maKhachHang" type="maType" use="required"/>
+                                    <xs:attribute name="trangThai" use="required">
+                                        <xs:simpleType>
+                                            <xs:restriction base="xs:string">
+                                                <xs:enumeration value="Da_dat"/>
+                                                <xs:enumeration value="Da_xac_nhan"/>
+                                                <xs:enumeration value="Da_thanh_toan"/>
+                                                <xs:enumeration value="Da_huy"/>
+                                                <xs:enumeration value="Da_hoan_tien"/>
+                                            </xs:restriction>
+                                        </xs:simpleType>
+                                    </xs:attribute>
+                                    <xs:attribute name="phuongThucThanhToan" use="required">
+                                        <xs:simpleType>
+                                            <xs:restriction base="xs:string">
+                                                <xs:enumeration value="Tien_mat"/>
+                                                <xs:enumeration value="Chuyen_khoan"/>
+                                                <xs:enumeration value="Vi_dien_tu"/>
+                                            </xs:restriction>
+                                        </xs:simpleType>
+                                    </xs:attribute>
                                 </xs:complexType>
                             </xs:element>
                         </xs:sequence>
