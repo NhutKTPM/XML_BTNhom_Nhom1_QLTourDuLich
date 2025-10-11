@@ -40,6 +40,7 @@
                                         <xs:element name="moTa-tour" type="xs:string"/>
                                         <xs:element name="ngayBatDau" type="xs:date"/>
                                         <xs:element name="ngayKetThuc" type="xs:date"/>
+                                        <xs:element name="giaTour" type="xs:float"/>
                                         <xs:element name="lichTrinh" type="xs:string"/>
                                         <xs:element name="DSDiaDiem-ref">
                                             <xs:complexType>
@@ -94,6 +95,8 @@
                                                                     <xs:restriction base="xs:string">
                                                                         <xs:enumeration value="Máy_bay"/>
                                                                         <xs:enumeration value="Xe_khách"/>
+                                                                        <xs:enumeration value="Cáp_treo"/>
+                                                                        <xs:enumeration value="Thuyền"/>
                                                                     </xs:restriction>
                                                                 </xs:simpleType>
                                                             </xs:attribute>
@@ -199,7 +202,6 @@
                                 <xs:complexType>
                                     <xs:sequence>
                                         <xs:element name="thoiGianDat" type="xs:date"/>
-                                        <xs:element name="soTien" type="xs:float"/>
                                         <xs:element name="diemDanhGia" minOccurs="0" maxOccurs="1">
                                             <xs:simpleType>
                                                 <xs:restriction base="xs:int">

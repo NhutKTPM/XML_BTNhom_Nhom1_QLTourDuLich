@@ -6,7 +6,7 @@
 
 <!-- ======= Tour ======= -->
 <!ELEMENT DSTour (Tour+)>
-<!ELEMENT Tour (tenTour, moTa-tour, ngayBatDau, ngayKetThuc, lichTrinh, DSDiaDiem-ref, DSChiTietKhachSan, DSVanChuyen)>
+<!ELEMENT Tour (tenTour, moTa-tour, ngayBatDau, ngayKetThuc, giaTour, lichTrinh, DSDiaDiem-ref, DSChiTietKhachSan, DSVanChuyen)>
 <!ATTLIST Tour 
     maTour ID #REQUIRED
     maHdv IDREF #REQUIRED>
@@ -14,6 +14,7 @@
 <!ELEMENT moTa-tour (#PCDATA)>
 <!ELEMENT ngayBatDau (#PCDATA)>
 <!ELEMENT ngayKetThuc (#PCDATA)>
+<!ELEMENT giaTour (#PCDATA)>
 <!ELEMENT DSDiaDiem-ref (DiaDiem-ref+)>
 <!ELEMENT DiaDiem-ref EMPTY>
 <!ATTLIST DiaDiem-ref 
@@ -31,7 +32,7 @@
 <!ELEMENT VanChuyen (thoiGianXuatPhat, thoiGianKetThuc, diemXuatPhat, diemKetThuc, hangVanChuyen)>
 <!ATTLIST VanChuyen 
     maVC ID #REQUIRED
-    loaiPhuongTien (Máy_bay | Xe_khách) #REQUIRED>
+    loaiPhuongTien (Máy_bay | Xe_khách | Cáp_treo | Thuyền) #REQUIRED>
 <!ELEMENT thoiGianXuatPhat (#PCDATA)>
 <!ELEMENT diemXuatPhat (#PCDATA)>
 <!ELEMENT thoiGianKetThuc (#PCDATA)>
@@ -79,7 +80,7 @@
 
 <!-- ======= Booking ======= -->
 <!ELEMENT DSBooking (Booking+)>
-<!ELEMENT Booking (thoiGianDat, soTien, diemDanhGia?, noiDungDanhGia?, DSChiTietBooking)>
+<!ELEMENT Booking (thoiGianDat, diemDanhGia?, noiDungDanhGia?, DSChiTietBooking)>
 <!ATTLIST Booking 
     maBooking ID #REQUIRED
     maTour IDREF #REQUIRED
