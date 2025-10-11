@@ -1,30 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
 
-  <xs:simpleType name="maType">
-    <xs:restriction base="xs:string">
-      <xs:pattern value="[A-Za-z0-9\-]+"/>
-      <xs:maxLength value="10"/>
-    </xs:restriction>
-  </xs:simpleType>
+    <xs:simpleType name="maType">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[A-Za-z0-9\-]+"/>
+            <xs:maxLength value="10"/>
+        </xs:restriction>
+    </xs:simpleType>
 
-    <xs:simpleType name="hoTenType">
+    <xs:simpleType name="varchar50Type">
         <xs:restriction base="xs:string">
         <xs:maxLength value="50"/>
         </xs:restriction>
     </xs:simpleType>
 
-  <xs:simpleType name="sdtType">
-    <xs:restriction base="xs:string">
-        <xs:pattern value="0\d{9}"/>
-    </xs:restriction>
-  </xs:simpleType>
+    <xs:simpleType name="varchar255Type">
+        <xs:restriction base="xs:string">
+            <xs:maxLength value="255"/>
+        </xs:restriction>
+    </xs:simpleType>
 
-  <xs:simpleType name="emailType">
-    <xs:restriction base="xs:string">
-        <xs:pattern value="[^@]+@[^@]+\.[^@]+"/>
-    </xs:restriction>
-  </xs:simpleType>
+    <xs:simpleType name="sdtType">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="0\d{9}"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="emailType">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[^@]+@[^@]+\.[^@]+"/>
+            <xs:maxLength value="50"/>
+        </xs:restriction>
+    </xs:simpleType>
 
     <xs:element name="QLTour" xmlns:xs="http://www.w3.org/2001/XMLSchema">
         <xs:complexType>
@@ -36,18 +43,18 @@
                             <xs:element name="Tour" maxOccurs="unbounded">
                                 <xs:complexType>
                                     <xs:sequence>
-                                        <xs:element name="tenTour" type="xs:string"/>
-                                        <xs:element name="moTa-tour" type="xs:string"/>
+                                        <xs:element name="tenTour" type="varchar50Type"/>
+                                        <xs:element name="moTa-tour" type="varchar255Type"/>
                                         <xs:element name="ngayBatDau" type="xs:date"/>
                                         <xs:element name="ngayKetThuc" type="xs:date"/>
                                         <xs:element name="giaTour" type="xs:float"/>
-                                        <xs:element name="lichTrinh" type="xs:string"/>
+                                        <xs:element name="lichTrinh" type="varchar255Type"/>
                                         <xs:element name="DSDiaDiem-ref">
                                             <xs:complexType>
                                                 <xs:sequence>
                                                     <xs:element name="DiaDiem-ref" minOccurs="1" maxOccurs="unbounded">
                                                         <xs:complexType>
-                                                            <xs:attribute name="maDiaDiem" type="xs:string" use="required"/>
+                                                            <xs:attribute name="maDiaDiem" type="maType" use="required"/>
                                                         </xs:complexType>
                                                     </xs:element>
                                                 </xs:sequence>
@@ -57,11 +64,12 @@
                                                 <xs:selector xpath="DiaDiem-ref"/>
                                                 <xs:field xpath="@maDiaDiem"/>
                                             </xs:unique>
+
                                         </xs:element>
                                         <xs:element name="DSChiTietKhachSan">
                                             <xs:complexType>
                                                 <xs:sequence>
-                                                    <xs:element name="ChiTietKhachSan" maxOccurs="unbounded">
+                                                    <xs:element name="ChiTietKhachSan" minOccurs="0" maxOccurs="unbounded">
                                                         <xs:complexType>
                                                             <xs:sequence>
                                                                 <xs:element name="soLuongPhong" type="xs:integer"/>
@@ -78,18 +86,16 @@
                                         <xs:element name="DSVanChuyen">
                                             <xs:complexType>
                                                 <xs:sequence>
-                                                    <xs:element name="VanChuyen" maxOccurs="unbounded">
+                                                    <xs:element name="VanChuyen" minOccurs="0" maxOccurs="unbounded">
                                                         <xs:complexType>
                                                             <xs:sequence>
                                                                 <xs:element name="thoiGianXuatPhat" type="xs:dateTime"/>
                                                                 <xs:element name="thoiGianKetThuc" type="xs:dateTime"/>
-                                                                <xs:element name="diemXuatPhat" type="xs:string"/>
-                                                                <xs:element name="diemKetThuc" type="xs:string"/>
-                                                                <xs:element name="hangVanChuyen" type="xs:string"/>
-
-
+                                                                <xs:element name="diemXuatPhat" type="varchar255Type"/>
+                                                                <xs:element name="diemKetThuc" type="varchar255Type"/>
+                                                                <xs:element name="hangVanChuyen" type="varchar50Type"/>
                                                             </xs:sequence>
-                                                            <xs:attribute name="maVC" type="xs:string" use="required"/>
+                                                            <xs:attribute name="maVC" type="maType" use="required"/>
                                                             <xs:attribute name="loaiPhuongTien" use="required">
                                                                 <xs:simpleType>
                                                                     <xs:restriction base="xs:string">
@@ -108,66 +114,58 @@
                                     </xs:sequence>
                                     <xs:attribute name="maTour" type="maType" use="required"/>
                                     <xs:attribute name="maHdv" type="maType" use="required"/>
-                                    <!-- <xs:attribute name="maDiaDiem" type="xs:IDREFS" use="required"/> -->
                                 </xs:complexType>
                             </xs:element>
                         </xs:sequence>
                     </xs:complexType>
-
-
                 </xs:element>
 
-                <!-- Danh sách địa điểm -->
                 <xs:element name="DSDiaDiem">
                     <xs:complexType>
                         <xs:sequence>
                             <xs:element name="DiaDiem" maxOccurs="unbounded">
                                 <xs:complexType>
                                     <xs:sequence>
-                                        <xs:element name="tenDiaDiem" type="xs:string"/>
-                                        <xs:element name="diaChi-diaDiem" type="xs:string"/>
-                                        <xs:element name="moTa-diaDiem" type="xs:string"/>
+                                        <xs:element name="tenDiaDiem" type="varchar50Type"/>
+                                        <xs:element name="diaChi-diaDiem" type="varchar255Type"/>
+                                        <xs:element name="moTa-diaDiem" type="varchar255Type"/>
                                     </xs:sequence>
-                                    <xs:attribute name="maDiaDiem" type="xs:string" use="required"/>
+                                    <xs:attribute name="maDiaDiem" type="maType" use="required"/>
                                 </xs:complexType>
                             </xs:element>
                         </xs:sequence>
                     </xs:complexType>
                 </xs:element>
-                <!-- Danh sach huong dan vien -->
+
                 <xs:element name="DSHuongDanVien">          
                     <xs:complexType>
                         <xs:sequence>
                             <xs:element name="HuongDanVien" maxOccurs="unbounded">
                                 <xs:complexType>
                                     <xs:sequence>
-                                        <xs:element name="tenHuongDanVien" type="hoTenType"/>
+                                        <xs:element name="tenHuongDanVien" type="varchar50Type"/>
                                         <xs:element name="ngaySinh" type="xs:date"/>
-                                        <!-- Số điện thoại: 10 chữ số -->
                                         <xs:element name="soDienThoai" type="sdtType"/>
-                                        <xs:element name="ngoaiNgu" type="xs:string"/>
-                                        <xs:element name="kinhNghiem" type="xs:string"/>
+                                        <xs:element name="ngoaiNgu" type="varchar255Type"/>
+                                        <xs:element name="kinhNghiem" type="varchar255Type"/>
                                     </xs:sequence>
-                                    <!-- maHuongDanVien duy nhất toàn cục -->
                                     <xs:attribute name="maHdv" type="maType" use="required"/>
                                 </xs:complexType>
                             </xs:element>
                         </xs:sequence>
                     </xs:complexType>
                 </xs:element>
-                <!-- Danh sach khach san -->
+
                 <xs:element name="DSKhachSan">                              
                     <xs:complexType>
                         <xs:sequence>
                             <xs:element name="KhachSan" maxOccurs="unbounded">
                                 <xs:complexType>
                                     <xs:sequence>
-                                        <xs:element name="tenKhachSan" type="xs:string"/>
-                                        <xs:element name="diaChi-khachSan" type="xs:string"/>
-                                        <!-- Số điện thoại: 10 chữ số -->
+                                        <xs:element name="tenKhachSan" type="varchar50Type"/>
+                                        <xs:element name="diaChi-khachSan" type="varchar255Type"/>
                                         <xs:element name="soDienThoai" type="sdtType"/>
                                     </xs:sequence>
-                                    <!-- maKhachSan duy nhất toàn cục -->
                                     <xs:attribute name="maKS" type="maType" use="required"/>
                                 </xs:complexType>
                             </xs:element>
@@ -175,15 +173,14 @@
                     </xs:complexType>
                 </xs:element>
 
-                <!-- Danh sach khach hang -->
                 <xs:element name="DSKhachHang">
                     <xs:complexType>
                         <xs:sequence>
                             <xs:element name="KhachHang" maxOccurs="unbounded">
                                 <xs:complexType>
                                     <xs:sequence>
-                                        <xs:element name="tenKhachHang" type="hoTenType"/>
-                                        <xs:element name="diaChi" type="xs:string"/>
+                                        <xs:element name="tenKhachHang" type="varchar50Type"/>
+                                        <xs:element name="diaChi" type="varchar255Type"/>
                                         <xs:element name="soDienThoai" type="sdtType"/>
                                         <xs:element name="email" type="emailType"/>
                                     </xs:sequence>
@@ -194,7 +191,6 @@
                     </xs:complexType>
                 </xs:element>
 
-                <!-- Danh sach booking -->
                 <xs:element name="DSBooking">
                     <xs:complexType>
                         <xs:sequence>
@@ -210,14 +206,14 @@
                                                 </xs:restriction>
                                             </xs:simpleType>
                                         </xs:element>
-                                        <xs:element name="noiDungDanhGia" type="xs:string" minOccurs="0" maxOccurs="1"/>
+                                        <xs:element name="noiDungDanhGia" type="varchar255Type" minOccurs="0" maxOccurs="1"/>
                                         <xs:element name="DSChiTietBooking">
                                             <xs:complexType>
                                                 <xs:sequence>
                                                     <xs:element name="ChiTietBooking" maxOccurs="unbounded">
                                                         <xs:complexType>
                                                             <xs:sequence>
-                                                                <xs:element name="hoTenNguoiDi" type="hoTenType"/>
+                                                                <xs:element name="hoTenNguoiDi" type="varchar50Type"/>
                                                                 <xs:element name="ngaySinh" type="xs:date"/>
                                                                 <xs:element name="gioiTinh">
                                                                     <xs:simpleType>
@@ -227,18 +223,18 @@
                                                                         </xs:restriction>
                                                                     </xs:simpleType>
                                                                 </xs:element>
-                                                                <xs:element name="ghiChu" type="xs:string" minOccurs="0" maxOccurs="1"/>
-                                                                <xs:element name="loaiKhachHang">
-                                                                    <xs:simpleType>
-                                                                        <xs:restriction base="xs:string">
-                                                                            <xs:enumeration value="Người lớn"/>
-                                                                            <xs:enumeration value="Trẻ em"/>
-                                                                            <xs:enumeration value="Sinh viên"/>
-                                                                        </xs:restriction>
-                                                                    </xs:simpleType>
-                                                                </xs:element>
+                                                                <xs:element name="ghiChu" type="varchar255Type" minOccurs="0" maxOccurs="1"/>
                                                             </xs:sequence>
                                                             <xs:attribute name="maChiTietBooking" type="maType" use="required"/>
+                                                            <xs:attribute name="loaiKhachHang" use="required">
+                                                                <xs:simpleType>
+                                                                    <xs:restriction base="xs:string">
+                                                                        <xs:enumeration value="Nguoi_lon"/>
+                                                                        <xs:enumeration value="Tre_em"/>
+                                                                        <xs:enumeration value="Sinh_vien"/>
+                                                                    </xs:restriction>
+                                                                </xs:simpleType>
+                                                            </xs:attribute>
                                                         </xs:complexType>
                                                     </xs:element>
                                                 </xs:sequence>
@@ -274,9 +270,6 @@
                     </xs:complexType>
                 </xs:element>
 
-
-
-
             </xs:sequence>
         </xs:complexType>
 
@@ -304,18 +297,22 @@
             <xs:selector xpath="DSHuongDanVien/HuongDanVien"/>
             <xs:field xpath="@maHdv"/>
         </xs:key>
+
         <xs:key name="KhachSanKey">
             <xs:selector xpath="DSKhachSan/KhachSan"/>
             <xs:field xpath="@maKS"/>
         </xs:key>
+
         <xs:key name="KhachHangKey">
             <xs:selector xpath="DSKhachHang/KhachHang"/>
             <xs:field xpath="@maKhachHang"/>
         </xs:key>
+
         <xs:key name="BookingKey">
             <xs:selector xpath="DSBooking/Booking"/>
             <xs:field xpath="@maBooking"/>
         </xs:key>
+
         <xs:key name="ChiTietBookingKey">
             <xs:selector xpath="DSBooking/Booking/DSChiTietBooking/ChiTietBooking"/>
             <xs:field xpath="@maChiTietBooking"/>
@@ -345,5 +342,6 @@
             <xs:selector xpath="DSBooking/Booking"/>
             <xs:field xpath="@maKhachHang"/>
         </xs:keyref>
+
     </xs:element>
 </xs:schema>
