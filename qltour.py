@@ -64,3 +64,60 @@ c10 = tree.xpath("/QLTour/DSTour/Tour[@maTour = /QLTour/DSBooking/Booking[diemDa
 print("\n# 10. Lấy tên tour có điểm đánh giá = 5")
 for t in c10:
     print(t)
+
+# 11. Lấy số lượng phòng khách sạn của tour T001
+c11 = tree.xpath("/QLTour/DSTour/Tour[@maTour='T001']/DSChiTietKhachSan/ChiTietKhachSan/soLuongPhong/text()")
+print("\n# 11. Lấy số lượng phòng khách sạn của tour T001")
+for t in c11:
+    print(t)
+
+# 12. Lấy tên hãng vận chuyển của tour T004
+c12 = tree.xpath("/QLTour/DSTour/Tour[@maTour='T004']/DSVanChuyen/VanChuyen/hangVanChuyen/text()")
+print("\n# 12. Lấy tên hãng vận chuyển của tour T004")
+for t in c12:
+    print(t)
+
+# 13. Đếm số lượng tour
+c13 = tree.xpath("count(/QLTour/DSTour/Tour)")
+print("\n# 13. Đếm số lượng tour")
+print(int(c13))
+
+# 14. Đếm số lượng khách hàng đã đặt tour T001
+c14 = tree.xpath("count(/QLTour/DSBooking/Booking[@maTour='T001'])")
+print("\n# 14. Đếm số lượng khách hàng đã đặt tour T001")
+print(int(c14))
+
+# 15. Lấy tên tất cả tour có phương tiện là máy bay
+c15 = tree.xpath("/QLTour/DSTour/Tour[DSVanChuyen/VanChuyen[@loaiPhuongTien='Máy_bay']]/tenTour/text()")
+print("\n# 15. Lấy tên tất cả tour có phương tiện là máy bay")
+for t in c15:
+    print(t)
+
+# 16. Lấy tên tất cả hướng dẫn viên biết tiếng Anh
+c16 = tree.xpath("/QLTour/DSHuongDanVien/HuongDanVien[ngoaiNgu='Tiếng Anh']/tenHuongDanVien/text()")
+print("\n# 16. Lấy tên tất cả hướng dẫn viên biết tiếng Anh")
+for t in c16:
+    print(t)
+
+# 17. Lấy tên tour có khách sạn ở Hà Nội
+c17 = tree.xpath("/QLTour/DSTour/Tour[DSChiTietKhachSan/ChiTietKhachSan/@maKS = /QLTour/DSKhachSan/KhachSan[contains(diaChi-khachSan, 'Hà Nội')]/@maKS]/tenTour/text()")
+print("\n# 17. Lấy tên tour có khách sạn ở Hà Nội")
+for t in c17:
+    print(t)
+
+# 18. Lấy tên tour có địa điểm là Vịnh Hạ Long
+c18 = tree.xpath("/QLTour/DSTour/Tour[DSDiaDiem-ref/DiaDiem-ref/@maDiaDiem = /QLTour/DSDiaDiem/DiaDiem[tenDiaDiem='Vịnh Hạ Long']/@maDiaDiem]/tenTour/text()")
+print("\n# 18. Lấy tên tour có địa điểm là Vịnh Hạ Long")
+for t in c18:
+    print(t)
+
+# 19. Lấy tên khách hàng đã đánh giá tour T002
+c19 = tree.xpath("/QLTour/DSKhachHang/KhachHang[@maKhachHang = /QLTour/DSBooking/Booking[@maTour='T002' and diemDanhGia]/@maKhachHang]/tenKhachHang/text()")
+print("\n# 19. Lấy tên khách hàng đã đánh giá tour T002")
+for t in c19:
+    print(t)
+
+# 20. Lấy tên tour + tên hướng dẫn viên của tour T005 (dùng concat)
+c20 = tree.xpath("concat(/QLTour/DSTour/Tour[@maTour='T005']/tenTour, ' - ', /QLTour/DSHuongDanVien/HuongDanVien[@maHdv = /QLTour/DSTour/Tour[@maTour='T005']/@maHdv]/tenHuongDanVien)")
+print("\n# 20. Lấy tên tour + tên hướng dẫn viên của tour T005")
+print(c20)
