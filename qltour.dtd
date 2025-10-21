@@ -62,7 +62,6 @@
     maKS ID #REQUIRED>
 <!ELEMENT tenKhachSan (#PCDATA)>
 <!ELEMENT diaChi-khachSan (#PCDATA)>
-<!ELEMENT hangSao (#PCDATA)>
 
 <!ELEMENT DSKhachHang (KhachHang+)>
 <!ELEMENT KhachHang (tenKhachHang, diaChi, soDienThoai, email)>
