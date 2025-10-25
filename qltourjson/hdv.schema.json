@@ -1,0 +1,45 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://example.com/huongdanvien.schema.json",
+  "title": "ThongTinHuongDanVien",
+  "type": "object",
+
+  "properties": {
+    "maHdv": {
+      "type": "string",
+      "pattern": "[A-Za-z0-9\\-]+",
+      "maxLength": 10
+    },
+    "tenHuongDanVien": {
+      "type": "string",
+      "maxLength": 50
+    },
+    "ngaySinh": {
+      "type": "string",
+      "format": "date"
+    },
+    "soDienThoai": {
+      "type": "string",
+      "pattern": "^0\\d{9}$"
+    },
+    "ngoaiNgu": {
+      "type": "string",
+      "maxLength": 255
+    },
+    "kinhNghiem": {
+      "type": "string",
+      "maxLength": 255
+    }
+  },
+
+  "required": [
+    "maHdv",
+    "tenHuongDanVien",
+    "ngaySinh",
+    "soDienThoai",
+    "ngoaiNgu",
+    "kinhNghiem"
+  ],
+
+  "additionalProperties": false
+}

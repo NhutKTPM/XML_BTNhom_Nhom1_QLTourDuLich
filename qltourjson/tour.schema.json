@@ -1,0 +1,58 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Tour",
+  "type": "object",
+  "properties": {
+    "maTour": {
+      "type": "string",
+      "pattern": "[A-Za-z0-9\\-]+",
+      "description": "Mã tour, ví dụ T001",
+      "maxLength": 10
+    },
+    "tenHdv": {
+      "type": "string",
+      "description": "Tên hướng dẫn viên",
+      "maxLength": 50
+    },
+    "tenTour": {
+      "type": "string",
+      "maxLength": 50
+    },
+    "moTa": {
+      "type": "string",
+      "maxLength": 255
+
+    },
+    "ngayBatDau": {
+      "type": "string",
+      "format": "date",
+      "description": "YYYY-MM-DD"
+    },
+    "ngayKetThuc": {
+      "type": "string",
+      "format": "date",
+      "description": "YYYY-MM-DD"
+    },
+    "lichTrinh": {
+      "type": "string",
+      "maxLength": 255
+    },
+    "diaDiemRefs": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "required": [
+    "maTour",
+    "tenHdv",
+    "tenTour",
+    "ngayBatDau",
+    "ngayKetThuc",
+    "lichTrinh",
+    "diaDiemRefs"
+  ],
+  "additionalProperties": false
+}

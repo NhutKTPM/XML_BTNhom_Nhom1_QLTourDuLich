@@ -1,0 +1,97 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "maTour": {
+      "type": "string",
+      "pattern": "[A-Za-z0-9\\-]+",
+      "maxLength": 10
+    },
+    "tenTour": {
+      "type": "string",
+       "maxLength": 50
+    },
+    "dsBooking": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "maBooking": {
+           "type": "string",
+           "pattern": "[A-Za-z0-9\\-]+",
+           "maxLength": 10
+          },
+          "maKhachHang": {
+            "type": "string",
+            "pattern": "[A-Za-z0-9\\-]+",
+            "maxLength": 10
+          },
+          "thoiGianDat": {
+            "type": "string",
+            "format": "date"
+          },
+          "trangThai": {
+            "type": "string",
+            "enum": ["Đã xác nhận", "Đã thanh toán", "Đã đặt"]
+          },
+          "soTien": {
+            "type": "number",
+            "minimum": 0
+          },
+          "phuongThucThanhToan": {
+            "type": "string"
+          },
+          "noidungdanhgia": {
+            "type": "string",
+            "maxLength": 255
+          },
+          "diemdanhgia": {
+            "type": ["string", "number"]
+          },
+          "DSChiTietBooking": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "maChiTietBooking": {
+                  "type": "string",
+                  "pattern": "[A-Za-z0-9\\-]+"
+                },
+                "hoTenNguoiDi": {
+                  "type": "string",
+                   "maxLength": 50
+                },
+                "ngaySinh": {
+                  "type": "string",
+                  "format": "date"
+                },
+                "gioiTinh": {
+                  "type": ["string"],
+                  "enum": ["Nam", "Nữ"]
+                },
+                "loaiKhachHang": {
+                  "type": "string"
+                },
+                "ghiChu": {
+                  "type": "string",
+                   "maxLength": 255
+                }
+              },
+              "required": ["maChiTietBooking", "hoTenNguoiDi", "ngaySinh", "gioiTinh", "loaiKhachHang"]
+            }
+          }
+        },
+        "required": [
+          "maBooking",
+          "maKhachHang",
+          "thoiGianDat",
+          "trangThai",
+          "soTien",
+          "phuongThucThanhToan",
+          "DSChiTietBooking"
+        ]
+      }
+    }
+  },
+  "required": ["maTour", "tenTour", "dsBooking"]
+}

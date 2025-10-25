@@ -1,0 +1,23 @@
+[
+  {
+    "maKhachHang": "KH001",
+    "tenKhachHang": "Nguyễn Văn A",
+    "diaChi": "123 Đường ABC, Hà Nội",
+    "soDienThoai": "0123456789",
+    "email": "nguyanvana@gmail.com"
+  },
+  {
+    "maKhachHang": "KH002",
+    "tenKhachHang": "Trần Thị B",
+    "diaChi": "456 Đường XYZ,Đà Nẵng",
+    "soDienThoai": "0987654321",
+    "email": "tranthib@gmail.com"
+  },
+  {
+    "maKhachHang": "KH009",
+    "tenKhachHang": "Đỗ Văn I",
+    "diaChi": "32 Nguyễn Huệ,Tp. HCM",
+    "soDienThoai": "0999999999",
+    "email": "dovani@gmail.com"
+  }
+]

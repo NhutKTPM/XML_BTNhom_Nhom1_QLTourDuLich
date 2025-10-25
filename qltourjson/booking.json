@@ -1,0 +1,84 @@
+{
+    "maTour": "T001",
+    "tenTour": "Du lịch Đà Nẵng - Hội An 4 ngày 3 đêm",
+    "dsBooking":
+[
+{
+  "maBooking": "B001",
+  "maKhachHang": "KH001",
+  "thoiGianDat": "2025-09-15",
+  "trangThai": "Đã xác nhận",
+  "soTien": 21000000,
+  "phuongThucThanhToan": "Chuyển khoản",
+  "DSChiTietBooking": [
+    {
+      "maChiTietBooking": "CTB001",
+      "hoTenNguoiDi": "Huỳnh Minh Nhựt",
+      "ngaySinh": "2001-01-25",
+      "gioiTinh": "Nam",
+      "loaiKhachHang": "Người lớn"
+      
+    },
+    {
+      "maChiTietBooking": "CTB002",
+      "hoTenNguoiDi": "Bùi Hữu Nhật",
+      "ngaySinh": "2004-08-10",
+      "gioiTinh": "Nam",
+      "loaiKhachHang": "Người lớn",
+      "ghiChu": "Ăn chay"
+    },
+    {
+      "maChiTietBooking": "CTB003",
+      "hoTenNguoiDi": "Nguyễn Quỳnh Như",
+      "ngaySinh": "2003-11-06",
+      "gioiTinh": "Nữ",
+      "loaiKhachHang": "Người lớn"
+    }
+  ]
+},
+{
+    "maBooking": "B002",
+    "maKhachHang": "KH002",
+    "thoiGianDat": "2025-09-15",
+    "trangThai": "Đã thanh toán",
+    "soTien": 14000000,
+    "phuongThucThanhToan": "Chuyển khoản",
+    "noidungdanhgia": "Dịch vụ tốt",
+    "diemdanhgia": "5",
+    "DSChiTietBooking": [
+        {
+        "maChiTietBooking": "CTB004",
+        "hoTenNguoiDi": "Lê Văn Dinh",
+        "ngaySinh": "2001-01-25",
+        "gioiTinh": "1",
+        "loaiKhachHang": "Người lớn"
+        },
+        {
+        "maChiTietBooking": "CTB005",
+        "hoTenNguoiDi": "Phạm Thị Kiều ",
+        "ngaySinh": "2004-08-10",
+        "gioiTinh": "0",
+        "loaiKhachHang": "Người lớn",
+        "ghiChu": "Dị ứng hải sản"
+        }
+    ]
+},
+{
+    "maBooking": "B009",
+    "maKhachHang": "KH009",
+    "thoiGianDat": "2025-09-27",
+    "trangThai": "Đã đặt",
+    "soTien": 7000000,
+    "phuongThucThanhToan": "chuyển khoản",
+    "DSChiTietBooking": [
+        {
+        "maChiTietBooking": "CTB014",
+        "hoTenNguoiDi": "Đỗ Thị I",
+        "ngaySinh": "1996-03-02",
+        "gioiTinh": "0",
+        "loaiKhachHang": "Người lớn"
+        }
+    ]
+}
+]
+}
