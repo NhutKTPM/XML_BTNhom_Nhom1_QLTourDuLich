@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "dsKhachHang": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "maKhachHang": {
+            "type": "string",
+            "pattern": "^[A-Za-z0-9\\_]+$",
+            "maxLength": 10
+          },
+          "tenKhachHang": {
+            "type": "string",
+            "maxLength": 50
+          },
+          "diaChi": {
+            "type": "string",
+            "maxLength": 255
+          },
+          "soDienThoai": {
+            "type": "string",
+            "pattern": "^0\\d{9}$"
+          },
+          "email": {
+            "type": "string",
+            "format": "email"
+          }
+        },
+        "required": [
+          "maKhachHang",
+          "tenKhachHang",
+          "diaChi",
+          "soDienThoai",
+          "email"
+        ]
+      }
+    }
+  }
+}

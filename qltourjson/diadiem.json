@@ -1,28 +1,29 @@
-[
   {
-    "maDiaDiem": "DD001",
-    "tenDiaDiem": "Hồ Gươm",
-    "moTa": "Hồ nước nổi tiếng nằm giữa trung tâm thủ đô Hà Nội, là biểu tượng văn hóa và lịch sử của Việt Nam",
-    "diaChi": "Quận Hoàn Kiếm, Hà Nội"
-  },
-  {
-    "maDiaDiem": "DD002",
-    "tenDiaDiem": "Lăng Chủ tịch Hồ Chí Minh",
-    "moTa": "Nơi an nghỉ của Chủ tịch Hồ Chí Minh, vị lãnh tụ vĩ đại của dân tộc Việt Nam.",
-    "diaChi": "Số 2 Hùng Vương, Ba Đình, Hà Nội"
-   
-  },
-  {
-    "maDiaDiem": "DD003",
-    "tenDiaDiem": "Hoàng Thành Thăng Long",
-    "moTa": "Di sản văn hóa thế giới được UNESCO công nhận, là trung tâm quyền lực suốt nhiều triều đại phong kiến Việt Nam.",
-    "diaChi": "19C Hoàng Diệu, Ba Đình, Hà Nội"
-  
-  },
-  {
-    "maDiaDiem": "DD004",
-    "tenDiaDiem": "Vịnh Hạ Long",
-    "moTa": "Di sản thiên nhiên thế giới với hàng nghìn đảo đá vôi và hang động kỳ vĩ trên vịnh biển xanh biếc.",
-    "diaChi": "Thành phố Hạ Long, Quảng Ninh"
+    "$schema": "./diadiem_schema.json",
+    "dsDiaDiem": [
+      {
+        "maDiaDiem": "DD001",
+        "tenDiaDiem": "Hồ Gươm",
+        "moTa": "Hồ nước nổi tiếng nằm giữa trung tâm thủ đô Hà Nội, là biểu tượng văn hóa và lịch sử của Việt Nam",
+        "diaChi": "Quận Hoàn Kiếm, Hà Nội"
+      },
+      {
+        "maDiaDiem": "DD002",
+        "tenDiaDiem": "Lăng Chủ tịch Hồ Chí Minh",
+        "moTa": "Nơi an nghỉ của Chủ tịch Hồ Chí Minh, vị lãnh tụ vĩ đại của dân tộc Việt Nam.",
+        "diaChi": "Số 2 Hùng Vương, Ba Đình, Hà Nội"
+      },
+      {
+        "maDiaDiem": "DD003",
+        "tenDiaDiem": "Hoàng Thành Thăng Long",
+        "moTa": "Di sản văn hóa thế giới được UNESCO công nhận, là trung tâm quyền lực suốt nhiều triều đại phong kiến Việt Nam.",
+        "diaChi": "19C Hoàng Diệu, Ba Đình, Hà Nội"
+      },
+      {
+        "maDiaDiem": "DD004",
+        "tenDiaDiem": "Vịnh Hạ Long",
+        "moTa": "Di sản thiên nhiên thế giới với hàng nghìn đảo đá vôi và hang động kỳ vĩ trên vịnh biển xanh biếc.",
+        "diaChi": "Thành phố Hạ Long, Quảng Ninh"
+      }
+    ]
   }
-]

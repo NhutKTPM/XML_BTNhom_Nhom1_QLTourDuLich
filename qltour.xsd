@@ -3,7 +3,7 @@
 
     <xs:simpleType name="maType">
         <xs:restriction base="xs:string">
-            <xs:pattern value="[A-Za-z0-9\-]+"/>
+            <xs:pattern value="[A-Za-z0-9\\_]+"/>
             <xs:maxLength value="10"/>
         </xs:restriction>
     </xs:simpleType>
