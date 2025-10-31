@@ -1,11 +1,10 @@
 {
-  "$schema": "http://json-schema.org/draft-07/schema#",
-  "title": "Tour",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
   "type": "object",
   "properties": {
     "maTour": {
       "type": "string",
-      "pattern": "[A-Za-z0-9\\-]+",
+      "pattern": "^[A-Za-z0-9\\_]+$",
       "description": "Mã tour, ví dụ T001",
       "maxLength": 10
     },
@@ -37,11 +36,12 @@
       "type": "string",
       "maxLength": 255
     },
-    "diaDiemRefs": {
+    "dsDiaDiem": {
       "type": "array",
       "minItems": 1,
       "items": {
-        "type": "string"
+        "type": "string",
+        "maxLength": 50
       }
     }
   },
@@ -52,7 +52,6 @@
     "ngayBatDau",
     "ngayKetThuc",
     "lichTrinh",
-    "diaDiemRefs"
-  ],
-  "additionalProperties": false
+    "dsDiaDiem"
+  ]
 }

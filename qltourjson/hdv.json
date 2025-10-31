@@ -1,4 +1,5 @@
 {
+  "$schema": "hdv_schema.json",
   "maHdv": "HDV001",
   "tenHuongDanVien": "Phạm Thị Cúc",
   "ngaySinh": "1990-05-15",

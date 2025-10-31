@@ -1,0 +1,37 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "dsDiaDiem": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "maDiaDiem": {
+            "type": "string",
+            "pattern": "^[A-Za-z0-9\\_]+$",
+            "maxLength": 10
+          },
+          "tenDiaDiem": {
+            "type": "string",
+            "maxLength": 50
+          },
+          "moTa": {
+            "type": "string",
+            "maxLength": 255
+          },
+          "diaChi": {
+            "type": "string",
+            "maxLength": 255
+          }
+        },
+        "required": [
+          "maDiaDiem",
+          "tenDiaDiem",
+          "moTa",
+          "diaChi"
+        ]
+      }
+    }
+  }
+}

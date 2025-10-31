@@ -1,15 +1,15 @@
 {
-  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
   "type": "object",
   "properties": {
     "maTour": {
       "type": "string",
-      "pattern": "[A-Za-z0-9\\-]+",
+      "pattern": "^[A-Za-z0-9\\_]+$",
       "maxLength": 10
     },
     "tenTour": {
       "type": "string",
-       "maxLength": 50
+      "maxLength": 50
     },
     "dsBooking": {
       "type": "array",
@@ -17,13 +17,13 @@
         "type": "object",
         "properties": {
           "maBooking": {
-           "type": "string",
-           "pattern": "[A-Za-z0-9\\-]+",
-           "maxLength": 10
+            "type": "string",
+            "pattern": "^[A-Za-z0-9\\_]+$",
+            "maxLength": 10
           },
           "maKhachHang": {
             "type": "string",
-            "pattern": "[A-Za-z0-9\\-]+",
+            "pattern": "^[A-Za-z0-9\\_]+$",
             "maxLength": 10
           },
           "thoiGianDat": {
@@ -32,21 +32,35 @@
           },
           "trangThai": {
             "type": "string",
-            "enum": ["Đã xác nhận", "Đã thanh toán", "Đã đặt"]
+            "enum": [
+              "Đã xác nhận",
+              "Đã thanh toán",
+              "Đã đặt",
+              "Đã hủy",
+              "Đã hoàn tiền"
+            ]
           },
           "soTien": {
             "type": "number",
             "minimum": 0
           },
           "phuongThucThanhToan": {
-            "type": "string"
+            "type": "string",
+            "enum": [
+              "Tiền mặt",
+              "Chuyển khoản",
+              "Ví điện tử"
+            ]
           },
           "noidungdanhgia": {
             "type": "string",
             "maxLength": 255
           },
           "diemdanhgia": {
-            "type": ["string", "number"]
+            "type": [
+              "string",
+              "number"
+            ]
           },
           "DSChiTietBooking": {
             "type": "array",
@@ -55,29 +69,46 @@
               "properties": {
                 "maChiTietBooking": {
                   "type": "string",
-                  "pattern": "[A-Za-z0-9\\-]+"
+                  "pattern": "^[A-Za-z0-9\\_]+$",
+                  "maxLength": 10
                 },
                 "hoTenNguoiDi": {
                   "type": "string",
-                   "maxLength": 50
+                  "maxLength": 50
                 },
                 "ngaySinh": {
                   "type": "string",
                   "format": "date"
                 },
                 "gioiTinh": {
-                  "type": ["string"],
-                  "enum": ["Nam", "Nữ"]
+                  "type": [
+                    "string"
+                  ],
+                  "enum": [
+                    "Nam",
+                    "Nữ"
+                  ]
                 },
                 "loaiKhachHang": {
-                  "type": "string"
+                  "type": "string",
+                  "enum": [
+                    "Người lớn",
+                    "Trẻ em",
+                    "Sinh viên"
+                  ]
                 },
                 "ghiChu": {
                   "type": "string",
-                   "maxLength": 255
+                  "maxLength": 255
                 }
               },
-              "required": ["maChiTietBooking", "hoTenNguoiDi", "ngaySinh", "gioiTinh", "loaiKhachHang"]
+              "required": [
+                "maChiTietBooking",
+                "hoTenNguoiDi",
+                "ngaySinh",
+                "gioiTinh",
+                "loaiKhachHang"
+              ]
             }
           }
         },
@@ -93,5 +124,9 @@
       }
     }
   },
-  "required": ["maTour", "tenTour", "dsBooking"]
+  "required": [
+    "maTour",
+    "tenTour",
+    "dsBooking"
+  ]
 }

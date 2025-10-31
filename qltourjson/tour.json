@@ -1,4 +1,5 @@
 {
+  "$schema": "tour_schema.json",
   "maTour": "T001",
   "tenHdv": "Phạm Thị Cúc",
   "tenTour": "Tour Hà Nội - Hạ Long",
@@ -6,5 +7,10 @@
   "ngayBatDau": "2025-10-01",
   "ngayKetThuc": "2025-10-04",
   "lichTrinh": "Ngày 1: Tham quan Hồ Gươm, Lăng Bác.\nNgày 2: Tham quan Hoàng Thành Thăng Long.\nNgày 3: Tham quan Vịnh Hạ Long.\nNgày 4: Tự do tham quan, mua sắm",
-  "diaDiemRefs": ["Hồ Gươm", "Lăng Bác"," Hoàng Thành Thăng Long", "Vịnh Hạ Long"]
+  "dsDiaDiem": [
+    "Hồ Gươm",
+    "Lăng Bác",
+    "Hoàng Thành Thăng Long",
+    "Vịnh Hạ Long"
+  ]
 }
