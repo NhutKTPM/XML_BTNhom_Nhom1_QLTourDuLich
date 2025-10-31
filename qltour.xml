@@ -761,7 +761,7 @@
             </DSChiTietBooking>
         </Booking>
 
-        <Booking maBooking="B007" maTour="T006" maKhachHang="KH007" trangThai="Da_thanh_toan" phuongThucThanhToan="Tien_mat"> 
+        <Booking maBooking="B007" maTour="T006" maKhachHang="KH001" trangThai="Da_thanh_toan" phuongThucThanhToan="Tien_mat"> 
             <thoiGianDat>2025-09-25</thoiGianDat>
             <diemDanhGia>5</diemDanhGia>
             <noiDungDanhGia>Rất hài lòng với dịch vụ</noiDungDanhGia>
@@ -774,7 +774,7 @@
             </DSChiTietBooking>
         </Booking>
 
-        <Booking maBooking="B008" maTour="T007" maKhachHang="KH008" trangThai="Da_huy" phuongThucThanhToan="Vi_dien_tu"> 
+        <Booking maBooking="B008" maTour="T007" maKhachHang="KH001" trangThai="Da_huy" phuongThucThanhToan="Vi_dien_tu"> 
             <thoiGianDat>2025-09-26</thoiGianDat>
             <DSChiTietBooking>
                 <ChiTietBooking maChiTietBooking="CTB013" loaiKhachHang="Nguoi_lon">
@@ -787,6 +787,8 @@
 
         <Booking maBooking="B009" maTour="T001" maKhachHang="KH009" trangThai="Da_dat" phuongThucThanhToan="Chuyen_khoan"> 
             <thoiGianDat>2025-09-27</thoiGianDat>
+            <diemDanhGia>4</diemDanhGia>
+            <noiDungDanhGia>Tạm được</noiDungDanhGia>
             <DSChiTietBooking>
                 <ChiTietBooking maChiTietBooking="CTB014" loaiKhachHang="Nguoi_lon">
                     <hoTenNguoiDi>Đỗ Thị I</hoTenNguoiDi>

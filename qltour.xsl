@@ -4,7 +4,7 @@
 <xsl:output method="html" encoding="UTF-8" indent="yes"/>
 
 <!-- Gốc -->
-<xsl:template match="/QLTour">
+<xsl:template match="/">
 <html>
 <head>
     <meta charset="UTF-8"/>
@@ -22,102 +22,163 @@
 <h1 style="text-align:center;">KẾT QUẢ CÁC TRUY VẤN TỪ QLTOUR.XML</h1>
 
 <!-- 1. Lấy tất cả các tour -->
-<h2>1. Danh sách tất cả tour</h2>
+<h2>1. Danh sách tất cả tour, sắp xếp theo ngày bắt đầu tăng dần</h2>
 <table>
-<tr><th>Mã Tour</th><th>Tên Tour</th><th>Giá</th></tr>
-<xsl:for-each select="DSTour/Tour">
+<tr>
+    <th>Mã Tour</th>
+    <th>Tên Tour</th>
+    <th>Ngày bắt đầu</th>
+    <th>Ngày kết thúc</th>
+    <th>Giá</th></tr>
+<xsl:for-each select="QLTour/DSTour/Tour">
+    <xsl:sort select="ngayBatDau" order="ascending"/>
 <tr>
     <td><xsl:value-of select="@maTour"/></td>
     <td><xsl:value-of select="tenTour"/></td>
+    <td><xsl:value-of select="ngayBatDau"/></td>
+    <td><xsl:value-of select="ngayKetThuc"/></td>
     <td><xsl:value-of select="giaTour"/></td>
 </tr>
 </xsl:for-each>
 </table>
 
-<!-- 2. Lấy tên tất cả các tour -->
-<h2>2. Tên tất cả các tour</h2>
-<ul>
-<xsl:for-each select="DSTour/Tour">
-    <li><xsl:value-of select="tenTour"/></li>
+
+
+<!-- 3. Lấy thông tin tour có mã T003 -->
+<h2>3. Thông tin tour có mã T003, bao gồm tên hướng dẫn viên</h2>
+<table>
+<tr>
+    <th>Mã Tour</th>
+    <th>Tên Tour</th>
+    <th>Ngày bắt đầu</th>
+    <th>Ngày kết thúc</th>
+    <th>Giá</th>
+    <th>Tên hướng dẫn viên</th>
+</tr>
+<xsl:for-each select="QLTour/DSTour/Tour[@maTour='T003']">
+<tr>
+    <td><xsl:value-of select="@maTour"/></td>
+    <td><xsl:value-of select="tenTour"/></td>
+    <td><xsl:value-of select="ngayBatDau"/></td>
+    <td><xsl:value-of select="ngayKetThuc"/></td>
+    <td><xsl:value-of select="giaTour"/></td>
+    <td><xsl:value-of select="/QLTour/DSHuongDanVien/HuongDanVien[@maHdv = current()/@maHdv]/tenHuongDanVien"/></td>
+</tr>
 </xsl:for-each>
-</ul>
+</table>
 
-<!-- 3. Lấy tên tour có mã T003 -->
-<h2>3. Tên tour có mã T003</h2>
-<p><xsl:value-of select="DSTour/Tour[@maTour='T003']/tenTour"/></p>
-
-<!-- 4. Lấy mô tả tour của tour T002 -->
-<h2>4. Mô tả tour của tour T002</h2>
-<p><xsl:value-of select="DSTour/Tour[@maTour='T002']/moTa-tour"/></p>
-
-<!-- 5. Tên hướng dẫn viên của tour T001 -->
-<h2>5. Hướng dẫn viên tour T001</h2>
-<p>
-<xsl:value-of select="DSHuongDanVien/HuongDanVien[@maHdv = /QLTour/DSTour/Tour[@maTour='T001']/@maHdv]/tenHuongDanVien"/>
-</p>
-
-<!-- 6. Tên địa điểm của tour T001 -->
-<h2>6. Địa điểm của tour T001</h2>
-<ul>
-<xsl:for-each select="DSDiaDiem/DiaDiem[@maDiaDiem = /QLTour/DSTour/Tour[@maTour='T001']/DSDiaDiem-ref/DiaDiem-ref/@maDiaDiem]">
-    <li><xsl:value-of select="tenDiaDiem"/></li>
+<!-- Địa điểm trong tour T003 -->
+<h2>Địa điểm tham quan trong tour T003</h2>
+<table>
+    <tr>
+        <th>Mã địa điểm</th>
+        <th>Tên địa điểm</th>
+        <th>Địa chỉ</th>
+    </tr>
+<xsl:for-each select="QLTour/DSDiaDiem/DiaDiem[@maDiaDiem = /QLTour/DSTour/Tour[@maTour='T003']/DSDiaDiem-ref/DiaDiem-ref/@maDiaDiem]">
+    <tr>
+        <td><xsl:value-of select="@maDiaDiem"/></td>
+        <td><xsl:value-of select="tenDiaDiem"/></td>
+        <td><xsl:value-of select="diaChi-diaDiem"/></td>
+    </tr>
 </xsl:for-each>
-</ul>
+</table>
 
-<!-- 7. Tên khách sạn của tour T002 -->
-<h2>7. Khách sạn của tour T002</h2>
-<p>
-<xsl:value-of select="DSKhachSan/KhachSan[@maKS = /QLTour/DSTour/Tour[@maTour='T002']/DSChiTietKhachSan/ChiTietKhachSan/@maKS]/tenKhachSan"/>
-</p>
-
-<!-- 8. Khách hàng đã đặt tour T001 -->
-<h2>8. Khách hàng đã đặt tour T001</h2>
-<ul>
-<xsl:for-each select="DSKhachHang/KhachHang[@maKhachHang = /QLTour/DSBooking/Booking[@maTour='T001']/@maKhachHang]">
-    <li><xsl:value-of select="tenKhachHang"/></li>
-</xsl:for-each>
-</ul>
 
 <!-- 9. Tất cả mã tour có giá > 6 triệu -->
 <h2>9. Mã tour có giá &gt; 6 triệu</h2>
-<ul>
-<xsl:for-each select="DSTour/Tour[giaTour>6000000]">
-    <li><xsl:value-of select="@maTour"/></li>
+<table>
+<tr>
+    <th>Mã Tour</th>
+    <th>Tên Tour</th>
+    <th>Ngày bắt đầu</th>
+    <th>Ngày kết thúc</th>
+    <th>Giá</th></tr>
+<xsl:for-each select="QLTour/DSTour/Tour[giaTour>6000000]">
+<tr>
+    <td><xsl:value-of select="@maTour"/></td>
+    <td><xsl:value-of select="tenTour"/></td>
+    <td><xsl:value-of select="ngayBatDau"/></td>
+    <td><xsl:value-of select="ngayKetThuc"/></td>
+    <td><xsl:value-of select="giaTour"/></td>
+</tr>
 </xsl:for-each>
-</ul>
+</table>
 
-<!-- 10. Tên tour có điểm đánh giá = 5 -->
-<h2>10. Tour có điểm đánh giá = 5</h2>
-<ul>
-<xsl:for-each select="DSTour/Tour[@maTour = /QLTour/DSBooking/Booking[diemDanhGia=5]/@maTour]">
-    <li><xsl:value-of select="tenTour"/></li>
+
+<!-- 8. Khách hàng đã đặt tour T001 -->
+<h2>8. Khách hàng đã đặt tour T001</h2>
+<table>
+<tr>
+    <th>Mã Khách Hàng</th>
+    <th>Tên Khách Hàng</th>
+    <th>Số Điện Thoại</th>
+    <th>Email</th>
+</tr>
+<xsl:for-each select="QLTour/DSKhachHang/KhachHang[@maKhachHang = /QLTour/DSBooking/Booking[@maTour='T001']/@maKhachHang]">
+<tr>
+    <td><xsl:value-of select="@maKhachHang"/></td>
+    <td><xsl:value-of select="tenKhachHang"/></td>
+    <td><xsl:value-of select="soDienThoai"/></td>
+    <td><xsl:value-of select="email"/></td>
+</tr>
 </xsl:for-each>
-</ul>
+</table>
 
-<!-- 13. Đếm số lượng tour -->
-<h2>13. Số lượng tour</h2>
-<p><xsl:value-of select="count(DSTour/Tour)"/></p>
 
-<!-- 15. Tên tour có phương tiện là máy bay -->
-<h2>15. Tour có phương tiện là Máy bay</h2>
-<ul>
-<xsl:for-each select="DSTour/Tour[DSVanChuyen/VanChuyen[@loaiPhuongTien='Máy_bay']]">
-    <li><xsl:value-of select="tenTour"/></li>
+
+
+<!-- Danh sách các đánh giá của Tour T001 -->
+<h2>Danh sách đánh giá của tour T001</h2>
+<table>
+<tr>
+    <th>Mã Booking</th>
+    <th>Mã Khách Hàng</th>
+    <th>Điểm Đánh Giá</th>
+    <th>Nội Dung Đánh Giá</th>
+</tr>
+<xsl:for-each select="QLTour/DSBooking/Booking[@maTour='T001' and diemDanhGia]">
+<tr>
+    <td><xsl:value-of select="@maBooking"/></td>
+    <td><xsl:value-of select="@maKhachHang"/></td>
+    <td><xsl:value-of select="diemDanhGia"/></td>
+    <td><xsl:value-of select="noiDungDanhGia"/></td>
+</tr>
 </xsl:for-each>
-</ul>
+</table>
 
-<!-- 16. Hướng dẫn viên biết tiếng Anh -->
-<h2>16. Hướng dẫn viên biết tiếng Anh</h2>
-<ul>
-<xsl:for-each select="DSHuongDanVien/HuongDanVien[ngoaiNgu='Tiếng Anh']">
-    <li><xsl:value-of select="tenHuongDanVien"/></li>
+
+<!-- Đếm số lượng booking của tour T001 -->
+<h2>14. Số lượng booking của tour T001</h2>
+<p><xsl:value-of select="count(QLTour/DSBooking/Booking[@maTour='T001'])"/></p>
+
+
+<!-- Các tour đã được đặt nhiều hơn một lần -->
+<h2>Các tour đã được đặt nhiều hơn một lần</h2>
+<table>
+<tr>
+    <th>Mã Tour</th>
+    <th>Tên Tour</th>
+    <th>Tổng số booking</th></tr>
+<xsl:for-each select="QLTour/DSTour/Tour">
+    <xsl:variable name="varMaTour" select="@maTour"/>
+    <xsl:variable name="tongBooking" select="count(/QLTour/DSBooking/Booking[@maTour=$varMaTour])"/>
+    <xsl:if test="$tongBooking &gt; 1">
+    <tr>
+        <td><xsl:value-of select="@maTour"/></td>
+        <td><xsl:value-of select="tenTour"/></td>
+        <td><xsl:value-of select="$tongBooking"/></td>
+    </tr>
+    </xsl:if>
 </xsl:for-each>
-</ul>
+</table>
 
-<!-- 20. Tour T005 + Hướng dẫn viên -->
-<h2>20. Tour T005 và hướng dẫn viên phụ trách</h2>
+<!-- Tổng tiền của Booking B001 -->
+<h2>Tổng tiền của Booking B001</h2>
 <p>
-<xsl:value-of select="concat(DSTour/Tour[@maTour='T005']/tenTour, ' - ', DSHuongDanVien/HuongDanVien[@maHdv = /QLTour/DSTour/Tour[@maTour='T005']/@maHdv]/tenHuongDanVien)"/>
+    <xsl:for-each select="QLTour/DSBooking/Booking[@maBooking='B001']">
+<xsl:value-of select="count(current()/DSChiTietBooking/ChiTietBooking) * /QLTour/DSTour/Tour[@maTour=current()/@maTour]/giaTour"/>
+</xsl:for-each>
 </p>
 
 </body>
