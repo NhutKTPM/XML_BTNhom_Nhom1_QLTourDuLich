@@ -42,8 +42,7 @@
           },
           "soTien": {
             "type": "number",
-            "minimum": 0,
-            "exclusiveMinimum": true
+            "exclusiveMinimum": 0
           },
           "phuongThucThanhToan": {
             "type": "string",
