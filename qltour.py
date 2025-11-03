@@ -23,7 +23,7 @@ for t in c03:
     print(t)
 
 # 4. Lấy tất cả mã tour có giá > 6 triệu
-c04 = tree.xpath("/QLTour/DSTour/Tour[giaTour=6000000]/@maTour")
+c04 = tree.xpath("/QLTour/DSTour/Tour[giaTour>6000000]/@maTour")
 print("\n# 4. Lấy tất cả mã tour có giá > 6 triệu")
 for t in c04:
     print(t)
@@ -34,7 +34,7 @@ print("\n# 5. Đếm số lượng booking của tour T001")
 print(int(c05))
 
 # 6. Lấy số điểm đánh giá trung bình của tour T001
-c06 = tree.xpath("sum ( /QLTour/DSBooking/Booking[@maTour='T001' and diemDanhGia]/diemDanhGia) div count(/QLTour/DSBooking/Booking[@maTour='T001' and diemDanhGia]/diemDanhGia)")
+c06 = tree.xpath(" sum(/QLTour/DSBooking/Booking[@maTour='T001' and diemDanhGia]/diemDanhGia) div count(/QLTour/DSBooking/Booking[@maTour='T001' and diemDanhGia]/diemDanhGia) ")
 print("\n# 6. Lấy số điểm đánh giá trung bình của tour T001")
 print(c06)
 

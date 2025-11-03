@@ -5,7 +5,6 @@
     "maTour": {
       "type": "string",
       "pattern": "^[A-Za-z0-9\\_]+$",
-      "description": "Mã tour, ví dụ T001",
       "maxLength": 10
     },
     "tenHdv": {
@@ -24,13 +23,11 @@
     },
     "ngayBatDau": {
       "type": "string",
-      "format": "date",
-      "description": "YYYY-MM-DD"
+      "format": "date"
     },
     "ngayKetThuc": {
       "type": "string",
-      "format": "date",
-      "description": "YYYY-MM-DD"
+      "format": "date"
     },
     "lichTrinh": {
       "type": "string",

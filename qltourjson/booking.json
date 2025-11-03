@@ -1,13 +1,13 @@
 {
   "$schema": "./booking_schema.json",
   "maTour": "T001",
-  "tenTour": "Du lịch Đà Nẵng - Hội An 4 ngày 3 đêm",
+  "tenTour": "Tour tham quan Hà Nội - Hạ Long 4 ngày 3 đêm",
   "dsBooking": [
     {
       "maBooking": "B001",
       "maKhachHang": "KH001",
       "thoiGianDat": "2025-09-15",
-      "trangThai": "Đã xác nhận",
+      "trangThai": "Đã thanh toán",
       "soTien": 21000000,
       "phuongThucThanhToan": "Chuyển khoản",
       "DSChiTietBooking": [
@@ -43,7 +43,7 @@
       "soTien": 14000000,
       "phuongThucThanhToan": "Chuyển khoản",
       "noidungdanhgia": "Dịch vụ tốt",
-      "diemdanhgia": "5",
+      "diemdanhgia": 5,
       "DSChiTietBooking": [
         {
           "maChiTietBooking": "CTB004",
@@ -54,7 +54,7 @@
         },
         {
           "maChiTietBooking": "CTB005",
-          "hoTenNguoiDi": "Phạm Thị Kiều ",
+          "hoTenNguoiDi": "Phạm Kiều Oanh ",
           "ngaySinh": "2004-08-10",
           "gioiTinh": "Nữ",
           "loaiKhachHang": "Người lớn",
@@ -66,9 +66,11 @@
       "maBooking": "B009",
       "maKhachHang": "KH009",
       "thoiGianDat": "2025-09-27",
-      "trangThai": "Đã đặt",
+      "trangThai": "Đã thanh toán",
       "soTien": 7000000,
       "phuongThucThanhToan": "Chuyển khoản",
+      "noidungdanhgia": "Tạm được",
+      "diemdanhgia": 4,
       "DSChiTietBooking": [
         {
           "maChiTietBooking": "CTB014",

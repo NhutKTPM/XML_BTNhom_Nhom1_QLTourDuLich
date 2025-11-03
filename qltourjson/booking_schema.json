@@ -42,7 +42,8 @@
           },
           "soTien": {
             "type": "number",
-            "minimum": 0
+            "minimum": 0,
+            "exclusiveMinimum": true
           },
           "phuongThucThanhToan": {
             "type": "string",
@@ -57,10 +58,9 @@
             "maxLength": 255
           },
           "diemdanhgia": {
-            "type": [
-              "string",
-              "number"
-            ]
+            "type": "number",
+            "minimum": 1,
+            "maximum": 5
           },
           "DSChiTietBooking": {
             "type": "array",
@@ -81,9 +81,7 @@
                   "format": "date"
                 },
                 "gioiTinh": {
-                  "type": [
-                    "string"
-                  ],
+                  "type":"string",
                   "enum": [
                     "Nam",
                     "Nữ"

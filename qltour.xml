@@ -664,7 +664,7 @@
     </DSKhachHang>
 
     <DSBooking>
-        <Booking maBooking="B001" maTour="T001" maKhachHang="KH001" trangThai="Da_xac_nhan" phuongThucThanhToan="Chuyen_khoan"> 
+        <Booking maBooking="B001" maTour="T001" maKhachHang="KH001" trangThai="Da_thanh_toan" phuongThucThanhToan="Chuyen_khoan"> 
             <thoiGianDat>2025-09-15</thoiGianDat>
             <DSChiTietBooking>
                 <ChiTietBooking maChiTietBooking="CTB001" loaiKhachHang="Nguoi_lon">
@@ -785,7 +785,7 @@
             </DSChiTietBooking>
         </Booking>
 
-        <Booking maBooking="B009" maTour="T001" maKhachHang="KH009" trangThai="Da_dat" phuongThucThanhToan="Chuyen_khoan"> 
+        <Booking maBooking="B009" maTour="T001" maKhachHang="KH009" trangThai="Da_thanh_toan" phuongThucThanhToan="Chuyen_khoan"> 
             <thoiGianDat>2025-09-27</thoiGianDat>
             <diemDanhGia>4</diemDanhGia>
             <noiDungDanhGia>Tạm được</noiDungDanhGia>
