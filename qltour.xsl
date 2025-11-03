@@ -86,7 +86,7 @@
 
 
 <!-- Tất cả mã tour có giá > 6 triệu -->
-<h2>9. Mã tour có giá &gt; 6 triệu</h2>
+<h2>Mã tour có giá &gt; 6 triệu</h2>
 <table>
 <tr>
     <th>Mã Tour</th>
@@ -107,7 +107,7 @@
 
 
 <!-- Khách hàng đã đặt tour T001 -->
-<h2>8. Khách hàng đã đặt tour T001</h2>
+<h2>Khách hàng đã đặt tour T001</h2>
 <table>
 <tr>
     <th>Mã Khách Hàng</th>
@@ -127,7 +127,7 @@
 
 
 <!-- Đếm số lượng booking của tour T001 -->
-<h2>14. Số lượng booking của tour T001</h2>
+<h2>Số lượng booking của tour T001</h2>
 <p><xsl:value-of select="count(QLTour/DSBooking/Booking[@maTour='T001'])"/></p>
 
 
@@ -158,6 +158,18 @@
     <xsl:for-each select="QLTour/DSBooking/Booking[@maBooking='B001']">
     <xsl:value-of select="count(current()/DSChiTietBooking/ChiTietBooking) * /QLTour/DSTour/Tour[@maTour=current()/@maTour]/giaTour"/>
     </xsl:for-each>
+</p>
+
+<!-- Lấy số điểm đánh giá trung bình của tour T001 -->
+<h2>Lấy số điểm đánh giá trung bình của tour T001</h2>
+<p>
+    <xsl:value-of select="sum ( /QLTour/DSBooking/Booking[@maTour='T001' and diemDanhGia]/diemDanhGia) div count(/QLTour/DSBooking/Booking[@maTour='T001' and diemDanhGia]/diemDanhGia)"/>
+</p>
+
+<!-- Lấy tên tour + tên hướng dẫn viên của tour T005 (dùng concat) -->
+<h2>Lấy tên tour + tên hướng dẫn viên của tour T005 (dùng concat)</h2>
+<p>
+    <xsl:value-of select="concat(/QLTour/DSTour/Tour[@maTour='T005']/tenTour, ' - ', /QLTour/DSHuongDanVien/HuongDanVien[@maHdv = /QLTour/DSTour/Tour[@maTour='T005']/@maHdv]/tenHuongDanVien)"/>
 </p>
 
 </body>
